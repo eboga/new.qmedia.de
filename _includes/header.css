@@ -28,7 +28,7 @@ header {
 }
 @media only screen and (min-width: 48em) {
     header {
-        margin-bottom: 135px;
+        margin-bottom: 110px;
     }
     a.qmedia-logo {
         display: block;
