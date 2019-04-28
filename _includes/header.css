@@ -153,6 +153,11 @@ header ul li ul li {
 
 }
 @media only screen and (max-width: 63.9375em) {
+    button.menu-toggle {
+        border: none;
+        height: 30px;
+        background: transparent;
+    }
     .hamburger {
         display: flex;
         align-items: center;
@@ -170,7 +175,7 @@ header ul li ul li {
     display: inline-block;
     color: #333;
     cursor: pointer;
-    margin-top: -15%;
+    /*margin-top: -15%;*/
 }
 
 
