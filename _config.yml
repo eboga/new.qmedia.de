@@ -1,0 +1,17 @@
+# Site settings
+title: qmedia.de
+email: info@qmedia.de
+description: qmedia.de
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://www.qmedia.de"
+twitter_username: jekyllrb
+github_username:  eboga
+offline: false
+
+# Build settings
+markdown: kramdown
+
+
+collections:
+  content:
+    output: true

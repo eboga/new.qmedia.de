@@ -1,0 +1,28 @@
+- name: Home
+  path:
+  section_id: home
+- name: Leistungen
+  path: leistungen/
+  section_id: leistungen
+  children:
+    - name: Mietwagenversicherung
+      path: mietwagenversicherung/
+    - name: Reisekrankenversicherung
+      path: reisekrankenversicherung/
+- name: Platinkarten
+  path: portfolio.html
+  section_id: portfolio
+  children:
+    - name: American Express Platinum
+      path: american-express/
+    - name: Barclaycard Platinum Double
+      path: barclaycard/
+    - name: Deutsche Bank MasterCard Platinum
+      path: deutsche-bank/
+    - name: netbank MasterCard Premium
+      path: netbank/
+    - name: Postbank VISA Platinum
+      path: postbank/
+- name: Blog
+  path: blog/
+  section_id: blog
