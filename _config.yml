@@ -8,6 +8,8 @@ twitter_username: jekyllrb
 github_username:  eboga
 offline: false
 
+image-folder: /assets/images/
+
 # Build settings
 markdown: kramdown
 

@@ -1,18 +1,32 @@
 ---
-layout: default
+layout: page
 permalink: /leadgenerierung/
+
+title:
+
+hero-teaser-text:
+
+
+seo-title: 
+user-title: 
+description: 
+
+robots: index, follow
+amp-enable: yes
 ---
 
 
 
 ## Konzeption, Umsetzung & Optimierung
-Qualitativ hochwertige Leads zu generieren ist eine Kunst für sich – als Full Service Agentur blicken wir auf über zehn Jahre Erfahrung mit bei der Leadgenerierung. Und das sowohl mit eigenem Branding und Landing Pages als auch im Corporate Identity CI unserer Kunden.
+Qualitativ hochwertige **Leads zu generieren** ist eine Kunst für sich – als **Full Service Agentur** blicken wir auf über zehn Jahre Erfahrung mit bei der Leadgenerierung. Und das sowohl mit eigenem Branding und Landing Pages als auch im Corporate Identity CI unserer Kunden.
 
 In der Lead Generierung bündeln sich unsere Kompetenzen. Wir konzeptionieren und entwickeln auf Ihre Zielgruppe gerichtete Landing Pages (inkl. SEO / SEA und Display Advertising) und schaffen mit Hilfe unseres Redaktionsteams ein passendes Content-Marketing-Umfeld.
 
 Mit Ihnen gemeinsam entwickeln wir ein auf Marktanalyse basierendes Marketing-Konzept, bei dem die Performance im Mittelpunkt steht.
 
 Vom Design über Inhalte bis zur technischem Umsetzung, Betreuung, Pflege und Optimierung mit Unterstützung aller gängigen Endgeräte sorgen wir für Ihren Erfolg im Web.
+
+{% include project-teaser.html %}
 
 ## Die Kunst des Leads
 Leads – also die Kontaktdaten von potentiellen Kunden – gelten als hohes Gut, um Produkte und Dienstleistungen erfolgreich zu vermarkten. Deshalb findet zur Zeit eine regelrechte Lead-Inflation statt.

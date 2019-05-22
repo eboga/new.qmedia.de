@@ -14,13 +14,11 @@
     {% if site.offline %}
     <script async src="/assets/js/offline/v0.js"></script>
     <script async custom-element="amp-analytics" src="/assets/js/offline/amp-analytics-0.1.js"></script>
-    <script async custom-element="amp-ad" src="/assets/js/offline/amp-ad-0.1.js"></script>
     <script async custom-element="amp-sidebar" src="/assets/js/offline/amp-sidebar-0.1.js"></script>
     <script async custom-element="amp-form" src="/assets/js/offline/amp-form-0.1.js"></script>
     {% else %}
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
     <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
     {% endif %}
@@ -48,6 +46,9 @@
     {% include fonts.min.css %}
     {% include header.min.css %}
 
+    {% if page.layout == "homepage" %}
+    {% include homepage.min.css %}
+    {% endif %}
 
     {% include style.min.css %}
 
@@ -58,7 +59,6 @@
 
 
         {% comment %}
-        {% include fonts.min.css %}
         {% include breadcrumbs.min.css %}
 
         {% if page.toc-enable %}

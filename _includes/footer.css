@@ -18,7 +18,7 @@ footer ul {
     padding-right: 16px;
 }
 footer ul li {
-    padding-bottom: 4px;
+    padding-bottom: 8px;
 }
 footer ul {
     margin: 0;
@@ -69,3 +69,9 @@ footer .title {
     }
 }
 
+
+@media only screen and (min-width: 48em) {
+    footer {
+        margin-top: 100px;
+    }
+}

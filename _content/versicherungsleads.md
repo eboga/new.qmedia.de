@@ -1,6 +1,19 @@
 ---
-layout: default
+layout: page
 permalink: /leadgenerierung/versicherungsleads/
+
+title:
+
+
+hero-teaser-text:
+
+
+seo-title: 
+user-title: 
+description: 
+
+robots: index, follow
+amp-enable: yes
 ---
 
 Unsere Kernkompetenz im Bereich Leads sind Versicherungsleads. Seit 2006 betreuen wir erfolgreich Lead-Kampagnen u. a. in folgenden Sparten:
