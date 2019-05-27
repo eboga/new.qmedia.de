@@ -25,11 +25,17 @@
 @media only screen and (max-width: 63.9375em) { }
 @media only screen and (min-width: 64em) { }
 
-article a:not([href*='localhost:4000']):not([href^='#']):not([href^='/']):after,
-article a:not([href*='qmedia.de']):not([href^='#']):not([href^='/']):after {
+/*article a:not([href*='localhost:4000']):not([href^='#']):not([href^='/']):after,*/
+/*article a:not([href*='qmedia.de']):not([href^='#']):not([href^='/']):after {*/
+/*    content: "↗";*/
+/*    padding-left: 10px;*/
+/*    display:inline-block;*/
+/*}*/
+
+.ext-link:after {
     content: "↗";
     padding-left: 10px;
-    display:inline-block;
+    /*display:inline-block;*/
 }
 
 
@@ -120,8 +126,6 @@ h1 {
     }
 }
 
-
-
 @media only screen and (min-width: 22em) {
     .kicker:before {
         content: "";
@@ -134,11 +138,9 @@ h1 {
     }
 }
 
-
 .block-100 {
     padding: 50px 0;
 }
-
 
 .kicker {
     font-family: "IBM Plex Mono", sans-serif;
@@ -182,7 +184,6 @@ ul.inContentLinks li a {
     }
 }
 
-
 @media only screen and (min-width: 48em) {
     .call-teaser {
         padding-left: 100px;
@@ -204,7 +205,6 @@ ul.inContentLinks li a {
     }
 }
 
-
 .call-teaser input:not(:first-of-type) {
     margin-top: 25px;
 }
@@ -216,8 +216,8 @@ ul.inContentLinks li a {
     /*font-size: 21px;*/
     color: var(--qmedia-60);
     padding: 15px 0;
-
 }
+
 .call-teaser button, .call-teaser input[type=submit] {
     /*font-size: 21px;*/
     line-height: 1;
@@ -248,11 +248,6 @@ ul.inContentLinks li a {
     margin-right: 12px;
 }
 
-
-
-
-
-
 .project-teaser-heading {
     font-size: 24px;
     font-weight: 600;
@@ -266,7 +261,11 @@ ul.inContentLinks li a {
     padding-bottom: 50px;
 }
 
-
+@media only screen and (min-width: 48em){
+    .project-teaser-content {
+        padding-left: 50px;
+    }
+}
 
 article p {
     margin: 30px 0;
