@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /suchmaschinenoptimierung/
+permalink: /leadgenerierung/conversion-optimierung/
 
-title:
+title: Conversion Optimierung
 
 hero-teaser-text:
 
@@ -14,5 +14,4 @@ description:
 robots: index, follow
 amp-enable: yes
 ---
-
 

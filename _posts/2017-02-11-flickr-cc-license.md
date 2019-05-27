@@ -34,5 +34,5 @@ Die Zweisprachigkeit ist wichtig, denn dadurch erhält man eine größere Reichw
 Funktionieren wird das allerdings nur mit wirklich guten und möglichst professionellen Motiven. Denn das Netz ist überflutet mit CC-Fotos, und wer nicht wirklich gut ist, wird auch kaum eine Chance haben, in den Datenbanken weit oben zu landen. Je spezieller die eigenen Fotos sind und je besser sie verschlagwortet sind, desto höher sind die Chancen, dass jemand das Angebot annimmt.
 
 **Weiterführende Informationen:**  
-[https://creativecommons.org/licenses/by/2.0/de/](https://creativecommons.org/licenses/by/2.0/de/){:target="_blank"}  
-[https://www.flickr.com/](https://www.flickr.com/){:target="_blank"}
+[https://creativecommons.org/licenses/by/2.0/de/](https://creativecommons.org/licenses/by/2.0/de/){: .ext-link target="_blank" rel="nofollow"}  
+[https://www.flickr.com/](https://www.flickr.com/){: .ext-link target="_blank" rel="nofollow"}

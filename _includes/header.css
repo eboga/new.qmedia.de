@@ -132,25 +132,17 @@ header ul li ul:focus {
 header ul li ul li {
     width: 100%;
 }
-
-/* Screen reader only */
-/*.sr-only {*/
-/*    position: absolute;*/
-/*    width: 1px;*/
-/*    height: 1px;*/
-/*    padding: 0;*/
-/*    margin: -1px;*/
-/*    overflow: hidden;*/
-/*    clip: rect(0,0,0,0);*/
-/*    border: 0;*/
-/*}*/
+@media only screen and (min-width: 64em) {
+    nav ul li:last-child ul.dropdown {
+        margin-left: -10rem;
+    }
+}
 
 /* Button styling */
 @media only screen and (min-width: 64em) {
     .hamburger {
         display: none;
     }
-
 }
 @media only screen and (max-width: 63.9375em) {
     button.menu-toggle {

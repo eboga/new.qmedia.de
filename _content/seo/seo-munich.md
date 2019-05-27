@@ -2,7 +2,7 @@
 layout: page
 permalink: /suchmaschinenoptimierung/seo-muenchen/
 
-title:
+title: SEO Agentur München
 
 
 hero-teaser-text:
@@ -21,7 +21,7 @@ amp-enable: yes
 
 
 
-Als Agentur für Suchmaschinenoptimierung aus dem Raum München unterstützen wir unsere Kunden mit ganzheitlichem und professionellem SEO. Dabei betreuen wir Kunden aus München, aber auch aus ganz Deutschland, bei der Entwicklung und Umsetzung einer erfolgreichen SEO-Strategie.
+Als Agentur für [Suchmaschinenoptimierung](/suchmaschinenoptimierung/) aus dem Raum München unterstützen wir unsere Kunden mit ganzheitlichem und professionellem SEO. Dabei betreuen wir Kunden aus München, aber auch aus ganz Deutschland, bei der Entwicklung und Umsetzung einer erfolgreichen SEO-Strategie.
 
 Lassen Sie sich von unseren nachweisbaren Erfolgen überzeugen. Durch viele Jahre im Bereich Suchmaschinenoptimierung blicken wir auf erfolgreiche Projekte und verschiedenste Websites auf den ersten oder zweiten Seiten bei Google zurück. Zu unseren Projekten zählen beispielsweise bbx.de – Das Portal für Verbraucher, rechner.pro oder Kreditkarte24.de.
 
