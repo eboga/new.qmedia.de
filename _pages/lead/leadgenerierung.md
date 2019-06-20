@@ -13,10 +13,11 @@ user_subject: "CPX"
 user_title: "Leadgenerierung"
 user_excerpt: false
 
-meta_title: "<empty>"
-meta_description: "<empty>"
+meta_title: "Leadgenerierung Agentur: Online Neukundenakquise"
+meta_description: >-
+  Konzeption, Umsetzung & Optimierung Qualitativ hochwertige Leads zu generieren ist eine Kunst für sich – als Full Service Agentur blicken wir auf über zehn Jahre Erfahrung mit bei der Leadgenerierung. Und das sowohl mit eigenem Branding und Landing Pages als auch im Corporate Identity CI unserer Kunden. In der Lead Generierung bündeln sich unsere Kompetenzen.... Read more »
 ---
-ready
+
 ## Konzeption, Umsetzung & Optimierung
 Qualitativ hochwertige **Leads zu generieren** ist eine Kunst für sich – als **Full Service Agentur** blicken wir auf über zehn Jahre Erfahrung mit bei der Leadgenerierung. Und das sowohl mit eigenem Branding und Landing Pages als auch im Corporate Identity CI unserer Kunden.
 
