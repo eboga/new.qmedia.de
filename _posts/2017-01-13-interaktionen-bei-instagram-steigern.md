@@ -1,7 +1,7 @@
 ---
 amp_enable: true
 layout: "article"
-permalink: "emojis-interaktionen-bei-instagram-steigern"
+permalink: "/emojis-interaktionen-bei-instagram-steigern/"
 slug: "emojis-interaktionen-bei-instagram-steigern"
 categories:
   - Social

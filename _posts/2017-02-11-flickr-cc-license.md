@@ -1,7 +1,7 @@
 ---
 amp_enable: true
 layout: "article"
-permalink: "flickr-and-ccbildern"
+permalink: "/flickr-and-ccbildern/"
 slug: "flickr-and-ccbildern"
 categories:
   - jekyll
