@@ -23,9 +23,9 @@ kramdown:
 
 # site settings
 sitename: "new.qmedia.de"
-url: "https://www.new.qmedia.de"
+url: "https://new.qmedia.de"
 baseurl: ""
 lang: "de_DE"
-og_image: "https://www.new.qmedia.de/assets/images/qmedia-logo.png"
+og_image: "https://new.qmedia.de/assets/images/qmedia-logo.png"
 og_image_width: 600
 og_image_height: 600
