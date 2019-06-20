@@ -1,0 +1,111 @@
+<div class="c-HeaderNav" id="c-HeaderNav">
+
+    <ul class="c-HeaderNav-list c-HeaderNav-list--root">
+
+        {%- for i in site.data.header -%}
+
+            {%- assign i_page = site.pages | where: 'slug', i.slug | first -%}
+
+            <li class="c-HeaderNav-li c-HeaderNav-li--root
+
+                {%- if i.children.first.slug
+                    and i.children.first.slug != empty
+                -%}
+
+                    {{- ' c-HeaderNav-li--parent' -}}
+
+                {%- endif -%}
+
+            ">
+
+                <input class="c-HeaderNav-input" type="checkbox" id="c-HeaderNav-input-{{- forloop.index -}}"
+
+                    {%- if i.open == true -%}
+                        {{- ' checked' -}}
+                    {%- endif -%}
+
+                >
+
+                <label class="c-HeaderNav-label o-DropdownTrigger" for="c-HeaderNav-input-{{- forloop.index -}}">
+
+                    <a class="c-HeaderNav-link c-HeaderNav-link--root
+
+                        {%- if i.children.first.slug
+                            and i.children.first.slug != empty
+                        -%}
+
+                            {{- ' c-HeaderNav-link--parent' -}}
+
+                        {%- endif -%}
+
+                    "
+
+                        {%- unless i.link == false -%}
+
+                            {{- ' ' -}} href="{{- i.url | default: i_page.url | default: '#' -}}"
+
+                        {%- endunless -%}
+
+                    >
+
+                        <span class="text">
+
+                            {{- i.text | default: i_page.title_in_header | default: i_page.short_title | default: i_page.user_title -}}
+
+                        </span>
+
+
+
+                        <span class="icon">
+
+                            {%- include svg/chevron-down.svg -%}
+
+                        </span>
+
+                    </a>
+
+                </label>
+
+
+
+                {%- if i.children.first.slug
+                    and i.children.first.slug != empty
+                -%}
+
+                    <ul class="c-HeaderNav-list c-HeaderNav-list--child o-Dropdown o-Dropdown--minLg">
+
+                        {%- for j in i.children -%}
+
+                            {%- assign j_page = site.pages | where: 'slug', j.slug | first -%}
+
+                            <li class="c-HeaderNav-li c-HeaderNav-li--child">
+
+                                <a class="c-HeaderNav-link c-HeaderNav-link--child"
+
+                                    {%- unless j.link == false -%}
+
+                                        {{- ' ' -}} href="{{- j.url | default: j_page.url | default: '#' -}}"
+
+                                    {%- endunless -%}
+
+                                >
+
+                                    {{- j.text | default: j_page.title_in_header | default: j_page.short_title | default: j_page.user_title -}}
+
+                                </a>
+
+                            </li>
+
+                        {%- endfor -%}
+
+                    </ul>
+
+                {%- endif -%}
+
+            </li>
+
+        {%- endfor -%}
+
+    </ul>
+
+</div>

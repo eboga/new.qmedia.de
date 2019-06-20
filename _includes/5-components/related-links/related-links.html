@@ -1,0 +1,96 @@
+{%- comment -%}
+* @param {string} heading (optional) (default [nil])
+* @param {(array|string)} links
+* @param {string} item_class (optional)
+{%- endcomment -%}
+
+{%- assign array = include.links -%}
+
+{%- if include.links.first == nil -%}
+
+    {%- assign array = site.data[include.links] -%}
+
+{%- endif -%}
+
+<div class="c-RelatedLinks">
+
+    <div class="c-RelatedLinks-content">
+
+        {%- for i in array -%}
+
+            <div class="c-RelatedLinks-item
+
+                {{- include.item_class | default: 'qm-sm-12-12 qm-lg-6-12' | prepend: ' ' -}}
+
+            ">
+
+                {%- if i.heading
+                    and i.heading != empty
+                -%}
+
+                    <h3 class="c-RelatedLinks-heading">
+
+                        {{- i.heading -}}
+
+                    </h3>
+
+                {%- endif -%}
+
+
+
+                <ul class="c-RelatedLinks-list">
+
+                    {%- if i.first
+                        and i.first != empty
+                    -%}
+
+                        {%- assign array = i -%}
+
+                    {%- elsif i.children.first
+                        and i.children.first != empty
+                    -%}
+
+                        {%- assign array = i.children -%}
+
+                    {%- endif -%}
+
+
+                    {%- for j in array -%}
+
+                        {%- assign j_page = site.pages | where: 'slug', j.slug | first -%}
+
+                        <li class="c-RelatedLinks-li">
+
+                            <a class="c-RelatedLinks-link c-Link c-Link--primary" href="
+
+                                {{- j.url | default: j_page.url -}}
+
+                            ">
+
+                                {%- assign text = j.text | default: j_page.title_in_related_links | default: j_page.short_title -%}
+
+                                {{- text -}}
+
+
+
+                                {%- unless text contains '→' -%}
+
+                                    {{- '&nbsp;→' -}}
+
+                                {%- endunless -%}
+
+                            </a>
+
+                        </li>
+
+                    {%- endfor -%}
+
+                </ul>
+
+            </div>
+
+        {%- endfor -%}
+
+    </div>
+
+</div>

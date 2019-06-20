@@ -1,0 +1,26 @@
+.c-SocialLinks {
+    --gutter: 12px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: calc(var(--gutter) / -2);
+}
+
+.c-SocialLinks--center {
+    justify-content: center;
+}
+
+
+
+.c-SocialLinks-item {
+    margin: calc(var(--gutter) / 2);
+}
+
+
+
+.c-SocialLinks-btn > .icon {
+    align-items: center;
+    display: flex;
+    height: 12px;
+    justify-content: center;
+}

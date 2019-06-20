@@ -1,0 +1,27 @@
+.c-Absolute {
+    position: absolute;
+}
+
+.c-Absolute--bgLogo {
+    left: 50%;
+    margin-left: 217px;
+    top: -76px;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+@media only screen and (max-width: 63.9375em) {
+    .c-Absolute--bgLogo {
+        display: none;
+    }
+}
+
+
+
+.c-Absolute--bgLogo .icon {
+    height: 902px;
+}
+
+.c-Absolute--bgLogo .icon path {
+    stroke: var(--nero-01);
+}

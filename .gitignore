@@ -1,5 +1,14 @@
 .jekyll
-.jekyyl-metadata
+.jekyll-cache
+.jekyll-metadata
 platincard.de.iml
-_site
+
+_site/
 .idea/
+node_modules/
+
+*.js
+*.json
+*.sh
+*.txt
+!deploy.sh

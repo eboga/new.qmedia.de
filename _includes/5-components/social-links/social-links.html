@@ -1,0 +1,229 @@
+{%- comment -%}
+* @param {array} include.order (default [nil]) (optional)
+*
+* @param {boolean} include.facebook (default [true]) (optional)
+* @param {boolean} include.linkedin (default [true]) (optional)
+* @param {boolean} include.mail (default [true]) (optional)
+* @param {boolean} include.print (default [true]) (optional)
+* @param {boolean} include.twitter (default [true]) (optional)
+* @param {boolean} include.xing (default [true]) (optional)
+*
+* @param {boolean} include.colored (default [false]) (optional)
+* @param {boolean} include.sm (default [false])  (optional)
+{%- endcomment -%}
+
+{%- assign array = 'facebook,twitter,xing,linkedin,mail,print' | split: ',' -%}
+
+{%- if include.order
+    and include.order != empty
+-%}
+
+    {%- assign array = include.order | split: ',' -%}
+
+{%- endif -%}
+
+
+
+{%- assign href = '#' -%}
+
+
+
+{%- assign btn_class_list = nil -%}
+{%- assign btn_class_list = nil -%}
+
+{%- assign social_btn_class = 'c-SocialLinks-btn' -%}
+
+{%- assign btn_class = 'c-Btn' -%}
+
+
+
+{%- assign icon = nil -%}
+
+{%- assign icon_class_list = nil -%}
+
+{%- assign icon_class = 'icon' -%}
+
+
+
+<div class="c-SocialLinks hide-for-print">
+
+    {%- for i in array -%}
+
+        {%- if i == 'facebook' -%}
+
+            {%- if include.facebook == false -%}
+
+                {%- continue -%}
+
+            {%- else -%}
+
+                {%- capture href -%}
+
+                    https://www.facebook.com/sharer/sharer.php?u={{- page.url | absolute_url -}}
+
+                {%- endcapture -%}
+
+
+
+                {%- assign icon = 'facebook.svg' -%}
+
+            {%- endif -%}
+
+        {%- elsif i == 'twitter' -%}
+
+            {%- if include.twitter == false -%}
+
+                {%- continue -%}
+
+            {%- else -%}
+
+                {%- capture href -%}
+
+                    https://twitter.com/intent/tweet?text={{- page.meta_title -}}&url={{- page.url | absolute_url -}}
+
+                {%- endcapture -%}
+
+
+
+                {%- assign icon = 'twitter.svg' -%}
+
+            {%- endif -%}
+
+        {%- elsif i == 'xing' -%}
+
+            {%- if include.xing == false -%}
+
+                {%- continue -%}
+
+            {%- else -%}
+
+                {%- capture href -%}
+
+                    https://www.xing-share.com/app/user?op=share;sc_p=xing-share;url={{- site.url -}}
+
+                {%- endcapture -%}
+
+
+
+                {%- assign icon = 'xing.svg' -%}
+
+            {%- endif -%}
+
+        {%- elsif i == 'linkedin' -%}
+
+            {%- if include.linkedin == false -%}
+
+                {%- continue -%}
+
+            {%- else -%}
+
+                {%- capture href -%}
+
+                    https://www.linkedin.com/shareArticle?mini=true&url={{- page.url | absolute_url -}}&title={{- page.meta_title -}}&summary={{- page.meta_description -}}&source=webjeda
+
+                {%- endcapture -%}
+
+
+
+                {%- assign icon = 'linkedin.svg' -%}
+
+            {%- endif -%}
+
+        {%- elsif i == 'mail' -%}
+
+            {%- if include.mail == false -%}
+
+                {%- continue -%}
+
+            {%- else -%}
+
+                {%- capture href -%}
+
+                    mailto:?subject={{- page.meta_title -}}&amp;body=Check out this site {{{- page.url | absolute_url -}}
+
+                {%- endcapture -%}
+
+
+
+                {%- assign icon = 'envelop.svg' -%}
+
+            {%- endif -%}
+
+        {%- elsif i == 'print' -%}
+
+            {%- assign icon = 'print.svg' -%}
+
+
+
+            {%- if include.print == false -%}
+
+                {%- continue -%}
+
+            {%- endif -%}
+
+        {%- endif -%}
+
+
+
+        {%- comment -%}class="c-SocialLinks-btn c-SocialLinks-btn--[i]"{%- endcomment -%}
+        {%- assign btn_class_list = social_btn_class | append: ' ' | append: social_btn_class | append: '--' | append: i -%}
+
+        {%- if include.sm == true -%}
+
+            {%- comment -%}class="c-SocialLinks-btn c-SocialLinks-btn--[i] c-SocialLinks-btn--sm"{%- endcomment -%}
+            {%- assign btn_class_list = btn_class_list | append: ' ' | append: social_btn_class | append: '--sm' -%}
+
+        {%- endif -%}
+
+
+
+        {%- comment -%}class="c-SocialLinks-btn c-SocialLinks-btn--[i] c-Btn c-Btn--icon"{%- endcomment -%}
+        {%- assign btn_class_list = btn_class_list | append: ' ' | append: btn_class | append: ' ' | append: btn_class | append: '--icon' -%}
+
+        {%- if include.sm == true -%}
+
+            {%- comment -%}class="c-SocialLinks-btn c-SocialLinks-btn--[i] c-SocialLinks-btn--sm c-Btn c-Btn--icon c-Btn--sm"{%- endcomment -%}
+            {%- assign btn_class_list = btn_class_list | append: ' ' | append: btn_class | append: '--sm' -%}
+
+        {%- endif -%}
+
+
+
+        {%- comment -%}class="icon icon--[i]"{%- endcomment -%}
+        {%- assign icon_class_list = icon_class | append: ' ' | append: icon_class  | append: '--' | append: i -%}
+
+        {%- if include.colored == true -%}
+
+            {%- comment -%}class="icon icon--[i] icon--colored"{%- endcomment -%}
+            {%- assign icon_class_list = icon_class_list | append: ' ' | append: icon_class | append: '--colored' -%}
+
+        {%- endif -%}
+
+
+
+        <div class="c-SocialLinks-item">
+
+            {%- if i == 'print' -%}
+
+                {%- include 5-components/social-links/social-links-tag-button.html
+                    btn_class_list=btn_class_list
+                    icon_class_list=icon_class_list
+                    icon=icon
+                -%}
+
+            {%- else -%}
+
+                {%- include 5-components/social-links/social-links-tag-a.html
+                    btn_class_list=btn_class_list
+                    href=href
+                    icon_class_list=icon_class_list
+                    icon=icon
+                -%}
+
+            {%- endif -%}
+
+        </div>
+
+    {%- endfor -%}
+
+</div>

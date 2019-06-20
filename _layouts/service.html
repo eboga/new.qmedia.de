@@ -1,0 +1,98 @@
+---
+layout: "default"
+---
+
+<div class="c-MainBlock">
+
+    <div class="c-Main-container wrapper">
+
+        <div class="c-Main-head">
+
+            {%- include 5-components/main/main-head.html
+                subject=page.user_subject
+                heading=page.user_title
+                text=page.user_excerpt
+            -%}
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="c-MainBlock">
+
+    <div class="c-Main-container wrapper">
+
+        {%- include 5-components/logos/logos.html
+            logos=site.data.logos
+        -%}
+
+    </div>
+
+</div>
+
+
+
+{%- if page.related_links
+    and page.related_links != empty
+-%}
+
+    <div class="c-MainBlock c-MainBlock--lg">
+
+        <div class="c-Main-container wrapper">
+
+            <div class="c-MainBlock-block">
+
+                <h3 class="c-HeadingSubject">Leistungen</h3>
+
+            </div>
+
+
+
+            <div class="c-MainBlock-block">
+
+                {%- include 5-components/related-links/related-links.html
+                    links=page.related_links
+                -%}
+
+            </div>
+
+        </div>
+
+    </div>
+
+{%- endif -%}
+
+
+
+<div class="c-MainBlock c-MainBlock--lg">
+
+    <div class="c-Main-container wrapper">
+
+        {%- include 5-components/article/article.html
+            title=page.article_title
+            time=page.article_time
+            hero=page.article_hero
+            excerpt=page.article_excerpt
+            contents=true
+            article=content
+        -%}
+
+    </div>
+
+</div>
+
+
+
+<div class="c-MainBlock c-MainBlock--xl">
+
+    <div class="c-Main-container wrapper">
+
+        {%- include 5-components/contact/contact-box.html -%}
+
+    </div>
+
+</div>

@@ -1,138 +1,158 @@
 ---
-layout: homepage
-title: qmedia GmbH
-excerpt: qmedia GmbH
-permalink: /
-robots: index, follow
-amp-enable: true
+amp_enable: true
+layout: "default"
+layout_bg_logo: true
+permalink: "/"
+robots: "index,follow"
+slug: "home"
+
+
+
+user_title: "Gut beraten.<br>Besser optimiert."
+user_excerpt: >-
+  Trotz dieser sorgfältig recherchierten Auflistung sollten Sie Ihren Vertrag über eine Rechtsschutzversicherung sehr sorgfältig studieren:
+  Da die Anbieter oft die Vertragsfreiheit ausnutzen,
+  können sie ihre Klauseln gestalten, wie sie wollen und passen ihre Verträge des Öfteren an neue Markttrends und Kundenbedürfnisse an.
+  Schließlich werden auch in dieser Versicherungssparte nicht unbedingt günstigere, dafür aber individuelle Tarife immer wichtiger,
+  um gegenüber der Konkurrenz bestehen zu können.
+user_subject: "Agentur für online marketing"
+meta_title: "qmedia GmbH"
+meta_description: "qmedia GmbH"
+
+services:
+  - image:
+      src: "/assets/images/icons/seo.png"
+      width: 121
+      height: 121
+    subject: "SEO"
+    link:
+      slug: "suchmaschinenoptimierung"
+    text: >-
+      Wie wir Sie in den Suchergebnissen bei Google bestens platzieren.
+      Wir haben aktuelle Änderungen in den Algorithmen der Suchmaschinen stets im Blick und passen unsere Maßnahmen zur Suchmaschinenoptimierung dementsprechend an.
+    related_links: "related-links-seo"
+  - image:
+      src: "/assets/images/icons/sem.png"
+      width: 121
+      height: 121
+    subject: "SEM"
+    link:
+      slug: "suchmaschinenmarketing"
+    text: >-
+      Wir übernehmen die fachgerechte Google AdWords Optimierung Ihrer Kampagnen und kümmern uns danach um eine langfristig performanceorientierte Betreuung.
+    related_links: "related-links-sem"
+  - image:
+      src: "/assets/images/icons/cpx.png"
+      width: 121
+      height: 121
+    subject: "CPX"
+    link:
+      slug: "leadgenerierung"
+    text: >-
+      In der Leadgenerierung geht es nicht nur darum, dass das Marketing den Interessenten zum Lead macht, sondern diesen so lange weiterentwickelt, dass er mit der richtigen Reife an den Vertrieb übergeben werden kann und dort zum Kunden wird.
+    related_links: "related-links-cpx"
+
+teasers:
+  - image:
+      from_page: true
+      from_page_key: "article_hero"
+    link:
+      slug: "flickr-and-ccbildern"
+      is_post: true
+    text: false
+    lg: true
+    row: true
+  - image:
+      from_page: true
+      from_page_key: "article_hero"
+    link:
+      slug: "emojis-interaktionen-bei-instagram-steigern"
+      is_post: true
+    text: false
+    lg: true
+    row: true
 ---
 
+<div class="c-MainBlock">
 
-<div class="kicker">Agentur für Online Marketing</div>
-<h1>Gut beraten.<br>Besser optimiert.</h1>
-Trotz dieser sorgfältig recherchierten Auflistung sollten Sie Ihren Vertrag über eine Rechtsschutzversicherung sehr sorgfältig studieren: Da die Anbieter oft die Vertragsfreiheit ausnutzen, können sie ihre Klauseln gestalten, wie sie wollen und passen ihre Verträge des Öfteren an neue Markttrends und Kundenbedürfnisse an. Schließlich werden auch in dieser Versicherungssparte nicht unbedingt günstigere, dafür aber individuelle Tarife immer wichtiger, um gegenüber der Konkurrenz bestehen zu können.
+    <div class="c-Main-container wrapper">
 
-<!--<div class="pure-g home-logo">-->
-<!--    <div class="qm-sm-3-12">-->
-<!--        <amp-img alt="handelsblatt" src="/assets/images/handelsblatt.svg" width="151" height="21" layout="responsive"></amp-img>-->
-<!--    </div>-->
-<!--    <div class="qm-sm-3-12">-->
-<!--        <amp-img alt="wirtschaftswoche" src="/assets/images/wirtschaftswoche.svg" width="151" height="36" layout="responsive"></amp-img>-->
-<!--    </div>-->
-<!--    <div class="qm-sm-3-12">-->
-<!--        <amp-img alt="msn" src="/assets/images/msn.svg" width="83" height="36" layout="responsive"></amp-img>-->
-<!--    </div>-->
-<!--    <div class="qm-sm-3-12">-->
-<!--        <amp-img alt="radfahren" src="/assets/images/radfahren.svg" width="191" height="36" layout="responsive"></amp-img>-->
-<!--    </div>-->
-<!--</div>-->
-<div class="home-logo">
-    <div>
-        <amp-img alt="handelsblatt" src="/assets/images/handelsblatt.svg" width="151" height="21"></amp-img>
-    </div>
-    <div>
-        <amp-img alt="wirtschaftswoche" src="/assets/images/wirtschaftswoche.svg" width="151" height="36"></amp-img>
-    </div>
-    <div>
-        <amp-img alt="msn" src="/assets/images/msn.svg" width="83" height="36"></amp-img>
-    </div>
-    <div>
-        <amp-img alt="radfahren" src="/assets/images/radfahren.svg" width="191" height="36"></amp-img>
-    </div>
-</div>
+        <div class="c-Main-head">
 
-<div class="pure-g block-100">
-    <div class="qm-lg-2-12 service-icon show-for-large">
-        <a href="/suchmaschinenoptimierung/"><amp-img alt="SEO" srcset="/assets/images/seo.png 1x, /assets/images/seo@2x.png 2x, /assets/images/seo@3x.png 3x" src="/assets/images/seo.png" width="121" height="121" ></amp-img></a>
-    </div>
+            {%- include 5-components/main/main-head.html
+                subject=page.user_subject
+                heading=page.user_title
+                text=page.user_excerpt
+            -%}
 
-    <div class="qm-sm-12-12 qm-lg-10-12 service-content">
-        <div class="kicker">SEO</div>
-        <div class="subheading"><a href="/suchmaschinenoptimierung/">Suchmaschinenoptimierung →</a></div>
-        <div>
-            Wie wir Sie in den Suchergebnissen bei Google bestens platzieren. Wir haben aktuelle Änderungen in den Algorithmen der Suchmaschinen stets im Blick und passen unsere Maßnahmen zur Suchmaschinenoptimierung dementsprechend an.
         </div>
-        <div class="pure-g inContentLinksWrapper">
-            <div class="qm-sm-12-12 qm-lg-6-12">
-                <ul class="inContentLinks">
-                    <li><a href="/suchmaschinenoptimierung/" class="int-link">SEO Optimierung</a></li>
-                    <li><a href="/suchmaschinenoptimierung/local-seo/" class="int-link">Local SEO</a></li>
-                    <li><a href="/suchmaschinenoptimierung/technisches-seo/" class="int-link">Technisches SEO</a></li>
-                    <li><a href="/suchmaschinenoptimierung/internationales-seo/" class="int-link">Internationales SEO</a></li>
-                </ul>
-            </div>
-            <div class="qm-sm-12-12 qm-lg-6-12">
-                <ul class="inContentLinks">
-                    <li><a href="/suchmaschinenoptimierung/relaunch-betreuung/" class="int-link">Relaunch Betreuung</a></li>
-                    <li><a href="/suchmaschinenoptimierung/seo-audit/" class="int-link">SEO Audit</a></li>
-                    <li><a href="/suchmaschinenoptimierung/linkaufbau/" class="int-link">Linkaufbau</a></li>
-                    <li><a href="/suchmaschinenoptimierung/linkaudit/" class="int-link">Linkaudit</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="pure-g block-100">
-    <div class="qm-lg-2-12 service-icon show-for-large">
-        <a href="/suchmaschinenmarketing/"><amp-img alt="sem" srcset="/assets/images/sem.png 1x, /assets/images/sem@2x.png 2x, /assets/images/sem@3x.png 3x" src="/assets/images/sem.png" width="121" height="121" ></amp-img></a>
     </div>
-    <div class="qm-sm-12-12 qm-lg-10-12 service-content">
-            <div class="kicker">SEM</div>
-            <div class="subheading"><a href="/suchmaschinenmarketing/">Suchmaschinenmarketing →</a></div>
-        <div>
-            Wie wir Sie in den Suchergebnissen bei Google bestens platzieren. Wir haben aktuelle Änderungen in den Algorithmen der Suchmaschinen stets im Blick und passen unsere Maßnahmen zur Suchmaschinenoptimierung dementsprechend an.
-        </div>
-        <div class="pure-g inContentLinksWrapper">
-            <div class="qm-sm-12-12 qm-lg-6-12">
-                <ul class="inContentLinks">
-                    <li><a href="/suchmaschinenmarketing/" class="int-link">Suchmaschinenmarketing</a></li>
-                    <li><a href="/suchmaschinenmarketing/adwords-optimierung/" class="int-link">AdWords Optimierung</a></li>
-                </ul>
-            </div>
-            <div class="qm-sm-12-12 qm-lg-6-12">
-                <ul class="inContentLinks">
-                    <li><a href="/suchmaschinenmarketing/google-shopping/" class="int-link">Google Shopping</a></li>
-                    <li><a href="/suchmaschinenmarketing/google-adwords-remarketing/" class="int-link">Google AdWords Remarketing</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
 
-
-<div class="pure-g block-100">
-    <div class="qm-lg-2-12 service-icon show-for-large">
-        <a href="/leadgenerierung/"><amp-img alt="cpx" srcset="/assets/images/cpx.png 1x, /assets/images/cpx@2x.png 2x, /assets/images/cpx@3x.png 3x" src="/assets/images/cpx.png" width="115" height="121" ></amp-img></a>
-    </div>
-    <div class="qm-sm-12-12 qm-lg-10-12 service-content">
-        <div class="kicker">CPX</div>
-        <div class="subheading"><a href="/leadgenerierung/">Leadgenerierung →</a></div>
-        <div>
-            Die Kunst der Lead Generierung ist unsere Kernkompetenz. Wir entwickeln Ihr Performance-basiertes Marketing-Konzept und bringen Sie zum Kunden – damit der Kunde zu Ihnen kommt! Von der Konzeption über die Umsetzung bis zur Optimierung.
-        </div>
-        <div class="pure-g inContentLinksWrapper">
-            <div class="qm-sm-12-12 qm-lg-6-12">
-                <ul class="inContentLinks">
-                    <li><a href="/leadgenerierung/" class="int-link">Leadgenerierung</a></li>
-                    <li><a href="/leadgenerierung/versicherungsleads/" class="int-link">Versicherungsleads</a></li>
-                    <li><a href="/leadgenerierung/usability-optimierung/" class="int-link">Usability Optimierung</a></li>
-                </ul>
-            </div>
-            <div class="qm-sm-12-12 qm-lg-6-12">
-                <ul class="inContentLinks">
-                    <li><a href="/leadgenerierung/conversion-optimierung/" class="int-link">Conversion Optimierung</a></li>
-                    <li><a href="/leadgenerierung/landingpage-optimierung/" class="int-link">Landingpage Optimierung</a></li>
-                    <li><a href="/leadgenerierung/datenschutz-dsgvo/" class="int-link">DSGVO</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
 </div>
 
 
 
+<div class="c-MainBlock">
+
+    <div class="c-Main-container wrapper">
+
+        {%- include 5-components/logos/logos.html
+            logos=site.data.logos
+        -%}
+
+    </div>
+
+</div>
 
 
 
+<div class="c-MainBlock c-MainBlock--lg">
 
+    <div class="c-Main-container wrapper">
+
+        {%- include 5-components/services/services.html
+            services=page.services
+        -%}
+
+    </div>
+
+</div>
+
+
+
+<div class="c-MainBlock c-MainBlock--xl">
+
+    <div class="c-Main-container wrapper">
+
+        <div class="c-MainBlock-block">
+
+            <h4 class="c-HeadingSubject">Journal</h4>
+
+        </div>
+
+
+
+        <div class="c-MainBlock-block">
+
+          {%- include 5-components/teasers/teasers.html
+              teasers=page.teasers
+          -%}
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="c-MainBlock c-MainBlock--xl">
+
+    <div class="c-Main-container wrapper">
+
+        {%- include 5-components/contact/contact-box.html -%}
+
+    </div>
+
+</div>

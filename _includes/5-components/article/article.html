@@ -1,0 +1,190 @@
+{%- comment -%}
+* @param {boolean} include.article_serif (optional) (default [false])
+* @param {boolean} include.contents (optional) (default [false])
+* @param {boolean} include.lg (optional) (default [false])
+* @param {object} include.hero (optional) (default [nil])
+* @param {string} include.article
+* @param {string} include.excerpt (optional) (default [nil])
+* @param {string} include.title (optional) (default [nil])
+{%- endcomment -%}
+
+<div class="c-Article">
+
+    <div class="c-Article-container">
+
+        {%- if include.title
+            and include.title != false
+            and include.title != empty
+        -%}
+
+            <div class="c-Article-block">
+
+                {%- assign tag = 'h2' -%}
+
+                {%- if page.layout == 'article' -%}
+
+                    {%- assign tag = 'h1' -%}
+
+                {%- endif -%}
+
+
+
+                <{{ tag }} class="c-Article-title">
+
+                    {{- include.title -}}
+
+                </{{ tag }}>
+
+            </div>
+
+        {%- endif -%}
+
+
+
+
+
+
+        {%- if include.hero
+            and include.hero != false
+            and include.hero != empty
+        -%}
+
+            <div class="c-Article-block">
+
+                <div class="c-Article-hero">
+
+                    <div class="c-ArticleHero">
+
+                        <div class="c-ArticleHero-image
+
+                            {%- if include.hero.copyright
+                                and include.hero.copyright != false
+                                and include.hero.copyright != empty
+                            -%}
+
+                                {{- ' c-ArticleHero-image--gap' -}}
+
+                            {%- endif -%}
+
+                        ">
+
+                            {%- include img.html
+                                class='c-ArticleHero-img'
+                                src=include.hero.src
+                                width=include.hero.width
+                                height=include.hero.height
+                                alt=include.hero.alt
+                                layout='intrinsic'
+                            -%}
+
+                            {%- if include.hero.copyright
+                                and include.hero.copyright != false
+                                and include.hero.copyright != empty
+                            -%}
+
+                                <div class="c-ArticleHero-copyright">
+
+                                    {{- include.hero.copyright -}}
+
+                                </div>
+
+                            {%- endif -%}
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        {%- endif -%}
+
+
+
+
+
+
+        {%- if include.excerpt
+            and include.excerpt != false
+            and include.excerpt != empty
+        -%}
+
+            <div class="c-Article-block c-Article-block--excerpt">
+
+                <div class="c-Article-excerpt
+
+                    {%- if include.article_serif != false -%}
+
+                        {%- if include.article_serif == true
+                            or page.layout == 'article'
+                        -%}
+
+                            {{- ' c-Article-excerpt--serif' -}}
+
+                        {%- endif -%}
+
+                    {%- endif -%}
+
+                ">
+
+                    {{- include.excerpt | markdownify -}}
+
+                </div>
+
+            </div>
+
+        {%- endif -%}
+
+
+
+
+
+
+        <div class="c-Article-block">
+
+            <article class="c-Article-article
+
+                {%- if include.article_serif != false -%}
+
+                    {%- if include.article_serif == true
+                        or page.layout == 'article'
+                    -%}
+
+                        {{- ' c-Article-article--serif' -}}
+
+                    {%- endif -%}
+
+                {%- endif -%}
+
+
+
+                {%- if include.lg == true -%}
+
+                    {{- ' c-Article-article--lg' -}}
+
+                {%- endif -%}
+
+            ">
+
+                {%- if include.contents == true -%}
+
+                    <div class="c-Article-float c-Article-float--clear h-ArticleExclude show-for-large">
+
+                        {%- include 5-components/contents/contents.html -%}
+
+                    </div>
+
+                {%- endif -%}
+
+
+
+                {{- include.article -}}
+
+            </article>
+
+        </div>
+
+    </div>
+
+</div>

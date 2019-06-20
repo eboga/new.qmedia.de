@@ -1,0 +1,54 @@
+.c-Link {
+    align-items: center;
+    display: inline-flex;
+}
+
+
+
+
+
+
+/* Style variants */
+.c-Link--primary {
+    --font-size: 16px;
+    color: var(--nero);
+    font-size: var(--font-size);
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 48em) {
+    .c-Link--primary {
+        --font-size: 18.5px;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    .c-Link--primary {
+        --font-size: 21px;
+    }
+}
+
+.c-Link--primary:focus,
+.c-Link--primary:hover {
+    text-decoration: underline;
+}
+
+.c-Link--primary:focus {
+    outline: none;
+}
+
+
+
+
+
+
+/* Size variants */
+.c-Link--sm {
+    font-size: calc(var(--font-size) * 0.8);
+}
+
+
+
+.c-Link--lg {
+    font-size: calc(var(--font-size) * 1.2);
+}

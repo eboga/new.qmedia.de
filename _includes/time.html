@@ -1,0 +1,48 @@
+{%- comment -%}
+* @param {string} include.time
+*
+* @return {object} datetime
+* @return {object} time
+*
+* @example
+*     {%- include time.html time=foo.bar -%}
+*     <time datetime="{{- datetime -}}">{{- time -}}</time>
+{%- endcomment -%}
+
+
+{%- assign _day = include.time | date: '%e' | append: '. ' -%}
+
+
+
+{%- capture _month -%}
+
+    {%- assign _month = include.time | date: "%B" -%}
+
+    {%- case _month -%}
+        {%- when "January" -%}Januar
+        {%- when "February" -%}Februar
+        {%- when "March" -%}März
+        {%- when "April" -%}April
+        {%- when "May" -%}Mai
+        {%- when "June" -%}Juni
+        {%- when "July" -%}Juli
+        {%- when "August" -%}August
+        {%- when "September" -%}September
+        {%- when "October" -%}Oktober
+        {%- when "November" -%}November
+        {%- when "December" -%}Dezember
+    {%- endcase -%}
+
+{%- endcapture -%}
+
+
+
+{%- assign _year = include.time | date: '%Y' | prepend: ' ' -%}
+
+
+
+
+
+
+{%- assign datetime = include.time | date: "%FT%T%z" -%}
+{%- assign time = _day | append: _month | append: _year -%}

@@ -1,0 +1,139 @@
+---
+amp_enable: true
+layout: "default"
+permalink: "/projekte/"
+slug: "projekte"
+
+
+
+short_title: "Projekte"
+user_title: "Projekte"
+user_excerpt: >-
+  Wie wir Sie in den Suchergebnissen bei Google bestens platzieren.
+  Wir haben aktuelle Änderungen in den Algorithmen der Suchmaschinen stets im Blick und passen unsere Maßnahmen zur Suchmaschinenoptimierung dementsprechend an.
+meta_title: "Unsere eigenen Projekte"
+meta_description: ""
+
+teasers:
+  - image:
+      src: "/assets/images/projects/depotkonto-de.jpg"
+      width: 1125
+      height: 750
+      alt: ""
+    link:
+      url: "https://www.depotkonto.de/"
+      text: "Depotkonto.de"
+    text: >-
+      Mit nur wenigen Klicks erhalten Sie Anbietervergleiche und Produktdetails.
+      Unsere Live-Rechner berechnen noch während Sie tippen.
+      Immer aktuell und einfach zu bedienen.
+    row: true
+    wide: true
+  - image:
+      src: "/assets/images/projects/depotkonto-de.jpg"
+      width: 1125
+      height: 750
+      alt: ""
+    link:
+      url: "https://www.depotkonto.de/"
+      text: "Depotkonto.de"
+    text: >-
+      Mit nur wenigen Klicks erhalten Sie Anbietervergleiche und Produktdetails.
+      Unsere Live-Rechner berechnen noch während Sie tippen.
+      Immer aktuell und einfach zu bedienen.
+    row: true
+    wide: true
+  - image:
+      src: "/assets/images/projects/depotkonto-de.jpg"
+      width: 1125
+      height: 750
+      alt: ""
+    link:
+      url: "https://www.depotkonto.de/"
+      text: "Depotkonto.de"
+    text: >-
+      Mit nur wenigen Klicks erhalten Sie Anbietervergleiche und Produktdetails.
+      Unsere Live-Rechner berechnen noch während Sie tippen.
+      Immer aktuell und einfach zu bedienen.
+    row: true
+    wide: true
+
+logos:
+  - svg: "rechner-pro-logo.svg"
+    sm: true
+    sm_spread: true
+    class: "qm-sm-12-12 qm-md-6-12 qm-lg-4-12"
+    class_spread: true
+    center: true
+    center_spread: true
+  - svg: "rechner-pro-logo.svg"
+  - svg: "rechner-pro-logo.svg"
+  - svg: "rechner-pro-logo.svg"
+  - svg: "rechner-pro-logo.svg"
+  - svg: "rechner-pro-logo.svg"
+---
+
+<div class="c-MainBlock">
+
+    <div class="c-Main-container wrapper">
+
+        <div class="c-Main-head">
+
+            {%- include 5-components/main/main-head.html
+                heading=page.user_title
+                text=page.user_excerpt
+            -%}
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="c-MainBlock">
+
+    <div class="c-Main-container wrapper">
+
+        <div class="c-Main-head">
+
+            {%- include 5-components/teasers/teasers.html
+                teasers=page.teasers
+            -%}
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="c-MainBlock c-MainBlock--lg">
+
+    <div class="c-Main-container wrapper">
+
+        <div class="c-Main-head">
+
+            {%- include 5-components/logos/logos.html
+                logos=page.logos
+            -%}
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="c-MainBlock c-MainBlock--xl">
+
+    <div class="c-Main-container wrapper">
+
+        {%- include 5-components/contact/contact-box.html -%}
+
+    </div>
+
+</div>

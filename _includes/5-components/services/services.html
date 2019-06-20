@@ -1,0 +1,23 @@
+<div class="c-Services">
+
+    <div class="c-Services-content">
+
+        {%- for i in include.services -%}
+
+            <div class="c-Services-item">
+
+                {%- include 5-components/service/service.html
+                    image=i.image
+                    subject=i.subject
+                    link=i.link
+                    text=i.text
+                    related_links=i.related_links
+                -%}
+
+            </div>
+
+        {%- endfor -%}
+
+    </div>
+
+</div>

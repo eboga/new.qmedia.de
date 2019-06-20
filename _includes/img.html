@@ -1,0 +1,173 @@
+{%- comment -%}
+* @param {boolean} amp_enable (optional)
+* @param {boolean} as_svg (optional)
+* @param {string} alt (optional)
+* @param {string} class (optional)
+* @param {string} height (optional)
+* @param {string} layout - Only relevant if 'amp_enable' is 'true'.
+*                          In most cases the best choise is to set the 'intrinsic' layout.
+*                          (options: fill, fixed, fixed-height, flex-item, intrinsic, nodisplay, responsive)
+*                          (default [nil])
+*                          (optional)
+* @param {string} src
+* @param {string} width (optional)
+{%- endcomment -%}
+
+{%- unless include.as_svg == true -%}
+
+    {%- if page.amp_enable == true
+        or include.amp_enable == true
+    -%}
+
+        <amp-img
+
+            {%- if include.class
+                and include.class != empty
+            -%}
+
+                {{- ' ' -}} class="{{- include.class -}}"
+
+            {%- endif -%}
+
+            {%- if include.src
+                and include.src != empty
+            -%}
+
+                {{- ' ' -}} src="{{- include.src -}}"
+
+            {%- endif -%}
+
+            {%- if include.width
+                and include.width != empty
+            -%}
+
+                {{- ' ' -}} width="{{- include.width -}}"
+
+            {%- endif -%}
+
+            {%- if include.height
+                and include.height != empty
+            -%}
+
+                {{- ' ' -}} height="{{- include.height -}}"
+
+            {%- endif -%}
+
+            {{- ' ' -}} alt="{{- include.alt -}}"
+
+            {%- if include.layout
+                and include.layout != empty
+            -%}
+
+                {{- ' ' -}} layout="{{- include.layout -}}"
+
+            {%- endif -%}
+
+        >
+
+            <noscript>
+
+                <img
+
+                    {%- if include.class and include.class != empty -%}
+                        {{- ' ' -}} class="{{- include.class -}}"
+                    {%- endif -%}
+
+                    {%- if include.src
+                        and include.src != empty
+                    -%}
+
+                        {{- ' ' -}} src="{{- include.src -}}"
+
+                    {%- endif -%}
+
+                    {%- if include.width
+                        and include.width != empty
+                    -%}
+
+                        {{- ' ' -}} width="{{- include.width -}}"
+
+                    {%- endif -%}
+
+                    {%- if include.height
+                        and include.height != empty
+                    -%}
+
+                        {{- ' ' -}} height="{{- include.height -}}"
+
+                    {%- endif -%}
+
+                    {{- ' ' -}} alt="{{- include.alt -}}"
+
+                />
+
+            </noscript>
+
+        </amp-img>
+
+    {%- endif -%}
+
+
+
+
+
+    {%- if page.amp_enable == false
+        or include.amp_enable == false
+    -%}
+        <img
+            {%- if include.class and include.class != empty -%}
+                {{- ' ' -}} class="{{- include.class -}}"
+            {%- endif -%}
+
+            {%- if include.src
+                and include.src != empty
+            -%}
+
+                {{- ' ' -}} src="{{- include.src -}}"
+
+            {%- endif -%}
+
+            {%- if include.width
+                and include.width != empty
+            -%}
+
+                {{- ' ' -}} width="{{- include.width -}}"
+
+            {%- endif -%}
+
+            {%- if include.height
+                and include.height != empty
+            -%}
+
+                {{- ' ' -}} height="{{- include.height -}}"
+
+            {%- endif -%}
+
+            {{- ' ' -}} alt="{{- include.alt -}}"
+
+            {{- ' ' -}} style="object-fit: contain;"
+
+            {{- '' -}}
+
+        >
+
+    {%- endif -%}
+
+{%- else -%}
+
+    {%- comment -%}
+    * Why use an image in SVG?
+    *
+    * The problem is that we can't always pass a value of «amp_enable» to this file,
+    * therefore we can't know which tag to use <amp-img> or <img>.
+    * The first will not be treated correctly by all browsers.
+    * The second will cause a validation error if the page will be AMP.
+    *
+    * So an image in SVG is a workaround for this issue.
+    {%- endcomment -%}
+
+    <svg viewBox="0 0 {{ include.width }} {{ include.height }}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <image xlink:href="{{- include.src -}}" width="{{- include.width -}}" height="{{- include.height -}}" />
+    </svg>
+
+{%- endunless -%}

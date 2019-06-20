@@ -1,35 +1,68 @@
-<!DOCTYPE html>
-<html amp>
+---
+layout: "layout"
+robots: "index,follow"
+---
 
-  {% include head.html %}
+<div class="PageWrapper" id="PageWrapper">
 
-  <body>
+    {%- unless layout.layout_header == false or page.layout_header == false -%}
 
-  {% include sidebar-menu.html %}
-  {% include header.html %}
-    <div class="wrapper">
-      <div class="pure-g">
-        <div class="qm-lg-1-12 show-for-large">
+        {%- include 5-components/header/header.html
+            amp_enable=page.amp_enable
+            breadcrumbs=page.breadcrumbs
+            slug=page.slug
+        -%}
+
+    {%- endunless -%}
+
+
+
+
+
+
+    {%- if layout.layout_bg_logo == true
+        or page.layout_bg_logo == true
+    -%}
+
+        <div class="c-Absolute c-Absolute--bgLogo">
+
+            <span class="icon">
+
+                {%- include svg/qmedia-icon.svg -%}
+
+            </span>
+
         </div>
-        <div class="qm-sm-12-12 qm-lg-10-12">
-          <article>
 
-              {{ content }}
-
-            {% include contact-box.html %}
-
-          </article>
-
-          {% include footer.html %}
-
-        </div>
-        <div class="qm-lg-1-12 show-for-large">
-        </div>
-
-      </div>
-    </div>
+    {%- endif -%}
 
 
 
-  </body>
-</html>
+
+
+
+    <main class="c-Main" id="c-Main">
+
+        {{- content -}}
+
+    </main>
+
+
+
+
+
+
+    {%- unless layout.layout_footer == false or page.layout_footer == false -%}
+
+        {% include 5-components/footer/footer.html %}
+
+    {%- endunless -%}
+
+
+
+
+
+
+    {%- include 5-components/dialog/dialog.html -%}
+
+</div>

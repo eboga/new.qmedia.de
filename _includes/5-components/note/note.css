@@ -1,0 +1,76 @@
+.c-Note {
+    --background-color: transparent;
+    --block-indent: 15px;
+    --padding: 20px;
+    background-color: var(--background-color);
+    padding: var(--padding);
+}
+
+.c-Note--info {
+    --background-color: var(--black-white-03);
+}
+
+@media only screen and (min-width: 48em) {
+    .c-Note {
+        --padding: 30px;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    .c-Note {
+        --padding: 40px;
+    }
+}
+
+
+
+.c-Note-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.c-Note-block {
+    flex: 1 100%;
+}
+
+.c-Note-block + .c-Note-block {
+    margin-top: var(--block-indent);
+}
+
+
+
+.c-Note-head {
+    align-items: baseline;
+    display: flex;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.c-Note-head > .icon {
+    height: 14px;
+    transform: translateY(1px);
+}
+
+.c-Note-head > .icon--info {
+    fill: var(--info);
+}
+
+.c-Note-head > .icon + .text {
+    margin-left: 12px;
+}
+
+.c-Note-head > .text > * {
+    display: block;
+}
+
+.c-Note-head > .text > * + * {
+    margin-top: calc(var(--type-indent) / 3);
+}
+
+
+
+.c-Note-text {
+    font-size: 17px;
+}

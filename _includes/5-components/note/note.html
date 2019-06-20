@@ -1,0 +1,131 @@
+{%- comment -%}
+* @param {string} include.icon (optional)
+* @param {string} include.head (optional)
+* @param {string} include.text
+* @param {string} include.event
+*     (optional)
+*     (default ['info'])
+*     (options ['error', 'info', 'success', 'warning'])
+{%- endcomment -%}
+
+{%- assign event_error = false -%}
+{%- assign event_info = false -%}
+{%- assign event_success = false -%}
+{%- assign event_warning = false -%}
+
+{%- if include.event == 'error' -%}
+
+    {%- assign event_error = true -%}
+
+
+{%- elsif include.event == 'success' -%}
+
+    {%- assign event_success = true -%}
+
+
+{%- elsif include.event == 'warning' -%}
+
+    {%- assign event_warning = true -%}
+
+
+{%- else -%}
+
+    {%- assign event_info = true -%}
+
+{%- endif -%}
+
+
+
+<div class="c-Note
+
+    {%- if event_error == true -%}
+
+        {{- ' c-Note--error' -}}
+
+
+    {%- elsif event_success == true -%}
+
+        {{- ' c-Note--success' -}}
+
+
+    {%- elsif event_warning == true -%}
+
+        {{- ' c-Note--warning' -}}
+
+
+    {%- else -%}
+
+        {{- ' c-Note--info' -}}
+
+    {%- endif -%}
+
+">
+
+    <div class="c-Note-content">
+
+        <div class="c-Note-block c-Note-block--head">
+
+                <p class="c-Note-head">
+
+                    {%- if include.icon
+                        and include.icon != false
+                        and include.icon != empty
+                    -%}
+
+                        <span class="icon
+
+                            {%- if event_error == true -%}
+
+                                {{- ' icon--error' -}}
+
+
+                            {%- elsif event_success == true -%}
+
+                                {{- ' icon--success' -}}
+
+
+                            {%- elsif event_warning == true -%}
+
+                                {{- ' icon--warning' -}}
+
+
+                            {%- else -%}
+
+                                {{- ' icon--info' -}}
+
+                            {%- endif -%}
+
+                        ">
+
+                            {%- include svg/{{ include.icon }} -%}
+
+                        </span>
+
+                    {%- endif -%}
+
+
+
+                    <span class="text">
+
+                        {{- include.head | markdownify | replace: 'p>', 'span>' -}}
+
+                    </span>
+
+                </p>
+        </div>
+
+
+
+        <div class="c-Note-block c-Note-block--text">
+
+            <div class="c-Note-text">
+
+                {{- include.text | markdownify -}}
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,62 @@
+{%- comment -%}
+* @param {object} include.image (optional)
+* @param {string} include.quote
+* @param {string} include.author (optional)
+{%- endcomment -%}
+
+<div class="c-Testimonial">
+
+    {%- if include.image
+        and include.image != false
+        and include.image != empty
+    -%}
+
+        <div class="c-Testimonial-block">
+
+            <div class="c-Testimonial-image">
+
+                <span class="icon
+
+                    {%- if include.image.modificator
+                        and include.image.modificator != false
+                        and include.image.modificator != empty
+                    -%}
+                        {{- ' icon--' | append: include.image.modificator -}}
+                    {%- endif -%}
+
+                ">
+
+                    {%- include svg/{{ include.image.src }} -%}
+
+                </span>
+
+            </div>
+
+        </div>
+
+    {%- endif -%}
+
+
+
+    <div class="c-Testimonial-block">
+
+        <blockquote class="c-Testimonial-quote">
+
+            {{- include.quote | prepend: '“' | append: '”' -}}
+
+
+
+            {%- if include.author
+                and include.author != false
+                and include.author != empty
+            -%}
+
+                <footer class="c-Testimonial-author">{{- include.author -}}</footer>
+
+            {%- endif -%}
+
+        </blockquote>
+
+    </div>
+
+</div>

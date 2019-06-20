@@ -1,0 +1,107 @@
+<div class="c-Contact">
+
+    <div class="c-Contact-content">
+
+        <div class="c-Contact-block qm-sm-12-12 qm-md-6-12">
+
+            <div class="c-ContactBlock">
+
+                <div class="c-ContactBlock-block c-ContactBlock-block--subject">
+
+                    <h4 class="c-Contact-heading c-HeadingSubject">Anfrage absenden</h4>
+
+                </div>
+
+
+
+                <div class="c-ContactBlock-block">
+
+                    <div class="c-Contact-text">
+
+                        {%- capture text -%}
+                            Sie möchten Veränderung schaffen oder sich gleich komplett neu positionieren?
+                            Erzählen Sie uns doch etwas mehr von Ihrem Vorhaben.
+                            Wir helfen Ihnen gerne dabei und freuen uns mehr über Ihr Projekt zu erfahren.
+                        {%- endcapture -%}
+
+                        {{- text | markdownify -}}
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="c-ContactBlock-block">
+
+                    <a class="c-Contact-link c-Link c-Link--primary" href="/kontakt/">Zum Kontaktformular →</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="c-Contact-block qm-sm-12-12 qm-md-6-12">
+
+            <div class="c-ContactBlock">
+
+                <div class="c-ContactBlock-block c-ContactBlock-block--subject">
+
+                    <h4 class="c-Contact-heading c-HeadingSubject">Rückruf veranlassen</h4>
+
+                </div>
+
+
+
+                <div class="c-ContactBlock-block">
+
+                    <div class="c-ContactForm">
+
+                        <form class="c-ContactForm-form" id="c-ContactForm-form--tel" action-xhr="https://getsimpleform.com/messages?form_api_token=e8a391ec00576b0e573d0cafc881bbf0" method="POST" on="submit-success:c-ContactForm-form--tel.clear">
+
+                            <div class="c-ContactForm-block">
+
+                                <input class="c-ContactForm-input" type="text" name="name" placeholder="Name *" required>
+
+                            </div>
+
+
+
+                            <div class="c-ContactForm-block">
+
+                                <input class="c-ContactForm-input" type="tel" name="tel" placeholder="Telefonnummer *" required>
+
+                            </div>
+
+
+
+                            <div class="c-ContactForm-block">
+
+                                <input class="c-ContactForm-input" type="url" name="url" placeholder="Website *" required>
+
+                            </div>
+
+
+
+                            <div class="c-ContactForm-block c-ContactForm-block--lg">
+
+                                <button class="c-ContactForm-btn c-Btn c-Btn--primary c-Btn--md" type="submit"><span class="text">Senden</span></button>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

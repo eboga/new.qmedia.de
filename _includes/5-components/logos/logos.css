@@ -1,0 +1,54 @@
+.c-Logos-list {
+    --li-gutter: 23.5px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: calc(var(--li-gutter) / -2);
+}
+
+@media only screen and (min-width: 48em) {
+    .c-Logos-list {
+        --li-gutter: 26.75px;
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    .c-Logos-list {
+        --li-gutter: 30px;
+    }
+}
+
+
+
+.c-Logos-li {
+    display: flex;
+    padding: calc(var(--li-gutter) / 2);
+}
+
+.c-Logos-li--center {
+    justify-content: center;
+}
+
+
+
+.c-Logos-image {
+    --height: 24px;
+    fill: var(--ironside-grey);
+    height: var(--height);
+}
+
+@media only screen and (min-width: 48em) {
+    .c-Logos-image {
+        --height: 30px;
+    }
+}
+@media only screen and (min-width: 64em) {
+    .c-Logos-image {
+        --height: 36px;
+    }
+}
+
+.c-Logos-image--sm {
+    height: calc(var(--height) * 0.583333);
+}

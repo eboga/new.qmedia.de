@@ -1,0 +1,41 @@
+address,
+blockquote,
+dl,
+fieldset,
+figure,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+ol,
+p,
+pre,
+table,
+ul {
+    margin-top: var(--type-indent);
+}
+
+address:not(.h-StopMarginSharing):first-child,
+blockquote:not(.h-StopMarginSharing):first-child,
+dl:not(.h-StopMarginSharing):first-child,
+fieldset:not(.h-StopMarginSharing):first-child,
+figure:not(.h-StopMarginSharing):first-child,
+form:not(.h-StopMarginSharing):first-child,
+h1:not(.h-StopMarginSharing):first-child,
+h2:not(.h-StopMarginSharing):first-child,
+h3:not(.h-StopMarginSharing):first-child,
+h4:not(.h-StopMarginSharing):first-child,
+h5:not(.h-StopMarginSharing):first-child,
+h6:not(.h-StopMarginSharing):first-child,
+hr:not(.h-StopMarginSharing):first-child,
+ol:not(.h-StopMarginSharing):first-child,
+p:not(.h-StopMarginSharing):first-child,
+pre:not(.h-StopMarginSharing):first-child,
+table:not(.h-StopMarginSharing):first-child,
+ul:not(.h-StopMarginSharing):first-child {
+    margin-top: 0;
+}

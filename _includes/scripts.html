@@ -1,0 +1,15 @@
+{%- if page.amp_enable == false -%}
+    <script>
+        var headerToggleBtnOpen = document.querySelector("#c-HeaderToggle-btn");
+        var headerToggleBtnClose = document.querySelector("#c-HeaderSidebarToggle-btn");
+        var headerSidebar = document.querySelector("#c-HeaderSidebar");
+
+        headerToggleBtnOpen.addEventListener("click", function() {
+            headerSidebar.classList.add("is-active")
+        }, false);
+
+        headerToggleBtnClose.addEventListener("click", function() {
+            headerSidebar.classList.remove("is-active")
+        }, false);
+    </script>
+{%- endif -%}

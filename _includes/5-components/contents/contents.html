@@ -1,0 +1,29 @@
+{%- comment -%}
+* @param {string} content - page.content
+{%- endcomment -%}
+
+<div class="c-Contents">
+
+    <div class="c-Contents-block">
+
+        <div class="c-Contents-title c-HeadingSubject">Inhalt</div>
+
+    </div>
+
+
+
+    <div class="c-Contents-block">
+
+        {%- include 5-components/contents/vendor.html
+            html=content
+            sanitize=true
+            class='c-Contents-list'
+            item_class='c-Contents-item'
+            anchor_class='c-Contents-link'
+        -%}
+
+        {%- assign contents = true -%}
+
+    </div>
+
+</div>

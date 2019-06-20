@@ -1,19 +1,35 @@
 ---
-layout: posts
-title:  "Emojis: Interaktionen bei Instagram steigern"
-date:   2017-01-13 10:20:05
-categories: Social, Media
+amp_enable: true
+layout: "article"
+permalink: "emojis-interaktionen-bei-instagram-steigern"
+slug: "emojis-interaktionen-bei-instagram-steigern"
+categories:
+  - Social
+  - Media
 tags:
   - social media
   - instagram
-author: Erkan Boga
-images: interaktionen-instagram-steigern-1000x450.jpg
-image-copyright: RossHelen / iStock
-excerpt:
+
+
+
+short_title: "Interaktionen bei Instagram steigern"
+
+user_title: "Emojis: Interaktionen bei Instagram steigern"
+user_excerpt:
   Wer Instagram nutzt, weiß, wie schwer ist, sich eine Follower-Base aufzubauen und auch, mit dieser in den Dialog zu treten. Die Interaktionen sind anfangs zum Teil gering und nicht immer findet man sofort heraus, wie man diese effektiv steigern kann. Glaubt man einer aktuellen Studie, lassen sich die Interaktionen im Foto-Netzwerk Instagram mit Emojis deutlich steigern. Die Emojis haben einen großen Einfluss auf das Verhalten der Nutzer – und das kann man sich einfach zunutze machen.
+meta_title:  "Emojis: Interaktionen bei Instagram steigern"
+meta_description: "<empty>"
+
+article_hero:
+  src: "/assets/images/interaktionen-instagram-steigern.jpg"
+  width: 1000
+  height: 450
+  alt: ""
+  copyright: "© RossHelen / iStock"
+article_author: "Erkan Boga"
+
+date: "2017-01-13 10:20:05"
 ---
-
-
 
 Beinahe täglich hat man mit Emojis zu tun und sieht sie bei Facebook, bei Twitter und eben auch bei Instagram. Ob Sonne, Wahl oder ein kleines Häufchen – die Vielfalt ist auf jeden Fall da. 2015 würdigte man bei den Oxford Dictionaries bereits die Wichtigkeit der kleinen Symbole und Grafiken.
 

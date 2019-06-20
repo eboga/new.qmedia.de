@@ -1,0 +1,18 @@
+{%- comment -%}
+* @param {string} include.slug
+{%- endcomment -%}
+
+
+{%- assign _page = site.pages | where: 'slug', include.slug | first -%}
+
+
+
+<a class="c-FooterLinksGroup-link" href="
+
+    {{- include.url | default: _page.permalink -}}
+
+">
+
+    {{- include.text | default: _page.title_in_footer | default: _page.short_title | default: _page.user_title -}}
+
+</a>

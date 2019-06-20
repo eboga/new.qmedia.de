@@ -1,19 +1,32 @@
-# Site settings
-title: qmedia.de
-email: info@qmedia.de
-description: qmedia.de
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://www.qmedia.de"
-twitter_username: jekyllrb
-github_username:  eboga
-offline: false
+# jekyll settings
+include:
+  - "_pages"
 
-image-folder: /assets/images/
+exclude:
+  - "*.sh"
+  - .jekyll-cache
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "gulpfile.js"
+  - "node_modules"
+  - "notes.txt"
+  - "package-lock.json"
+  - "package.json"
+  - "README.md"
 
-# Build settings
 markdown: kramdown
 
+kramdown:
+  auto_ids: true
+  parse_block_html: true
 
-collections:
-  content:
-    output: true
+
+# site settings
+sitename: "new.qmedia.de"
+# url: "https://www.new.qmedia.de"
+url: "https://test-kirbelots.bitbucket.io"
+baseurl: ""
+lang: "de_DE"
+og_image: "https://test-kirbelots.bitbucket.io/assets/images/qmedia-logo.png"
+og_image_width: 600
+og_image_height: 600

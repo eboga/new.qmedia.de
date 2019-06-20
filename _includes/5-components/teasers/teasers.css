@@ -1,0 +1,19 @@
+.c-Teasers-content {
+    --item-gutter: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: calc(var(--item-gutter) / -2);
+}
+
+@media only screen and (min-width: 64em) {
+    .c-Teasers-content {
+        --item-gutter: 40px;
+    }
+}
+
+
+
+.c-Teasers-item {
+    display: flex;
+    margin: calc(var(--item-gutter) / 2);
+}

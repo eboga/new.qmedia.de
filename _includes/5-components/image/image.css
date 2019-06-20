@@ -1,0 +1,15 @@
+.c-Image {
+    --gutter: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: calc(var(--gutter) / -2);
+}
+
+
+
+.c-Image-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin: calc(var(--gutter) / 2);
+}

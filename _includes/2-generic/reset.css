@@ -1,0 +1,65 @@
+address,
+body,
+button,
+caption,
+dd,
+dl,
+fieldset,
+figure,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+label,
+legend,
+ol,
+p,
+pre,
+table,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Remove trailing margins from nested lists */
+li > ol,
+li > ul {
+    margin-bottom: 0;
+}
+
+
+
+/* Remove default table spacing */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+textarea {
+    border: 0;
+}
+
+
+
+/* 1. Reset Chrome and Firefox behaviour which sets a "min-width: min-content;" on fieldsets */
+fieldset {
+    min-width: 0; /* [ 1 ] */
+    border: 0;
+}
+
+
+
+select {
+    background-color: transparent;
+}

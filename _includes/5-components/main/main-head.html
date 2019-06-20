@@ -1,0 +1,89 @@
+{%- comment -%}
+* @param {[boolean|string]} include.subject (optional)
+*
+* @param {[boolean|string]} include.heading (optional)
+*
+* @param {[boolean|string]} include.text (optional)
+{%- endcomment -%}
+
+<div class="c-MainHead">
+
+    {%- if include.subject
+        and include.subject != false
+        and include.subject != empty
+    -%}
+
+        <div class="c-MainHead-block c-MainHead-block--subject">
+
+            <span class="c-MainHead-subject c-HeadingSubject">
+
+                {{- include.subject -}}
+
+            </span>
+
+        </div>
+
+    {%- endif -%}
+
+
+
+    {%- if include.heading
+        and include.heading != false
+        and include.heading != empty
+    -%}
+
+        <div class="c-MainHead-block c-MainHead-block--heading">
+
+            <h1 class="c-MainHead-heading">
+
+                {{- include.heading -}}
+
+            </h1>
+
+        </div>
+
+    {%- endif -%}
+
+
+
+    {%- if include.text
+        and include.text != false
+        and include.text != empty
+    -%}
+
+        <div class="c-MainHead-block c-MainHead-block--text">
+
+            <div class="c-MainHead-text">
+
+                {{- include.text | markdownify -}}
+
+            </div>
+
+        </div>
+
+    {%- endif -%}
+
+
+
+    {%- if include.time
+        and include.time != false
+        and include.time != empty
+    -%}
+
+        <div class="c-MainHead-block c-MainHead-block--time">
+
+            {%- assign time = include.time | default: page.date -%}
+
+            {%- include time.html time=time -%}
+
+            <time class="c-MainHead-time" datetime="{{- datetime -}}">
+
+                {{- time -}}
+
+            </time>
+
+        </div>
+
+    {%- endif -%}
+
+</div>

@@ -1,0 +1,161 @@
+.c-Footer {
+    overflow: hidden;
+    padding-bottom: var(--footer-indent-bottom);
+    padding-top: var(--footer-indent-top);
+}
+
+
+
+.c-Footer-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.c-Footer-block {
+    flex: 1 100%;
+}
+
+.c-Footer-block + .c-Footer-block {
+    border-top: 1px solid var(--black-white);
+    margin-top: 35px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+.c-FooterLinks {
+    --block-gutter-X: 20px;
+    --block-gutter-Y: 25px;
+    margin: calc(var(--block-gutter-Y) / -2) calc(var(--block-gutter-X) / -2);
+}
+
+
+
+.c-FooterLinks-block {
+    padding: calc(var(--block-gutter-Y) / 2) calc(var(--block-gutter-X) / 2);
+}
+
+
+
+
+
+
+.c-FooterLinksGroup {
+    --block-indent: 6px;
+}
+
+@media only screen and (min-width: 48em) {
+    .c-FooterLinksGroup {
+        --block-indent: 17px;
+    }
+}
+
+.c-FooterLinksGroup + .c-FooterLinksGroup {
+    margin-top: var(--block-gutter-Y);
+}
+
+.c-FooterLinksGroup + .c-FooterLinksGroup--noIndent {
+    margin-top: 0;
+}
+
+
+
+.c-FooterLinksGroup-block + .c-FooterLinksGroup-block {
+    margin-top: var(--block-indent);
+}
+
+
+
+.c-FooterLinksGroup-heading {
+    font-size: 13px;
+}
+
+
+
+.c-FooterLinksGroup-list {
+    margin-top: 0;
+}
+
+
+
+.c-FooterLinksGroup-link {
+    color: inherit;
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 48em) {
+    .c-FooterLinksGroup-link {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+.c-FooterBottomBar {
+    --block-gutter: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: calc(var(--block-gutter) / -2);
+}
+
+
+
+
+.c-FooterBottomBar-block {
+    flex: 1 0;
+    margin: calc(var(--block-gutter) / 2);
+}
+
+
+
+.c-FooterBottomBar-copyright {
+    color: var(--ironside-grey);
+    font-size: 11px;
+    line-height: 1;
+}
+
+@media only screen and (min-width: 48em) {
+    .c-FooterBottomBar-copyright {
+        font-size: 13px;
+    }
+}
+
+
+
+.c-FooterBottomBar-list {
+    --li-gutter: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: calc(var(--li-gutter) / -2)
+}
+
+
+
+.c-FooterBottomBar-li {
+    flex: 0 1 auto;
+    margin: calc(var(--li-gutter) / 2)
+}
+
+
+
+.c-FooterBottomBar-link {
+    color: inherit;
+    display: flex;
+    font-size: 11px;
+    justify-content: flex-end;
+}
+
+@media only screen and (min-width: 48em) {
+    .c-FooterBottomBar-link {
+        font-size: 13px;
+    }
+}

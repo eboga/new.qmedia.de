@@ -1,0 +1,43 @@
+{%- comment -%}
+* @param {string} url (optional)
+*
+* @param {string} slug (optional)
+*
+* @return {nil|string} href
+*
+* @return {boolean} deploy (optional) (default [false])
+*
+* @example
+*
+*     {%- include href.html url=foo.bar.url slug=foo.bar.slug -%}
+*
+{%- endcomment -%}
+
+{%- assign href = nil -%}
+
+{%- assign _page = nil -%}
+
+{%- assign _href = nil -%}
+
+
+
+{%- if include.url
+    and include.url != false
+    and include.url != empty
+-%}
+
+    {%- assign href = include.url -%}
+
+
+{%- elsif include.slug
+    and include.slug != false
+    and include.slug != empty
+-%}
+
+    {%- assign _page = site.pages | where: 'slug', include.slug | first -%}
+
+    {%- assign href = _page.url -%}
+
+{%- endif -%}
+
+{{- href | default: '#' -}}

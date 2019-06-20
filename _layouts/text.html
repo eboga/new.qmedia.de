@@ -1,0 +1,35 @@
+---
+layout: "default"
+---
+
+<div class="c-MainBlock">
+
+    <div class="c-Main-container wrapper">
+
+        <div class="c-Main-head">
+
+            {%- include 5-components/main/main-head.html
+                heading=page.user_title
+                text=page.user_excerpt
+            -%}
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="c-MainBlock c-MainBlock--sm">
+
+    <div class="c-Main-container wrapper">
+
+        {%- include 5-components/article/article.html
+            article=content
+            lg=true
+        -%}
+
+    </div>
+
+</div>

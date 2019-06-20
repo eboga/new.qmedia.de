@@ -1,0 +1,97 @@
+{%- assign _page = site.pages | where: 'slug', include.link.slug | first -%}
+
+
+
+
+
+
+<div class="c-Service">
+
+    <div class="c-Service-content">
+
+        <div class="c-Service-block c-Service-block--image show-for-large">
+
+            <div class="c-Service-image">
+
+                {%- include img.html
+                    class='c-Service-img'
+                    height=include.image.height
+                    src=include.image.src
+                    width=include.image.width
+                -%}
+
+            </div>
+
+        </div>
+
+
+
+        <div class="c-Service-block c-Service-block--paper">
+
+            <div class="c-ServicePaper">
+
+                <div class="c-ServicePaper-block">
+
+                    <h4 class="c-ServicePaper-subject c-HeadingSubject">{{- include.subject -}}</h4>
+
+                </div>
+
+
+
+                <div class="c-ServicePaper-block">
+
+                    <h4 class="c-ServicePaper-heading">
+
+                        <a class="c-ServicePaper-link c-Link c-Link--primary" href="
+
+                            {{- include.link.url | default: _page.url -}}
+
+                        ">
+
+                            {%- assign heading = include.link.text | default: _page.short_title -%}
+
+                            {%- unless heading contains '→' -%}
+
+                                {%- assign heading = heading | append: '&nbsp;→' -%}
+
+                            {%- endunless -%}
+
+
+
+                            {{- heading -}}
+
+                        </a>
+
+                    </h4>
+
+                </div>
+
+
+
+                <div class="c-ServicePaper-block c-ServicePaper-block--sm">
+
+                    <div class="c-ServicePaper-text">
+
+                        {{- include.text | default: _page.user_excerpt | default: _page.content | truncate: 255 | remove: '#' | markdownify -}}
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="c-ServicePaper-block">
+
+                    {%- include 5-components/related-links/related-links.html
+                        links=include.related_links
+                    -%}
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

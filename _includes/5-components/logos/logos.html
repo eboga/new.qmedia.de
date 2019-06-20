@@ -1,0 +1,93 @@
+{%- comment -%}
+* @param {array} logos
+* @param {string} logos[i].svg
+* @param {boolean} logos[i].sm
+{%- endcomment -%}
+
+<div class="c-Logos">
+
+    <div class="c-Logos-list h-StopMarginSharing">
+
+        {%- for i in include.logos -%}
+
+            {%- if forloop.first -%}
+
+                {%- if i.sm_spread == true -%}
+
+                    {%- assign sm_spread = true -%}
+
+                {%- endif -%}
+
+
+
+                {%- if i.class_spread == true
+                    and i.class
+                    and i.class != empty
+                -%}
+
+                    {%- assign class_spread = true -%}
+
+                    {%- assign class_value = i.class -%}
+
+                {%- endif -%}
+
+
+
+                {%- if i.center_spread == true -%}
+
+                    {%- assign center_spread = true -%}
+
+                {%- endif -%}
+
+            {%- endif -%}
+
+
+
+            <div class="c-Logos-li
+
+                {%- if i.center == true
+                    or center_spread == true
+                -%}
+
+                    {{- ' c-Logos-li--center' -}}
+
+                {%- endif -%}
+
+                {%- if class_spread == true
+                    or i.class
+                    and i.class != empty
+                -%}
+
+                    {{- i.class | default: class_value | prepend: ' ' -}}
+
+                {%- endif -%}
+
+            ">
+
+                <div class="c-Logos-image
+
+                    {%- if i.sm == true
+                        or sm_spread == true
+                    -%}
+
+                        {{- ' c-Logos-image--sm' -}}
+
+                    {%- endif -%}
+
+                ">
+
+                    <span class="icon">
+
+                        {%- include svg/{{ i.svg }} -%}
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        {%- endfor -%}
+
+    </div>
+
+</div>

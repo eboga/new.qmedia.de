@@ -1,0 +1,25 @@
+<div class="c-Teasers">
+
+    <div class="c-Teasers-content">
+
+        {%- for i in include.teasers -%}
+
+            <div class="c-Teasers-item">
+
+                {%- include 5-components/teaser/teaser.html
+                    image=i.image
+                    link=i.link
+                    text=i.text
+                    time=i.time
+                    lg=i.lg
+                    row=i.row
+                    wide=i.wide
+                -%}
+
+            </div>
+
+        {%- endfor -%}
+
+    </div>
+
+</div>

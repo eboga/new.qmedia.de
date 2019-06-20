@@ -1,0 +1,34 @@
+<amp-user-notification class="c-Dialog" id="c-Dialog" layout="nodisplay">
+
+    <div class="c-Dialog-container wrapper wrapper--fluid">
+
+        <div class="c-Dialog-content">
+
+            <div class="c-Dialog-block">
+
+                <div class="c-Dialog-text">
+
+{%- capture text -%}
+Wir verwenden Cookies, um Ihnen ein bestmögliches Funktionieren unserer Webseite zu gewährleisten.&nbsp;
+[Mehr Informationen →](https://www.google.com/){:.h-Fw600}
+{%- endcapture -%}
+
+                    {{- include.text | default: text | markdownify -}}
+
+                </div>
+
+            </div>
+
+
+
+            <div class="c-Dialog-block">
+
+                <button class="c-Dialog-btn c-Btn c-Btn--primary c-Btn--sm" on="tap:c-Dialog.dismiss">Verstanden</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</amp-user-notification>

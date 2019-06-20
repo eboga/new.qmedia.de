@@ -1,8 +1,0 @@
-<div class="share-links hide-for-print">
-    <a class="share-link share-link-facebook" target="_blank" rel="nofollow noopener" href="https://www.facebook.com/sharer/sharer.php?u=<?= get_the_permalink(); ?>"><svg><use xlink:href="#facebook" /></svg></a>
-    <a class="share-link share-link-twitter" target="_blank" rel="nofollow noopener" href="https://twitter.com/intent/tweet?url=<?= get_the_permalink(); ?>&amp;text=<?= get_the_title(); ?>"><svg><use xlink:href="#twitter" /></svg></a>
-    <a class="share-link share-link-xing" target="_blank" rel="nofollow noopener" href="https://www.xing.com/spi/shares/new?url=<?= get_the_permalink(); ?>"><svg><use xlink:href="#xing" /></svg></a>
-    <a class="share-link share-link-linkedin" target="_blank" rel="nofollow noopener" href="https://www.linkedin.com/shareArticle?mini=true&url=<?= get_the_permalink(); ?>&title=<?= get_the_title(); ?>&summary=<?= wp_strip_all_tags(get_the_excerpt()); ?>&source=<?= get_bloginfo( 'name' ); ?>"><svg><use xlink:href="#linkedin" /></svg></a>
-    <a class="share-link share-link-mail" href="mailto:?subject=<?= get_the_title(); ?>&body=<?= get_the_permalink(); ?>"><svg><use xlink:href="#mail" /></svg></a>
-    <button class="share-link share-link-print" on="tap:AMP.print"><svg><use xlink:href="#print" /></svg></button>
-</div>
