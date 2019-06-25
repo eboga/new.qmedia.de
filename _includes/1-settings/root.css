@@ -89,6 +89,13 @@
 
 @media only screen and (min-width: 64em) {
     :root {
+        --header-background-color: transparent;
+
+
+
+
+
+
         --grid-gutter: 60px;
 
 
