@@ -250,7 +250,7 @@
  * c-Article-float
  */
 .c-Article-float {
-    --indent: 30px;
+    --indent: 50px;
     --max-width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -325,10 +325,10 @@
     font-weight: 600;
 }
 
-.c-Article-article > :not(.h-ArticleExclude) a:after,
-.c-Article-article > a:not(.h-ArticleExclude):after,
-.h-ArticleInclude > :not(.h-ArticleExclude) a:after,
-.h-ArticleInclude > a:not(.h-ArticleExclude):after {
+.c-Article-article > :not(.h-ArticleExclude) a:not(.h-NoArrow):after,
+.c-Article-article > a:not(.h-NoArrow):not(.h-ArticleExclude):after,
+.h-ArticleInclude > :not(.h-ArticleExclude) a:not(.h-NoArrow):after,
+.h-ArticleInclude > a:not(.h-NoArrow):not(.h-ArticleExclude):after {
     content: " ↗";
 }
 

@@ -1,0 +1,54 @@
+.o-Tabs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+.o-TabsHead,
+.o-TabsBody {
+    display: flex;
+    flex: 1 1 100%;
+}
+
+.o-TabsHead-item.o-TabsHead-item[selected],
+.o-TabsBody-item.o-TabsBody-item[selected] {
+    outline: none;
+}
+
+
+
+
+
+
+.o-TabsHead {
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 48em) {
+    .o-TabsHead {}
+}
+
+
+
+.o-TabsHead-item {
+    flex: 1 100%;
+}
+
+@media only screen and (min-width: 48em) {
+    .o-TabsHead-item {
+        flex: 0;
+    }
+}
+
+
+
+
+
+
+.o-TabsBody-item:not([selected]) {
+    display: none;
+}

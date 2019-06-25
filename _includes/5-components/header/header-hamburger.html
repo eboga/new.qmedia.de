@@ -8,8 +8,13 @@
 
         <button class="c-HeaderHamburger-btn" id="c-HeaderHamburger-btn" type="button"
 
-            {%- if include.amp_enable == true -%}
-                {{- ' ' -}} on="tap:c-HeaderHamburger-btn.toggleClass(class='is-active'),c-HeaderNav.toggleClass(class='is-active'),c-HeaderNav.toggleClass(class='is-nav-open'),c-Header.toggleClass(class='is-nav-open')"
+            {%- if page.amp_enable == true -%}
+                {{- ' on' -}}="tap:c-HeaderHamburger-btn.toggleClass(class='is-active')
+                    {{- '' -}},c-HeaderNav.toggleClass(class='is-active')
+                    {{- '' -}},c-HeaderNav.toggleClass(class='is-nav-open')
+                    {{- '' -}},c-Header.toggleClass(class='is-nav-open')
+                    {{- '' -}},PageWrapper.toggleClass(class='is-nav-open')
+                "
             {%- endif -%}
 
         >

@@ -1,21 +1,30 @@
 .c-Logos-list {
-    --li-gutter: 23.5px;
+    --li-gutter-X: 23.5px;
+    --li-gutter-Y: 23.5px;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: calc(var(--li-gutter) / -2);
+    margin: calc(var(--li-gutter-Y) / -2) calc(var(--li-gutter-X) / -2);
 }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 30em) {
     .c-Logos-list {
-        --li-gutter: 26.75px;
+        --li-gutter-Y: 67px;
     }
 }
 
 @media only screen and (min-width: 48em) {
     .c-Logos-list {
-        --li-gutter: 30px;
+        --li-gutter-X: 26.75px;
+        --li-gutter-Y: 82px;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    .c-Logos-list {
+        --li-gutter-X: 30px;
+        --li-gutter-Y: 92px;
     }
 }
 
@@ -23,7 +32,7 @@
 
 .c-Logos-li {
     display: flex;
-    padding: calc(var(--li-gutter) / 2);
+    padding: calc(var(--li-gutter-Y) / 2) calc(var(--li-gutter-X) / 2);
 }
 
 .c-Logos-li--center {

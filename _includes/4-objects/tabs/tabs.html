@@ -1,0 +1,171 @@
+{%- comment -%}
+* @param {array} include.tabs
+* @param {string} include.tabs_class (optional) (default [nil])
+* @param {string} include.table_class (optional) (default [nil])
+{%- endcomment -%}
+
+{%- assign space = '' -%}
+
+{%- if tabs_class
+    and tabs_class != empty
+-%}
+
+    {%- assign space = ' ' -%}
+
+{%- endif -%}
+
+
+
+
+
+
+{%- assign first = 1 -%}
+
+{%- for tab in include.tabs -%}
+    {%- if tab.first == true -%}
+        {%- assign _first = forloop.index -%}
+
+        {%- break -%}
+    {%- endif -%}
+{%- endfor -%}
+
+{%- unless _first == nil -%}
+    {%- assign first = _first -%}
+{%- endunless -%}
+
+
+
+
+
+
+<div class="
+
+    {%- if include.tabs_class
+        and include.tabs_class != empty
+    -%}
+
+        {{- include.tabs_class | append: ' ' -}}
+
+    {%- endif -%}
+
+    {{- 'o-Tabs' -}}
+
+">
+
+    <amp-selector class="
+
+        {%- if include.tabs_class
+            and include.tabs_class != empty
+        -%}
+
+            {{- include.tabs_class | append: 'Head ' -}}
+
+        {%- endif -%}
+
+        {{- 'o-TabsHead' -}}
+
+    " role="tablist" on="select:o-TabsBody.toggle(index=event.targetOption, value=true)">
+
+        {%- for tab in include.tabs -%}
+
+            <div class="
+
+                {%- if include.tabs_class
+                    and include.tabs_class != empty
+                -%}
+
+                    {{- include.tabs_class | append: 'Head-item ' -}}
+
+                {%- endif -%}
+
+                {{- 'o-TabsHead-item' -}}
+
+            "
+
+                {{- ' id' -}}="o-TabsHead-item-{{- forloop.index -}}"
+
+                {{- ' role' -}}="tab"
+
+                {{- ' aria-controls' -}}="o-TabsBody-item-{{- forloop.index -}}"
+
+                {{- ' option' -}}="{{- forloop.index0 -}}"
+
+                {%- if forloop.index == first -%}
+
+                    {{- ' selected' -}}
+
+                {%- endif -%}
+
+            >
+
+                {{- tab.heading -}}
+
+            </div>
+
+        {%- endfor -%}
+
+    </amp-selector>
+
+
+
+
+
+
+    <amp-selector class="
+
+        {%- if include.tabs_class
+            and include.tabs_class != empty
+        -%}
+
+            {{- include.tabs_class | append: 'Body ' -}}
+
+        {%- endif -%}
+
+        {{- 'o-TabsBody' -}}
+
+    " id="o-TabsBody">
+
+        {%- for tab in include.tabs -%}
+
+            <div class="
+
+                {%- if include.tabs_class
+                    and include.tabs_class != empty
+                -%}
+
+                    {{- include.tabs_class | append: 'Body-item ' -}}
+
+                {%- endif -%}
+
+                {{- 'o-TabsBody-item' -}}
+
+            "
+
+                {{- ' id' -}}="o-TabsBody-item-{{- forloop.index -}}"
+
+                {{- ' role' -}}="tabpanel"
+
+                {{- ' aria-labelledby' -}}="o-TabsHead-item-{{- forloop.index -}}"
+
+                {{- ' ' -}} option
+
+                {%- if forloop.index == first -%}
+
+                    {{- ' selected' -}}
+
+                {%- endif -%}
+
+            >
+
+                {%- include 4-objects/table/table.html
+                    tables=tab.tables
+                    table_class=include.table_class
+                -%}
+
+            </div>
+
+        {%- endfor -%}
+
+    </amp-selector>
+
+</div>

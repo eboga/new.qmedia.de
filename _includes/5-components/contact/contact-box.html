@@ -2,7 +2,7 @@
 
     <div class="c-Contact-content">
 
-        <div class="c-Contact-block qm-sm-12-12 qm-md-6-12">
+        <div class="c-Contact-block qm-sm-12-12 qm-lg-6-12">
 
             <div class="c-ContactBlock">
 
@@ -44,7 +44,11 @@
 
 
 
-        <div class="c-Contact-block qm-sm-12-12 qm-md-6-12">
+        <div class="qm-xl-1-12 show-for-xlarge"></div>
+
+
+
+        <div class="c-Contact-block qm-sm-12-12 qm-lg-6-12 qm-xl-5-12">
 
             <div class="c-ContactBlock">
 
@@ -60,7 +64,13 @@
 
                     <div class="c-ContactForm">
 
-                        <form class="c-ContactForm-form" id="c-ContactForm-form--tel" action-xhr="https://getsimpleform.com/messages?form_api_token=e8a391ec00576b0e573d0cafc881bbf0" method="POST" on="submit-success:c-ContactForm-form--tel.clear">
+                        <form class="c-ContactForm-form"
+                            {{- ' id' -}}="c-ContactForm-form--tel"
+                            {{- ' action-xhr' -}}="https://getsimpleform.com/messages?form_api_token=e8a391ec00576b0e573d0cafc881bbf0"
+                            {{- ' method' -}}="POST"
+                            {{- ' on' -}}="submit-success:c-ContactForm-form--tel.clear,c-ContactForm-success.toggleClass(class='is-visible', force=true)"
+                            {{- '' -}}
+                        >
 
                             <div class="c-ContactForm-block">
 
@@ -80,15 +90,27 @@
 
                             <div class="c-ContactForm-block">
 
-                                <input class="c-ContactForm-input" type="url" name="url" placeholder="Website *" required>
+                                <input class="c-ContactForm-input" type="text" name="url" placeholder="Website *" required>
 
                             </div>
 
 
 
-                            <div class="c-ContactForm-block c-ContactForm-block--lg">
+                            <div class="c-ContactForm-block c-ContactForm-block--parent c-ContactForm-block--lg">
 
-                                <button class="c-ContactForm-btn c-Btn c-Btn--primary c-Btn--md" type="submit"><span class="text">Senden</span></button>
+                                <div class="c-ContactForm-block c-ContactForm-block--auto">
+
+                                    <button class="c-ContactForm-btn c-Btn c-Btn--primary c-Btn--md" type="submit"><span class="text">Senden</span></button>
+
+                                </div>
+
+
+
+                                <div class="c-ContactForm-block c-ContactForm-block--auto">
+
+                                    <span class="c-ContactForm-success" id="c-ContactForm-success">Nachricht gesendet</span>
+
+                                </div>
 
                             </div>
 

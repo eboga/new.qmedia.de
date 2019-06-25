@@ -12,3 +12,8 @@ body {
     overflow-x: hidden;
     position: relative;
 }
+
+.PageWrapper.is-nav-open {
+    overflow: hidden;
+    position: fixed;
+}

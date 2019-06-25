@@ -20,9 +20,8 @@ teasers:
       width: 1125
       height: 750
       alt: ""
-    link:
-      url: "https://www.depotkonto.de/"
-      text: "Depotkonto.de"
+    url: "https://www.depotkonto.de/"
+    title: "Depotkonto.de"
     text: >-
       Mit nur wenigen Klicks erhalten Sie Anbietervergleiche und Produktdetails.
       Unsere Live-Rechner berechnen noch während Sie tippen.
@@ -34,9 +33,8 @@ teasers:
       width: 1125
       height: 750
       alt: ""
-    link:
-      url: "https://www.depotkonto.de/"
-      text: "Depotkonto.de"
+    url: "https://www.depotkonto.de/"
+    title: "Depotkonto.de"
     text: >-
       Mit nur wenigen Klicks erhalten Sie Anbietervergleiche und Produktdetails.
       Unsere Live-Rechner berechnen noch während Sie tippen.
@@ -48,9 +46,8 @@ teasers:
       width: 1125
       height: 750
       alt: ""
-    link:
-      url: "https://www.depotkonto.de/"
-      text: "Depotkonto.de"
+    url: "https://www.depotkonto.de/"
+    title: "Depotkonto.de"
     text: >-
       Mit nur wenigen Klicks erhalten Sie Anbietervergleiche und Produktdetails.
       Unsere Live-Rechner berechnen noch während Sie tippen.
@@ -96,13 +93,9 @@ logos:
 
     <div class="c-Main-container wrapper">
 
-        <div class="c-Main-head">
-
-            {%- include 5-components/teasers/teasers.html
-                teasers=page.teasers
-            -%}
-
-        </div>
+        {%- include 5-components/teasers/teasers.html
+            teasers=page.teasers
+        -%}
 
     </div>
 
@@ -114,13 +107,9 @@ logos:
 
     <div class="c-Main-container wrapper">
 
-        <div class="c-Main-head">
-
-            {%- include 5-components/logos/logos.html
-                logos=page.logos
-            -%}
-
-        </div>
+        {%- include 5-components/logos/logos.html
+            logos=page.logos
+        -%}
 
     </div>
 

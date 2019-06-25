@@ -1,49 +1,44 @@
-{%- assign link_arrow = include.link_arrow | default: include.link.arrow -%}
-{%- assign link_slug = include.link_slug | default: include.link.slug -%}
-{%- assign link_text = include.link_text | default: include.link.text -%}
-{%- assign link_url = include.link_url | default: include.link.url -%}
+{%- comment -%}
+* @param {number} include.image_height (optional) (default [nil])
+* @param {number} include.image_width (optional) (default [nil])
+* @param {string} include.image_alt (optional) (default [nil])
+* @param {string} include.image_src (optional) (default [nil])
+
+* @param {boolean} include.bar (optional) (default [nil])
+* @param {boolean} include.target_blank (optional) (default [true])
+* @param {boolean} include.lg (optional) (default [false])
+* @param {boolean} include.row (optional) (default [false])
+* @param {boolean} include.wide (optional) (default [false])
+* @param {string} include.arrow (optional) (options ['local', 'external']) (default [nil])
+* @param {string} include.title (optional) (default [nil])
+* @param {string} include.slug (optional) (default [nil])
+* @param {string} include.text (optional) (default [nil])
+* @param {string} include.time (optional) (default [nil])
+* @param {string} include.url (optional) (default [nil])
+{%- endcomment -%}
 
 
 
 
 
 
-{%- unless include.link.is_post == true -%}
+{%- assign _page = site.pages | where: 'slug', include.slug | first -%}
 
-    {%- assign _page = site.pages | where: 'slug', link_slug | first -%}
+{%- if _page == nil -%}
 
-{%- endunless -%}
-
-{%- if _page == empty
-    or include.link.is_post == true
--%}
-
-    {%- assign _page = site.posts | where: 'slug', link_slug | first -%}
-
-{%- endif -%}
-
-
-
-
-
-
-{%- assign image_fallback = nil -%}
-
-{%- if include.image.from_page == true
-    and include.image.from_page_key
-    and include.image.from_page_key != empty
--%}
-
-    {%- assign key = include.image.from_page_key -%}
-
-    {%- assign image_fallback = _page["article_hero"] -%}
+    {%- assign _page = site.posts | where: 'slug', include.slug | first -%}
 
 {%- endif -%}
 
-{%- assign image_src = include.image_src | default: include.image.src | default: image_fallback.src -%}
-{%- assign image_width = include.image_width | default: include.image.width | default: image_fallback.width -%}
-{%- assign image_height = include.image_height | default: include.image.height | default: image_fallback.height -%}
-{%- assign image_alt = include.image_alt | default: include.image.alt | default: image_fallback.alt -%}
+
+
+
+
+
+{%- assign image_width = include.image_width | default: _page.teaser.width -%}
+{%- assign image_height = include.image_height | default: _page.teaser.height -%}
+{%- assign image_src = include.image_src | default: _page.teaser.src -%}
+{%- assign image_alt = include.image_alt | default: _page.teaser.alt -%}
 
 
 
@@ -76,153 +71,157 @@
 
 ">
 
-    <div class="c-Teaser-block c-Teaser-block--image">
+    <a class="c-Teaser-forward" href="{{- include.url | default: _page.url -}}"
 
-        <div class="c-Teaser-image">
+        {%- if include.url
+            and include.url != empty
+            and include.target_blank != false
+            or include.target_blank == true
+        -%}
 
-            {%- if include.bar == true
-                or include.wide == true
-                and include.bar != false
-            -%}
+            {{- ' target' -}}="_blank" rel="noreferrer"
 
-                <div class="c-TeaserBar">
+        {%- endif -%}
 
-                    <span class="c-TeaserBar-circle"></span>
+    >
 
-                    <span class="c-TeaserBar-circle"></span>
+        <span class="c-Teaser-content">
 
-                    <span class="c-TeaserBar-circle"></span>
+            <span class="c-Teaser-block c-Teaser-block--image">
 
-                </div>
+                <span class="c-Teaser-image">
 
-            {%- endif -%}
+                    {%- if include.bar == true
+                        or include.wide == true
+                        and include.bar != false
+                    -%}
 
+                        <span class="c-TeaserBar">
 
+                            <span class="c-TeaserBar-circle"></span>
 
-            {%- include img.html
-                class='c-Teaser-img'
-                src=image_src
-                width=image_width
-                height=image_height
-                alt=image_alt
-                layout='intrinsic'
-            -%}
+                            <span class="c-TeaserBar-circle"></span>
 
-        </div>
+                            <span class="c-TeaserBar-circle"></span>
 
-    </div>
+                        </span>
+
+                    {%- endif -%}
 
 
 
-    <div class="c-Teaser-block c-Teaser-block--paper">
+                    {%- include img.html
+                        class='c-Teaser-img'
+                        src=image_src
+                        width=image_width
+                        height=image_height
+                        alt=image_alt
+                        layout='intrinsic'
+                    -%}
 
-        <div class="c-TeaserPaper">
+                </span>
 
-            <div class="c-TeaserPaper-block">
+            </span>
 
-                <h4 class="c-TeaserPaper-heading h-ContentsExclude">
 
-                    <a class="c-TeaserPaper-link" href="
 
-                        {{- link_url | default: _page.url -}}
+            <span class="c-Teaser-block c-Teaser-block--paper">
 
-                    " target="_blank" rel="noreferrer">
+                <span class="c-TeaserPaper">
 
-                        {%- assign text = link_text | default: _page.short_title -%}
+                    <span class="c-TeaserPaper-block">
 
-                        {%- unless text contains '→'
-                            or text contains '↗'
-                        -%}
+                        <span class="c-TeaserPaper-title h-ContentsExclude">
 
-                            {%- if link_arrow == 'external' -%}
+                            {%- assign title = include.title | default: _page.short_title -%}
 
-                                {%- assign text = text | append: '&nbsp;↗' -%}
-
-                            {%- elsif link_arrow == 'local' -%}
-
-                                {%- assign text = text | append: '&nbsp;→' -%}
-
-                            {%- elsif link_url
-                                and link_url != empty
+                            {%- unless title contains '→'
+                                or title contains '↗'
                             -%}
 
-                                {%- assign text = text | append: '&nbsp;↗' -%}
+                                {%- if include.arrow == 'external' -%}
 
-                            {%- else -%}
+                                    {%- assign title = title | append: '&nbsp;↗' -%}
 
-                                {%- assign text = text | append: '&nbsp;→' -%}
+                                {%- elsif include.arrow == 'local' -%}
 
-                            {%- endif -%}
+                                    {%- assign title = title | append: '&nbsp;→' -%}
 
-                        {%- endunless -%}
+                                {%- elsif include.url
+                                    and include.url != empty
+                                -%}
 
+                                    {%- assign title = title | append: '&nbsp;↗' -%}
 
+                                {%- else -%}
 
-                        {{- text -}}
+                                    {%- assign title = title | append: '&nbsp;→' -%}
 
-                    </a>
+                                {%- endif -%}
 
-                </h4>
-
-            </div>
-
-
-
-            {%- assign text = nil -%}
-
-            {%- capture text -%}
-                <div class="c-TeaserPaper-block">
-
-                    <div class="c-TeaserPaper-text">
-
-                        {{- include.text | default: _page.user_excerpt | default: _page.content | truncate: 155 | markdownify -}}
-
-                    </div>
-
-                </div>
-            {%- endcapture -%}
-
-            {%- if include.text
-                and include.text != false
-                and include.text != empty
-            -%}
-
-                {{- text -}}
-
-            {%- elsif _page != empty
-                and include.text != false
-            -%}
-
-                {{- text -}}
-
-            {%- endif -%}
+                            {%- endunless -%}
 
 
 
-            {%- if _page.date != empty
-                or include.time
-                and include.time != false
-                and include.time != empty
-            -%}
+                            {{- title -}}
 
-                <div class="c-TeaserPaper-block">
+                        </span>
+
+                    </span>
+
+
+
+                    {%- if include.text != false
+                        or _page
+                    -%}
+
+                        <span class="c-TeaserPaper-block">
+
+                            <span class="c-TeaserPaper-text">
+
+                                {{- include.text
+                                    | default: _page.user_excerpt
+                                    | default: _page.content
+                                    | truncate: 155
+                                    | strip_html
+                                    | markdownify
+                                    | replace: 'p>', 'span>'
+                                -}}
+
+                            </span>
+
+                        </span>
+
+                    {%- endif -%}
+
+
 
                     {%- assign time = include.time | default: _page.date -%}
 
-                    {%- include time.html time=time -%}
+                    {%- if time
+                        and include.time != false
+                    -%}
 
-                    <time class="c-TeaserPaper-time" datetime="{{- datetime -}}">
+                        <span class="c-TeaserPaper-block">
 
-                        {{- time -}}
+                            {%- include time.html time=time -%}
 
-                    </time>
+                            <time class="c-TeaserPaper-time" datetime="{{- datetime -}}">
 
-                </div>
+                                {{- time -}}
 
-            {%- endif -%}
+                            </time>
 
-        </div>
+                        </span>
 
-    </div>
+                    {%- endif -%}
+
+                </span>
+
+            </span>
+
+        </span>
+
+    </a>
 
 </div>

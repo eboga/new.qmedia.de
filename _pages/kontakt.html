@@ -93,7 +93,7 @@ Grafinger Straße 6\\
 
 
 
-                        <div class="c-BannerPaper-block">
+                        <div class="c-BannerPaper-block c-BannerPaper-block--lg">
 
                             <a class="c-Banner-btn c-Btn c-Btn--icon" href="mailto:info@qmedia.de">
 
@@ -143,11 +143,15 @@ Grafinger Straße 6\\
 
                         <div class="c-ContactBlock-block">
 
-                            {%- capture text -%}
-                                Sie möchten Veränderung schaffen oder sich gleich komplett neu positionieren? Erzählen Sie uns doch etwas mehr von Ihrem Vorhaben. Wir helfen Ihnen gerne dabei und freuen uns mehr über Ihr Projekt zu erfahren.
-                            {%- endcapture -%}
+                            <div class="c-Contact-text">
 
-                            {{- text | markdownify -}}
+                                {%- capture text -%}
+                                    Sie möchten Veränderung schaffen oder sich gleich komplett neu positionieren? Erzählen Sie uns doch etwas mehr von Ihrem Vorhaben. Wir helfen Ihnen gerne dabei und freuen uns mehr über Ihr Projekt zu erfahren.
+                                {%- endcapture -%}
+
+                                {{- text | markdownify -}}
+
+                            </div>
 
                         </div>
 
@@ -161,7 +165,13 @@ Grafinger Straße 6\\
 
                     <div class="c-ContactForm">
 
-                        <form class="c-ContactForm-form" id="c-ContactForm-form--email" action-xhr="https://getsimpleform.com/messages?form_api_token=e8a391ec00576b0e573d0cafc881bbf0" method="POST" on="submit-success:c-ContactForm-form--email.clear">
+                        <form class="c-ContactForm-form"
+                            {{- ' id' -}}="c-ContactForm-form--email"
+                            {{- ' action-xhr' -}}="https://getsimpleform.com/messages?form_api_token=e8a391ec00576b0e573d0cafc881bbf0"
+                            {{- ' method' -}}="POST"
+                            {{- ' on' -}}="submit-success:c-ContactForm-form--email.clear,c-ContactForm-success.toggleClass(class='is-visible', force=true)"
+                            {{- '' -}}
+                        >
 
                             <div class="c-ContactForm-block c-ContactForm-block--parent c-ContactForm-block--row">
 
@@ -191,9 +201,21 @@ Grafinger Straße 6\\
 
 
 
-                            <div class="c-ContactForm-block c-ContactForm-block--lg">
+                            <div class="c-ContactForm-block c-ContactForm-block--parent c-ContactForm-block--lg">
 
-                                <button class="c-ContactForm-btn c-Btn--primary c-Btn--md" type="submit">Senden</button>
+                                <div class="c-ContactForm-block c-ContactForm-block--auto">
+
+                                    <button class="c-ContactForm-btn c-Btn--primary c-Btn--md" type="submit">Senden</button>
+
+                                </div>
+
+
+
+                                <div class="c-ContactForm-block c-ContactForm-block--auto">
+
+                                    <span class="c-ContactForm-success" id="c-ContactForm-success">Nachricht gesendet</span>
+
+                                </div>
 
                             </div>
 

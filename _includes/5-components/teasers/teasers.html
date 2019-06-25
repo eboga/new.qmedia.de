@@ -1,3 +1,19 @@
+{%- comment -%}
+* @param {array} include.teasers
+
+* @param {} arrow
+* @param {} bar
+* @param {} target_blank
+* @param {} lg
+* @param {} row
+* @param {} slug
+* @param {} text
+* @param {} time
+* @param {} title
+* @param {} url
+* @param {} wide
+{%- endcomment -%}
+
 <div class="c-Teasers">
 
     <div class="c-Teasers-content">
@@ -7,12 +23,20 @@
             <div class="c-Teasers-item">
 
                 {%- include 5-components/teaser/teaser.html
-                    image=i.image
-                    link=i.link
-                    text=i.text
-                    time=i.time
+                    image_src=i.image.src
+                    image_width=i.image.width
+                    image_height=i.image.height
+                    image_alt=i.image.alt
+                    arrow=i.arrow
+                    bar=i.bar
+                    target_blank=i.target_blank
                     lg=i.lg
                     row=i.row
+                    slug=i.slug
+                    text=i.text
+                    time=i.time
+                    title=i.title
+                    url=i.url
                     wide=i.wide
                 -%}
 

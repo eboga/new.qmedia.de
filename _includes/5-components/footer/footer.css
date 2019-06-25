@@ -29,15 +29,13 @@
 
 
 .c-FooterLinks {
-    --block-gutter-X: 20px;
-    --block-gutter-Y: 25px;
-    margin: calc(var(--block-gutter-Y) / -2) calc(var(--block-gutter-X) / -2);
+    margin: calc(var(--footer-block-gutter-Y) / -2) calc(var(--footer-block-gutter-X) / -2);
 }
 
 
 
 .c-FooterLinks-block {
-    padding: calc(var(--block-gutter-Y) / 2) calc(var(--block-gutter-X) / 2);
+    padding: calc(var(--footer-block-gutter-Y) / 2) calc(var(--footer-block-gutter-X) / 2);
 }
 
 
@@ -56,7 +54,7 @@
 }
 
 .c-FooterLinksGroup + .c-FooterLinksGroup {
-    margin-top: var(--block-gutter-Y);
+    margin-top: var(--footer-block-gutter-Y);
 }
 
 .c-FooterLinksGroup + .c-FooterLinksGroup--noIndent {

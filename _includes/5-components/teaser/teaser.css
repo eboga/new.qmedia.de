@@ -1,21 +1,32 @@
 .c-Teaser {
-    --gutter: 20px;
+    --indent: 20px;
     --bar-height: 11px;
     display: flex;
     flex-wrap: wrap;
-    margin: calc(var(--gutter) / -2);
 }
 
 @media only screen and (min-width: 48em) {
     .c-Teaser--row {
-        --gutter: 39px;
+        --indent: 39px;
     }
 }
 
 @media only screen and (min-width: 64em) {
     .c-Teaser--row {
-        --gutter: 51px;
+        --indent: 51px;
     }
+}
+
+
+
+.c-Teaser-forward {
+    color: inherit;
+}
+
+.c-Teaser-forward:focus,
+.c-Teaser-forward:hover {
+    outline: 0;
+    text-decoration: none;
 }
 
 
@@ -27,14 +38,19 @@
 
 
 
-.c-Teaser-block {
+.c-Teaser-block + .c-Teaser-block {
     flex: 1 1 100%;
-    margin: calc(var(--gutter) / 2);
+    margin-top: var(--indent);
 }
 
 @media only screen and (min-width: 48em) {
     .c-Teaser--row .c-Teaser-block {
         flex-basis: 0;
+    }
+
+    .c-Teaser--row .c-Teaser-block + .c-Teaser-block {
+        margin-left: var(--indent);
+        margin-top: 0;
     }
 
     .c-Teaser--row .c-Teaser-block--image {
@@ -66,6 +82,17 @@
 
 
 
+.c-TeaserPaper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.c-TeaserPaper-block {
+    flex: 1 100%;
+}
+
 .c-TeaserPaper-block + .c-TeaserPaper-block {
     margin-top: 9px;
 }
@@ -78,20 +105,25 @@
 
 
 
-.c-TeaserPaper-heading {
-    --font-size: 22px;
-    --font-size-lg: 32px;
+.c-TeaserPaper-title {
+    --font-size: 18px;
+    --font-size-lg: 22px;
     font-size: var(--font-size);
     font-weight: 600;
     line-height: 1.3;
 }
 
-.c-Teaser--lg .c-TeaserPaper-heading {
+.c-Teaser--lg .c-TeaserPaper-title {
     font-size: var(--font-size-lg);
 }
 
+.c-Teaser-forward:focus .c-TeaserPaper-title,
+.c-Teaser-forward:hover .c-TeaserPaper-title {
+    text-decoration: underline;
+}
+
 @media only screen and (min-width: 48em) {
-    .c-TeaserPaper-heading {
+    .c-TeaserPaper-title {
         --font-size: 24px;
         --font-size-lg: 36px;
     }
@@ -108,7 +140,7 @@
 
 
 .c-TeaserPaper-text {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .c-TeaserPaper-text a {
@@ -124,7 +156,7 @@
 
 
 .c-TeaserPaper-time {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 @media only screen and (min-width: 48em) {

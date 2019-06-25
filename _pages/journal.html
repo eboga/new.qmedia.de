@@ -1,0 +1,82 @@
+---
+amp_enable: true
+layout: "default"
+permalink: "/journal/"
+slug: "journal"
+
+
+
+short_title: "Journal"
+user_title: "Journal"
+user_excerpt: false
+meta_title: "Journal"
+meta_description: "<empty>"
+---
+
+<div class="c-MainBlock">
+
+    <div class="c-Main-container wrapper">
+
+        <div class="c-Main-head">
+
+            {%- include 5-components/main/main-head.html
+                heading=page.user_title
+                text=page.user_excerpt
+            -%}
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="c-MainBlock">
+
+    <div class="c-Main-container wrapper">
+
+        <div class="c-Teasers">
+
+            <div class="c-Teasers-content">
+
+                {%- for i in site.posts -%}
+
+                    <div class="c-Teasers-item">
+
+                        {%- include 5-components/teaser/teaser.html
+                            image_src=i.teaser.src
+                            image_width=i.teaser.width
+                            image_height=i.teaser.height
+                            image_alt=i.teaser.alt
+                            bar=false
+                            target_blank=false
+                            lg=false
+                            row=true
+                            slug=i.slug
+                            wide=true
+                        -%}
+
+                    </div>
+
+                {%- endfor -%}
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="c-MainBlock c-MainBlock--xl">
+
+    <div class="c-Main-container wrapper">
+
+        {%- include 5-components/contact/contact-box.html -%}
+
+    </div>
+
+</div>

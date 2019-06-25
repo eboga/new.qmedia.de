@@ -1,5 +1,4 @@
 - slug: "suchmaschinenoptimierung"
-  open: true
   children:
     - slug: "suchmaschinenoptimierung"
       text: "SEO Optimierung"

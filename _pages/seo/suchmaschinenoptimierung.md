@@ -33,9 +33,8 @@ teasers:
       width: 1125
       height: 750
       alt: ""
-    link:
-      url: "https://www.ratgeber-kv.de"
-      text: "Ratgeber-KV.de"
+    url: "https://www.ratgeber-kv.de"
+    title: "Ratgeber-KV.de"
     text: >-
       Machen Sie mit Ratgeber-KV den Vergleich – Sie werden sehen, wie viel Sie beim Top-Anbieter Ihres gewünschten Krankenversicherungs-Tarifs bezahlen würden!
     lg: false
@@ -46,9 +45,8 @@ teasers:
       width: 1125
       height: 750
       alt: ""
-    link:
-      url: "https://www.kreditkarte24.de/"
-      text: "Kreditkarte24.de"
+    url: "https://www.kreditkarte24.de/"
+    title: "Kreditkarte24.de"
     text: >-
       Ein modernes Design und alle Informationen am richtigen Platz machen den Kreditkarten-Vergleich einfach, übersichtlich und schnell.
     lg: false
@@ -102,12 +100,12 @@ So gehört zu einer rund um suchmaschinenoptimierten Website noch einiges mehr. 
 
 
     {%- include 5-components/teaser/teaser.html
-        image_src='/assets/images/flickr.jpg'
-        image_width=960
-        image_height=477
-        link_text='SEO: Mit Flickr & CC-Bildern Backlinks generieren'
-        link_url='https://www.google.com'
-        time='04. März 2019'
+        image_src="/assets/images/flickr-screenshot.jpg"
+        image_width=1000
+        image_height=450
+        image_alt=""
+        text=false
+        slug="flickr-and-ccbildern"
     -%}
 
 </div>

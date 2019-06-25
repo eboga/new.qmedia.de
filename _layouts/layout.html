@@ -113,19 +113,17 @@
 
     {%- if page.amp_enable == true -%}
 
-        <script async src="https://cdn.ampproject.org/v0.js"></script>
+        {%- assign amp_components = site.data.amp-components -%}
 
-        <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+        {%- assign amp_components = amp_components | push: layout.amp_components -%}
 
-        <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+        {%- assign amp_components = amp_components | push: page.amp_components -%}
 
-        <script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
+        {%- assign amp_components = amp_components | uniq -%}
 
-        <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+        {% for component in amp_components -%}
 
-        {% for component in layout.amp_components -%}
-
-            {{- component.value -}}
+            {{- component -}}
 
         {%- endfor -%}
 

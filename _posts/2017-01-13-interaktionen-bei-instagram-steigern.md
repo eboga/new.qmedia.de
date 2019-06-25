@@ -20,6 +20,12 @@ user_excerpt:
 meta_title:  "Emojis: Interaktionen bei Instagram steigern"
 meta_description: "<empty>"
 
+teaser:
+  src: "/assets/images/interaktionen-instagram-steigern.jpg"
+  width: 1000
+  height: 450
+  alt: ""
+
 article_hero:
   src: "/assets/images/interaktionen-instagram-steigern.jpg"
   width: 1000

@@ -1,3 +1,46 @@
+{%- assign parent_index = 1 -%}
+
+{%- assign has_duplicate_item = false -%}
+
+
+
+{%- for _1st in site.data.header -%}
+
+    {%- assign _1st_forloop_index = forloop.index -%}
+
+
+
+    {%- if _1st.slug == page.slug -%}
+
+        {%- assign parent_index = _1st_forloop_index -%}
+
+    {%- else -%}
+
+        {%- for _2nd in _1st.children -%}
+
+            {%- if _1st.slug == _2nd.slug -%}
+
+                {%- assign has_duplicate_item = true -%}
+
+            {%- endif -%}
+
+            {%- if _2nd.slug == page.slug -%}
+
+                {%- assign parent_index = _1st_forloop_index -%}
+
+            {%- endif -%}
+
+        {%- endfor -%}
+
+    {%- endif -%}
+
+{%- endfor -%}
+
+
+
+
+
+
 <div class="c-HeaderNav" id="c-HeaderNav">
 
     <ul class="c-HeaderNav-list c-HeaderNav-list--root">
@@ -20,8 +63,10 @@
 
                 <input class="c-HeaderNav-input" type="checkbox" id="c-HeaderNav-input-{{- forloop.index -}}"
 
-                    {%- if i.open == true -%}
+                    {%- if forloop.index == parent_index -%}
+
                         {{- ' checked' -}}
+
                     {%- endif -%}
 
                 >
@@ -38,11 +83,21 @@
 
                         {%- endif -%}
 
+
+
+                        {%- if i.slug == page.slug
+                            and has_duplicate_item != true
+                        -%}
+
+                            {{- ' c-HeaderNav-link--accent' -}}
+
+                        {%- endif -%}
+
                     "
 
                         {%- unless i.link == false -%}
 
-                            {{- ' ' -}} href="{{- i.url | default: i_page.url | default: '#' -}}"
+                            {{- ' href' -}}="{{- i.url | default: i_page.url | default: '#' -}}"
 
                         {%- endunless -%}
 
@@ -80,11 +135,19 @@
 
                             <li class="c-HeaderNav-li c-HeaderNav-li--child">
 
-                                <a class="c-HeaderNav-link c-HeaderNav-link--child"
+                                <a class="c-HeaderNav-link c-HeaderNav-link--child
+
+                                    {%- if j.slug == page.slug -%}
+
+                                        {{- ' c-HeaderNav-link--accent' -}}
+
+                                    {%- endif -%}
+
+                                "
 
                                     {%- unless j.link == false -%}
 
-                                        {{- ' ' -}} href="{{- j.url | default: j_page.url | default: '#' -}}"
+                                        {{- ' href' -}}="{{- j.url | default: j_page.url | default: '#' -}}"
 
                                     {%- endunless -%}
 

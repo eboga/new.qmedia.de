@@ -7,11 +7,7 @@ robots: "index,follow"
 
     {%- unless layout.layout_header == false or page.layout_header == false -%}
 
-        {%- include 5-components/header/header.html
-            amp_enable=page.amp_enable
-            breadcrumbs=page.breadcrumbs
-            slug=page.slug
-        -%}
+        {%- include 5-components/header/header.html -%}
 
     {%- endunless -%}
 

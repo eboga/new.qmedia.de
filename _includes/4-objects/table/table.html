@@ -1,0 +1,138 @@
+{%- comment -%}
+* @param {array} include.tables
+* @param {string} include.table_class
+{%- endcomment -%}
+
+<div class="
+
+    {%- if include.table_class
+        and include.table_class != empty
+    -%}
+
+        {{- include.table_class | append: ' ' -}}
+
+    {%- endif -%}
+
+    {{- 'o-Table' -}}
+
+">
+
+    {%- for table in include.tables -%}
+
+        <table class="
+
+            {%- if include.table_class
+                and include.table_class != empty
+            -%}
+
+                {{- include.table_class | append: '-table ' -}}
+
+            {%- endif -%}
+
+            {{- 'o-Table-table' -}}
+
+        ">
+
+            <tbody class="
+
+                {%- if include.table_class
+                    and include.table_class != empty
+                -%}
+
+                    {{- include.table_class | append: '-tbody ' -}}
+
+                {%- endif -%}
+
+                {{- 'o-Table-tbody' -}}
+
+            ">
+
+                {%- for row in table.rows -%}
+
+                    <tr class="
+
+                        {%- if include.table_class
+                            and include.table_class != empty
+                        -%}
+
+                            {%- assign class = include.table_class | append: '-tr ' -%}
+
+                            {%- if row.bold == true -%}
+
+                                {%- assign class = class
+                                    | append: class
+                                    | append: '--bold'
+                                    | replace: ' --bold', '--bold'
+                                    | append: ' '
+                                -%}
+
+                            {%- endif -%}
+
+                            {{- class -}}
+
+                        {%- endif -%}
+
+                        {{- 'o-Table-tr' -}}
+
+                        {%- if row.bold == true -%}
+
+                            {{- ' o-Table-tr--bold' -}}
+
+                        {%- endif -%}
+
+                    ">
+
+                        {%- for col in row.cols -%}
+
+                            <td class="
+
+                                {%- if include.table_class
+                                    and include.table_class != empty
+                                -%}
+
+                                    {{- include.table_class | append: '-td ' -}}
+
+                                {%- endif -%}
+
+                                {{- 'o-Table-td' -}}
+
+                            "
+
+                                {%- if col.grow
+                                    and col.grow != empty
+                                -%}
+
+                                    {{- ' style' -}}="flex-grow: {{ col.grow -}};"
+
+                                {%- endif -%}
+
+                            >
+
+                                {%- if col.text != false
+                                    and col.text != nil
+                                    and col.text != empty
+                                -%}
+
+                                    <span class="text ">
+
+                                        {{- col.text | markdownify | replace: 'p>', 'span>' -}}
+
+                                    </span>
+
+                                {%- endif -%}
+
+                            </td>
+
+                        {%- endfor -%}
+
+                    </tr>
+
+                {%- endfor -%}
+
+            </tbody>
+
+        </table>
+
+    {%- endfor -%}
+
+</div>
