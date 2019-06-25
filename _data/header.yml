@@ -1,7 +1,5 @@
 - slug: "suchmaschinenoptimierung"
   children:
-    - slug: "suchmaschinenoptimierung"
-      text: "SEO Optimierung"
     - slug: "local-seo"
       text: "Local SEO"
     - slug: "technisches-seo"
@@ -19,8 +17,6 @@
 - slug: "suchmaschinenmarketing"
   text: "Suchmaschinenmarketing"
   children:
-    - slug: "suchmaschinenmarketing"
-      text: "Suchmaschinenmarketing"
     - slug: "adwords-optimierung"
       text: "AdWords Optimierung"
     - slug: "google-shopping"
@@ -30,8 +26,6 @@
 - slug: "leadgenerierung"
   text: "Leadgenerierung"
   children:
-    - slug: "leadgenerierung"
-      text: "Leadgenerierung"
     - slug: "versicherungsleads"
       text: "Versicherungsleads"
     - slug: "usability-optimierung"

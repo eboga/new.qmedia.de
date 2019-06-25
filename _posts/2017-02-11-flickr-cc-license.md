@@ -146,7 +146,7 @@ tabs:
 date: "2017-02-11 10:20:05"
 ---
 
-Jeder, der ein neues Webprojekt aufzieht, kennt das Problem: Eine gute, qualitativ [starke Website mit Unique Content zu bauen](/wordpress-agentur-muenchen/) ist das eine. Das andere ist die Sichtbarkeit. Wer bei Google und anderen Suchmaschinen nicht sehr weit oben gelistet wird, der wird auf Dauer nicht viele Visits generieren, von Conversions ganz zu schweigen. Mitunter sind die Kriterien, nach denen Google arbeitet, undurchsichtig. Nachdem immer wieder Spam-Seiten ganz oben im Suchindex landeten, wurden die Voraussetzungen verfeinert. Es ist heute viel schwieriger als noch vor fünf oder zehn Jahren, auf den ersten Plätzen zu landen. Und auch die massiv gewachsene Konkurrenz spielt eine Rolle.
+Jeder, der ein neues Webprojekt aufzieht, kennt das Problem: Eine gute, qualitativ [starke Website mit Unique Content zu bauen](/wordpress-agentur-muenchen/){: .h-ArrowLocal} ist das eine. Das andere ist die Sichtbarkeit. Wer bei Google und anderen Suchmaschinen nicht sehr weit oben gelistet wird, der wird auf Dauer nicht viele Visits generieren, von Conversions ganz zu schweigen. Mitunter sind die Kriterien, nach denen Google arbeitet, undurchsichtig. Nachdem immer wieder Spam-Seiten ganz oben im Suchindex landeten, wurden die Voraussetzungen verfeinert. Es ist heute viel schwieriger als noch vor fünf oder zehn Jahren, auf den ersten Plätzen zu landen. Und auch die massiv gewachsene Konkurrenz spielt eine Rolle.
 
 ## Hochwertige Backlinks für kostenlose Bilder
 Aber es gibt Möglichkeiten. Ganz oben steht dabei das Linkbuilding. Früher kam es nur auf die Masse an. Wer Tausende Links aus dem Ausland einkaufte, der konnte recht ordentliche Ergebnisse erzielen. Das funktioniert heute (zum Glück!) nicht mehr, was sich positiv auf die Suchergebnisse ausgewirkt hat. Man braucht starke, qualitativ hochwertige Links von Webseiten, die selbst von Google positiv bewertet und weit oben gelistet werden. Aber das ist harte Arbeit und alles andere als einfach. Je höher die Qualität des eigenen Contents ist, desto eher hat man eine Chance, verlinkt zu werden.
@@ -174,5 +174,5 @@ Die Zweisprachigkeit ist wichtig, denn dadurch erhält man eine größere Reichw
 Funktionieren wird das allerdings nur mit wirklich guten und möglichst professionellen Motiven. Denn das Netz ist überflutet mit CC-Fotos, und wer nicht wirklich gut ist, wird auch kaum eine Chance haben, in den Datenbanken weit oben zu landen. Je spezieller die eigenen Fotos sind und je besser sie verschlagwortet sind, desto höher sind die Chancen, dass jemand das Angebot annimmt.
 
 **Weiterführende Informationen:**\\
-[https://creativecommons.org/licenses/by/2.0/de/](https://creativecommons.org/licenses/by/2.0/de/){: .h-NoArrow .h-Hyphenate target="_blank" rel="nofollow"}\\
-[https://www.flickr.com/](https://www.flickr.com/){: .h-NoArrow .h-Hyphenate target="_blank" rel="nofollow"}
+[https://creativecommons.org/licenses/by/2.0/de/](https://creativecommons.org/licenses/by/2.0/de/){: .h-Hyphenate target="_blank" rel="nofollow noreferrer"}\\
+[https://www.flickr.com/](https://www.flickr.com/){: .h-Hyphenate target="_blank" rel="nofollow noreferrer"}

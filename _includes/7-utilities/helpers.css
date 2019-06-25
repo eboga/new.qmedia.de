@@ -10,3 +10,11 @@
 .h-Fw600 {
     font-weight: 600;
 }
+
+.h-ArrowLocal::after {
+    content: " →"
+}
+
+.h-ArrowExternal::after {
+    content: " ↗"
+}

@@ -12,8 +12,8 @@
 
 
 
-.o-DropdownTrigger:focus + .o-Dropdown:not(.o-Dropdown--minLg),
-.o-DropdownTrigger:hover + .o-Dropdown:not(.o-Dropdown--minLg),
+.o-DropdownTrigger:focus ~ .o-Dropdown:not(.o-Dropdown--minLg),
+.o-DropdownTrigger:hover ~ .o-Dropdown:not(.o-Dropdown--minLg),
 .o-Dropdown:not(.o-Dropdown--minLg):focus,
 .o-Dropdown:not(.o-Dropdown--minLg):hover {
     opacity: 1;
@@ -21,8 +21,8 @@
 }
 
 @media only screen and (min-width: 64em) {
-    .o-DropdownTrigger:focus + .o-Dropdown,
-    .o-DropdownTrigger:hover + .o-Dropdown,
+    .o-DropdownTrigger:focus ~ .o-Dropdown,
+    .o-DropdownTrigger:hover ~ .o-Dropdown,
     .o-Dropdown:focus,
     .o-Dropdown:hover {
         opacity: 1;
@@ -32,8 +32,8 @@
 
 
 
-.o-DropdownTrigger:focus + .o-Dropdown--size:not(.o-Dropdown--minLg),
-.o-DropdownTrigger:hover + .o-Dropdown--size:not(.o-Dropdown--minLg),
+.o-DropdownTrigger:focus ~ .o-Dropdown--size:not(.o-Dropdown--minLg),
+.o-DropdownTrigger:hover ~ .o-Dropdown--size:not(.o-Dropdown--minLg),
 .o-Dropdown--size:not(.o-Dropdown--minLg):focus,
 .o-Dropdown--size:not(.o-Dropdown--minLg):hover {
     height: auto;
@@ -41,8 +41,8 @@
 }
 
 @media only screen and (min-width: 64em) {
-    .o-DropdownTrigger:focus + .o-Dropdown--size,
-    .o-DropdownTrigger:hover + .o-Dropdown--size,
+    .o-DropdownTrigger:focus ~ .o-Dropdown--size,
+    .o-DropdownTrigger:hover ~ .o-Dropdown--size,
     .o-Dropdown--size:focus,
     .o-Dropdown--size:hover {
         height: auto;

@@ -55,7 +55,7 @@
 
 @media only screen and (min-width: 48em) {
     .c-Article-title {
-        --font-size: 38px;
+        --font-size: 36px;
     }
 }
 
@@ -218,7 +218,7 @@
 @media only screen and (min-width: 48em) {
     .c-Article-article {
         --article-font-size: 18px;
-        --headings-font-size: 28px;
+        --headings-font-size: 24px;
         --headings-indent-bottom: 15px;
         --headings-indent-top: 25px;
     }
@@ -325,10 +325,10 @@
     font-weight: 600;
 }
 
-.c-Article-article > :not(.h-ArticleExclude) a:not(.h-NoArrow):after,
-.c-Article-article > a:not(.h-NoArrow):not(.h-ArticleExclude):after,
-.h-ArticleInclude > :not(.h-ArticleExclude) a:not(.h-NoArrow):after,
-.h-ArticleInclude > a:not(.h-NoArrow):not(.h-ArticleExclude):after {
+.c-Article-article > :not(.h-ArticleExclude) a:not(.h-NoArrow):not(.h-ArrowLocal):after,
+.c-Article-article > a:not(.h-NoArrow):not(.h-ArrowLocal):not(.h-ArticleExclude):after,
+.h-ArticleInclude > :not(.h-ArticleExclude) a:not(.h-NoArrow):not(.h-ArrowLocal):after,
+.h-ArticleInclude > a:not(.h-NoArrow):not(.h-ArrowLocal):not(.h-ArticleExclude):after {
     content: " ↗";
 }
 

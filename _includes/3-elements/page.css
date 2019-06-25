@@ -16,4 +16,5 @@ body {
 .PageWrapper.is-nav-open {
     overflow: hidden;
     position: fixed;
+    width: 100%;
 }

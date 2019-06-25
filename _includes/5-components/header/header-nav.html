@@ -1,7 +1,5 @@
 {%- assign parent_index = 1 -%}
 
-{%- assign has_duplicate_item = false -%}
-
 
 
 {%- for _1st in site.data.header -%}
@@ -18,12 +16,6 @@
 
         {%- for _2nd in _1st.children -%}
 
-            {%- if _1st.slug == _2nd.slug -%}
-
-                {%- assign has_duplicate_item = true -%}
-
-            {%- endif -%}
-
             {%- if _2nd.slug == page.slug -%}
 
                 {%- assign parent_index = _1st_forloop_index -%}
@@ -35,6 +27,14 @@
     {%- endif -%}
 
 {%- endfor -%}
+
+
+
+{%- if page.slug == 'home' -%}
+
+    {%- assign parent_index = false -%}
+
+{%- endif -%}
 
 
 
@@ -71,55 +71,66 @@
 
                 >
 
-                <label class="c-HeaderNav-label o-DropdownTrigger" for="c-HeaderNav-input-{{- forloop.index -}}">
+                <a class="c-HeaderNav-link c-HeaderNav-link--root
 
-                    <a class="c-HeaderNav-link c-HeaderNav-link--root
+                    {%- if i.children.first.slug
+                        and i.children.first.slug != empty
+                    -%}
 
-                        {%- if i.children.first.slug
-                            and i.children.first.slug != empty
-                        -%}
+                        {{- ' c-HeaderNav-link--parent' -}}
 
-                            {{- ' c-HeaderNav-link--parent' -}}
-
-                        {%- endif -%}
+                    {%- endif -%}
 
 
 
-                        {%- if i.slug == page.slug
-                            and has_duplicate_item != true
-                        -%}
+                    {%- if i.slug == page.slug -%}
 
-                            {{- ' c-HeaderNav-link--accent' -}}
+                        {{- ' c-HeaderNav-link--accent' -}}
 
-                        {%- endif -%}
-
-                    "
-
-                        {%- unless i.link == false -%}
-
-                            {{- ' href' -}}="{{- i.url | default: i_page.url | default: '#' -}}"
-
-                        {%- endunless -%}
-
-                    >
-
-                        <span class="text">
-
-                            {{- i.text | default: i_page.title_in_header | default: i_page.short_title | default: i_page.user_title -}}
-
-                        </span>
+                    {%- endif -%}
 
 
 
-                        <span class="icon">
+                    {{- ' o-DropdownTrigger' -}}
 
-                            {%- include svg/chevron-down.svg -%}
+                "
 
-                        </span>
+                    {%- unless i.link == false -%}
 
-                    </a>
+                        {{- ' href' -}}="{{- i.url | default: i_page.url | default: '#' -}}"
+
+                    {%- endunless -%}
+
+                >
+
+                    <span class="text">
+
+                        {{- i.text | default: i_page.title_in_header | default: i_page.short_title | default: i_page.user_title -}}
+
+                    </span>
+
+                </a>
+
+
+
+                <label class="c-HeaderNav-label
+
+                    {%- if i.link == false -%}
+
+                        {{- ' c-HeaderNav-label--full' -}}
+
+                    {%- endif -%}
+
+                " for="c-HeaderNav-input-{{- forloop.index -}}">
+
+                    <span class="icon">
+
+                        {%- include svg/chevron-down.svg -%}
+
+                    </span>
 
                 </label>
+
 
 
 
