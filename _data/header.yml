@@ -47,7 +47,7 @@
   children:
     - slug: "projekte"
       text: "Projekte"
-    - slug: "blog"
+    - slug: "journal"
       text: "Journal"
     - slug: "kontakt"
       text: "Kontakt"
