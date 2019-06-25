@@ -171,17 +171,17 @@
 
 
 
+                    {%- assign text = include.text | default: _page.user_excerpt | default: _page.content -%}
+
                     {%- if include.text != false
-                        or _page
+                        and text
                     -%}
 
                         <span class="c-TeaserPaper-block">
 
                             <span class="c-TeaserPaper-text">
 
-                                {{- include.text
-                                    | default: _page.user_excerpt
-                                    | default: _page.content
+                                {{- text
                                     | truncate: 155
                                     | strip_html
                                     | markdownify
