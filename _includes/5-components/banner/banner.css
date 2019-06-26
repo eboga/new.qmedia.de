@@ -57,8 +57,20 @@
 
 
 .c-Banner-heading {
-    font-size: 36px;
+    font-size: 22px;
     font-weight: 600;
+}
+
+@media only screen and (min-width: 48em) {
+    .c-Banner-heading {
+        font-size: 29px;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    .c-Banner-heading {
+        font-size: 36px;
+    }
 }
 
 
@@ -73,8 +85,20 @@
 
 
 .c-Banner-text {
-    font-size: 21px;
+    font-size: 16px;
     line-height: 1.8;
+}
+
+@media only screen and (min-width: 48em) {
+    .c-Banner-text {
+        font-size: 18.5px;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    .c-Banner-text {
+        font-size: 21px;
+    }
 }
 
 

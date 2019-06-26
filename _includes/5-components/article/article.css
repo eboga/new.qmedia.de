@@ -325,10 +325,17 @@
     font-weight: 600;
 }
 
-.c-Article-article > :not(.h-ArticleExclude) a:not(.h-NoArrow):not(.h-ArrowLocal):after,
-.c-Article-article > a:not(.h-NoArrow):not(.h-ArrowLocal):not(.h-ArticleExclude):after,
-.h-ArticleInclude > :not(.h-ArticleExclude) a:not(.h-NoArrow):not(.h-ArrowLocal):after,
+.c-Article-article > :not(.h-ArticleExclude) a:not([class*="Arrow"]):after,
+.c-Article-article > a:not([class*="Arrow"]):not(.h-ArticleExclude):after,
+.h-ArticleInclude > :not(.h-ArticleExclude) a:not([class*="Arrow"]):after,
 .h-ArticleInclude > a:not(.h-NoArrow):not(.h-ArrowLocal):not(.h-ArticleExclude):after {
+    content: " →";
+}
+
+.c-Article-article > :not(.h-ArticleExclude) a:not([class*="Arrow"])[href^="http"]:after,
+.c-Article-article > a:not(.h-ArticleExclude):not([class*="Arrow"])[href^="http"]:after,
+.h-ArticleInclude > :not(.h-ArticleExclude) a:not([class*="Arrow"])[href^="http"]:after,
+.h-ArticleInclude > a:not(.h-NoArrow):not(.h-ArrowLocal):not(.h-ArticleExclude)[href^="http"]:after {
     content: " ↗";
 }
 

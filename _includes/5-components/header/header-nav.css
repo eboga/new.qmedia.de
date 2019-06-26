@@ -42,7 +42,6 @@
     display: flex;
     flex-direction: column;
     margin-top: 0;
-    overflow-y: auto;
     width: 100%;
 }
 
@@ -202,14 +201,13 @@
     height: var(--link-height-root);
     justify-content: flex-end;
     position: absolute;
-    right: 0;
+    right: calc(var(--grid-gutter) / -2);
     top: 0;
-    width: var(--link-height-root);
     z-index: 60;
 }
 
 .c-HeaderNav-label--full {
-    width: 100%;
+    width: calc(100% + (var(--grid-gutter) / 2));
 }
 
 @media only screen and (min-width: 64em) {
@@ -223,7 +221,8 @@
 .c-HeaderNav-label .icon {
     fill: var(--header-color);
     height: 6px;
-    right: 4.5px;
+    padding-right: calc(var(--grid-gutter) / 2);
+    padding-left: calc(var(--grid-gutter) / 2);
 }
 
 .c-HeaderNav-input:checked ~ .c-HeaderNav-label .icon {
