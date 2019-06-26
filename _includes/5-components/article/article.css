@@ -197,7 +197,7 @@
 .c-Article-article {
     --article-ff: var(--ff-sans);
     --article-font-size: 16px;
-    --headings-font-size: 20px;
+    --headings-font-size: 18px;
     --headings-indent-bottom: 25px;
     --headings-indent-top: 26px;
     --lists-indent-left: 20px;
