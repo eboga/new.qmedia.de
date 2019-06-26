@@ -1,3 +1,9 @@
+.c-Teasers {
+    width: 100%;
+}
+
+
+
 .c-Teasers-content {
     --item-gutter: 30px;
     display: flex;
@@ -16,4 +22,5 @@
 .c-Teasers-item {
     display: flex;
     margin: calc(var(--item-gutter) / 2);
+    width: 100%;
 }

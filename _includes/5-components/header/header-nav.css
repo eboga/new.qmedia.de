@@ -29,6 +29,12 @@
     }
 }
 
+@media print and (max-width: 63.9375em) {
+    .c-HeaderNav {
+        display: none;
+    }
+}
+
 @media only screen and (min-width: 64em) {
     .c-HeaderNav {
         display: flex;

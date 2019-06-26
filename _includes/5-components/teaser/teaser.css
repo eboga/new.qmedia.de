@@ -3,6 +3,7 @@
     --bar-height: 11px;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 @media only screen and (min-width: 48em) {
@@ -21,6 +22,7 @@
 
 .c-Teaser-forward {
     color: inherit;
+    width: 100%;
 }
 
 .c-Teaser-forward:focus,
@@ -34,6 +36,7 @@
 .c-Teaser-content {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 
