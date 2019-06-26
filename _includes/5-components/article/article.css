@@ -205,7 +205,7 @@
 }
 
 .c-Article-article--lg {
-    --headings-font-size: 25px
+    --headings-font-size: 22px;
     --headings-indent-bottom: 22px;
     --headings-indent-top: 51px;
     --type-indent: 30px;
