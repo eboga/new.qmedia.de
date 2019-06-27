@@ -70,7 +70,7 @@ Eine Platzierung der Website auf den vorderen Seiten ist somit ein ausschlaggebe
 
 <div class="h-ArticleExclude h-ArticleExclude--indent h-ArticleExclude--sm" markdown="0">
 
-    <h4 class="c-HeadingSubject c-HeadingSubject--indent h-ContentsExclude">Journal</h4>
+    <div class="c-HeadingSubject c-HeadingSubject--indent h-ContentsExclude">Journal</div>
 
 
 
@@ -95,7 +95,7 @@ So gehört zu einer rund um suchmaschinenoptimierten Website noch einiges mehr. 
 
 <div class="c-Article-float c-Article-float--wide h-ArticleExclude h-ArticleExclude--indent h-ArticleExclude--float" markdown="0">
 
-    <h4 class="c-HeadingSubject c-HeadingSubject--indent h-ContentsExclude">Verbunden</h4>
+    <div class="c-HeadingSubject c-HeadingSubject--indent h-ContentsExclude">Verbunden</div>
 
 
 
