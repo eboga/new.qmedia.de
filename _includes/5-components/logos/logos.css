@@ -30,13 +30,19 @@
 
 
 
-.c-Logos-li {
+.c-Logos-item {
     display: flex;
     padding: calc(var(--li-gutter-Y) / 2) calc(var(--li-gutter-X) / 2);
 }
 
-.c-Logos-li--center {
+.c-Logos-item--center {
     justify-content: center;
+}
+
+
+
+.c-Logos-forward {
+    display: flex;
 }
 
 

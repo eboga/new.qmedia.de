@@ -2,6 +2,7 @@
 * @param {array} logos
 * @param {string} logos[i].svg
 * @param {boolean} logos[i].sm
+* @param {string} logos[i].url (optional) (default [nil])
 {%- endcomment -%}
 
 <div class="c-Logos">
@@ -43,13 +44,13 @@
 
 
 
-            <div class="c-Logos-li
+            <div class="c-Logos-item
 
                 {%- if i.center == true
                     or center_spread == true
                 -%}
 
-                    {{- ' c-Logos-li--center' -}}
+                    {{- ' c-Logos-item--center' -}}
 
                 {%- endif -%}
 
@@ -64,25 +65,43 @@
 
             ">
 
-                <div class="c-Logos-image
+                {%- if i.url
+                    and i.url != empty
+                    and i.url != false
+                -%}
 
-                    {%- if i.sm == true
-                        or sm_spread == true
-                    -%}
+                    <a class="c-Logos-forward" href="{{- i.url | default: '#' -}}" target="_blank" rel="noreferrer">
 
-                        {{- ' c-Logos-image--sm' -}}
+                {%- endif -%}
 
-                    {%- endif -%}
+                    <div class="c-Logos-image
 
-                ">
+                        {%- if i.sm == true
+                            or sm_spread == true
+                        -%}
 
-                    <span class="icon">
+                            {{- ' c-Logos-image--sm' -}}
 
-                        {%- include svg/{{ i.svg }} -%}
+                        {%- endif -%}
 
-                    </span>
+                    ">
 
-                </div>
+                        <span class="icon">
+
+                            {%- include svg/{{ i.svg }} -%}
+
+                        </span>
+
+                    </div>
+
+                {%- if i.url
+                    and i.url != empty
+                    and i.url != false
+                -%}
+
+                    </a>
+
+                {%- endif -%}
 
             </div>
 
