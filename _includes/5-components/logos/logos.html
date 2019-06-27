@@ -7,7 +7,7 @@
 
 <div class="c-Logos">
 
-    <div class="c-Logos-list h-StopMarginSharing">
+    <span class="c-Logos-list h-StopMarginSharing">
 
         {%- for i in include.logos -%}
 
@@ -74,7 +74,7 @@
 
                 {%- endif -%}
 
-                    <div class="c-Logos-image
+                    <span class="c-Logos-image
 
                         {%- if i.sm == true
                             or sm_spread == true
@@ -92,7 +92,7 @@
 
                         </span>
 
-                    </div>
+                    </span>
 
                 {%- if i.url
                     and i.url != empty
