@@ -1,0 +1,24 @@
+- name: seo
+  children:
+    - name: American Express Platinum
+      path: american-express/
+    - name: Barclaycard Platinum Double
+      path: barclaycard/
+- name: sem
+  children:
+    - name: American Express Platinum
+      path: american-express/
+    - name: Barclaycard Platinum Double
+      path: barclaycard/
+- name: lead
+  children:
+    - name: American Express Platinum
+      path: american-express/
+    - name: Barclaycard Platinum Double
+      path: barclaycard/
+- name: wordpress
+  children:
+    - name: American Express Platinum
+      path: american-express/
+    - name: Barclaycard Platinum Double
+      path: barclaycard/
