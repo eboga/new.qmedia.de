@@ -1,4 +1,11 @@
-<button class="{{- include.btn_class_list -}}" on="tap:AMP.print">
+{%- comment -%}
+* @param {string} icon
+* @param {string} btn_class_list
+* @param {string} icon_class_list
+* @param {string} label
+{%- endcomment -%}
+
+<button class="{{- include.btn_class_list -}}" on="tap:AMP.print" aria-label="{{- include.label -}}">
 
     <span class="{{- include.icon_class_list -}}">
 

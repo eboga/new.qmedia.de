@@ -67,6 +67,10 @@
 
                 {%- assign icon = 'facebook.svg' -%}
 
+
+
+                {%- assign label = 'Teilen auf Facebook' -%}
+
             {%- endif -%}
 
         {%- elsif i == 'twitter' -%}
@@ -86,6 +90,10 @@
 
 
                 {%- assign icon = 'twitter.svg' -%}
+
+
+
+                {%- assign label = 'Teilen auf Twitter' -%}
 
             {%- endif -%}
 
@@ -107,6 +115,10 @@
 
                 {%- assign icon = 'xing.svg' -%}
 
+
+
+                {%- assign label = 'Teilen auf Xing' -%}
+
             {%- endif -%}
 
         {%- elsif i == 'linkedin' -%}
@@ -126,6 +138,10 @@
 
 
                 {%- assign icon = 'linkedin.svg' -%}
+
+
+
+                {%- assign label = 'Teilen auf LinkedIn' -%}
 
             {%- endif -%}
 
@@ -147,11 +163,18 @@
 
                 {%- assign icon = 'envelop.svg' -%}
 
+
+
+                {%- assign label = 'Teilen per E-Mail' -%}
+
             {%- endif -%}
 
         {%- elsif i == 'print' -%}
 
             {%- assign icon = 'print.svg' -%}
+
+
+            {%- assign label = 'Seite drucken' -%}
 
 
 
@@ -209,6 +232,7 @@
                     btn_class_list=btn_class_list
                     icon_class_list=icon_class_list
                     icon=icon
+                    label=label
                 -%}
 
             {%- else -%}
@@ -218,6 +242,7 @@
                     href=href
                     icon_class_list=icon_class_list
                     icon=icon
+                    label=label
                 -%}
 
             {%- endif -%}

@@ -1,4 +1,12 @@
-<a class="{{- include.btn_class_list -}}" target="_blank" rel="noopener" href="{{- include.href -}}">
+{%- comment -%}
+* @param {string} href
+* @param {string} icon
+* @param {string} btn_class_list
+* @param {string} icon_class_list
+* @param {string} label
+{%- endcomment -%}
+
+<a class="{{- include.btn_class_list -}}" target="_blank" rel="noopener" href="{{- include.href -}}" aria-label="{{- include.label -}}">
 
     <span class="{{- include.icon_class_list -}}">
 
