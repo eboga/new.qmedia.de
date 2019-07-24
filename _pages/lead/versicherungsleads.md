@@ -10,15 +10,16 @@ tags: ["cpx"]
 short_title: "Versicherungsleads"
 
 user_subject: "CPX"
-user_title: "Versicherungsleads"
+user_title: "Versicherungsleads: die Königsdisziplin im Performance Marketing"
 user_excerpt: false
 related_links: "related-links-cpx"
 
 
-meta_title: "<empty>"
+meta_title: "Versicherungsleads – wir generieren für Sie qualifizierte Datensätze"
 meta_description: "<empty>"
 ---
 
+meta_description: FEHLT
 
 Unsere Kernkompetenz im Bereich Leads sind Versicherungsleads. Seit 2006 betreuen wir erfolgreich Lead-Kampagnen u. a. in folgenden Sparten:
 
