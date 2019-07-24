@@ -10,6 +10,8 @@ short_title: "SEO Agentur München"
 user_subject: "SEO"
 user_title: "SEO Agentur München"
 user_excerpt: false
+related_links: "related-links-seo"
+
 
 meta_title: "SEO Agentur München » Analyse, Beratung + zielführende Optimierung"
 meta_description: "Als SEO Agentur München sorgen wir für Ihren perfekten Online-Auftritt! ► SEO, SEM und Leadgenerierung für mehr Traffic auf Ihrer Website ✓ Hier klicken!"

@@ -1,10 +1,11 @@
 -
   - slug: "suchmaschinenoptimierung"
-  - slug: "local-seo"
-  - slug: "technisches-seo"
-  - slug: "internationales-seo"
+##  - slug: "local-seo"
+##  - slug: "technisches-seo"
+##  - slug: "internationales-seo"
 -
-  - slug: "relaunch-betreuung"
-  - slug: "seo-audit"
-  - slug: "linkaufbau"
-  - slug: "linkaudit"
+##  - slug: "relaunch-betreuung"
+  - slug: "local-seo"
+##  - slug: "seo-audit"
+##  - slug: "linkaufbau"
+##  - slug: "linkaudit"

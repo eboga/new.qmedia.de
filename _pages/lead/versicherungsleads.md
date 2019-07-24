@@ -12,6 +12,8 @@ short_title: "Versicherungsleads"
 user_subject: "CPX"
 user_title: "Versicherungsleads"
 user_excerpt: false
+related_links: "related-links-cpx"
+
 
 meta_title: "<empty>"
 meta_description: "<empty>"

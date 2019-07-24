@@ -1,7 +1,7 @@
 ---
 amp_enable: true
 layout: "service"
-permalink: "/suchmaschinenmarketing-sem/"
+permalink: "/suchmaschinenmarketing/"
 slug: "suchmaschinenmarketing"
 tags: ["sem"]
 
@@ -11,7 +11,7 @@ short_title: "Suchmaschinen&shy;marketing"
 user_subject: "SEO"
 user_title: "Suchmaschinen&shy;marketing"
 user_excerpt: >-
-  "Die einschlägigen Suchmaschinen sind Dreh- und Angelpunkt im Internet – allen voran Google, mit einem aktuellen Marktanteil (November 2018) von mehr als 94,9 Prozent dominiert der Anbieter den Markt. So ist es nur sinnvoll, sich mit der Arbeitsweise der Suchmaschine auseinanderzusetzen: Nur das Online-Angebot, das auch gefunden wird, kann letztendlich Erfolg bringen."
+  Die einschlägigen Suchmaschinen sind Dreh- und Angelpunkt im Internet – allen voran Google, mit einem aktuellen Marktanteil (November 2018) von mehr als 94,9 Prozent dominiert der Anbieter den Markt. So ist es nur sinnvoll, sich mit der Arbeitsweise der Suchmaschine auseinanderzusetzen: Nur das Online-Angebot, das auch gefunden wird, kann letztendlich Erfolg bringen.
 meta_title: "Suchmaschinenmarketing » Zielführend optimieren"
 meta_description: >-
     "Optimiertes Suchmaschinenmarketing verhilft Ihrer Website zum Erfolg ► qmedia betreut zielgerichtet, individuell und marktorientiert - Jetzt informieren!"
@@ -19,11 +19,11 @@ related_links: "related-links-sem"
 
 article_title: "Suchmaschinen&shy;optimierung: Was ist das?"
 article_hero:
-  src: "https://picsum.photos/id/10/830/374"
-  width: 830
-  height: 374
+  src: 
+  width: 
+  height: 
   alt: ""
-  copyright: "© RossHelen / iStock"
+  copyright: ""
 ---
 NEW CONTENT 
 

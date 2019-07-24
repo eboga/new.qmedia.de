@@ -12,6 +12,8 @@ short_title: "SEO Audit"
 user_subject: "SEO"
 user_title: "SEO Audit"
 user_excerpt: false
+related_links: "related-links-seo"
+
 
 meta_title: "<empty>"
 meta_description: "<empty>"

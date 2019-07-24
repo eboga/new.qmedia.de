@@ -13,6 +13,8 @@ user_subject: "SEM"
 user_title: "AdWords Optimierung"
 user_excerpt: false
 
+related_links: "related-links-sem"
+
 meta_title: "AdWords Optimierung » professionelles + zielführendes SEM"
 meta_description: "Ihre Google AdWords Anzeige weist Schwachstellen auf? Analyse, Zieldefinition und Optimierung ► wir verhelfen Ihrer Anzeige zum Erfolg! Alle Infos hier ✓ Keyword: Google AdWords"
 ---

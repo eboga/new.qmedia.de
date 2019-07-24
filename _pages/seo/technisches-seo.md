@@ -8,6 +8,7 @@ tags: ["seo"]
 
 
 short_title: "Technisches SEO"
+related_links: "related-links-seo"
 
 user_subject: "SEO"
 user_title: "Technisches SEO"

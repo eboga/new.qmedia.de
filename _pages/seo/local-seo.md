@@ -14,16 +14,12 @@ user_title: "Local SEO"
 user_excerpt: 
     In einer Zeit, in der vier von fünf Personen sich über ein lokales Geschäft oder einen Dienstleister im Internet informieren, bevor sie es tatsächlich aufsuchen, ist die regionale Online-Präsenz eines Unternehmens besonders wichtig. Lokale Suchmaschinenoptimierung zielt darauf ab, dass eine Webseite in einem bestimmten geografischen Bereich eine hohe Platzierung für relevante Suchanfragen oder Keywords generiert. 
 
-meta_title: "Local SEO"
-meta_description: "<empty>"
+related_links: "related-links-seo"
+
+meta_title: "Local SEO » Die lokale Sichtbarkeit Ihrer Webseite verbessern"
+meta_description: "Local SEO ist ein effizientes Marketing-Instrument ► Wir bringen Ihre Webseite auf die erste Seite für lokale Suchanfragen! Hier zum kostenlosen Erstgespräch ✓"
 ---
 NEW CONTENT  
-meta_title - fehlt  
-meta_description - fehlt  
-
-Local SEO
-
-
 
 ## Local SEO – für wen? 
 Das bedeutet, dass Unternehmen und Dienstleister, die einen festen Standort haben, von Local SEO profitieren. Das können beispielsweise Anwälte, Ärzte, Restaurants oder Ladengeschäfte sein. Sogenannte Service Area Businesses, die ihre Dienstleistungen in einem bestimmten Gebiet anbieten, gehören ebenso zu den Unternehmen, die ihren Erfolg durch Local SEO vergrößern können. Aber auch weiterverbreitete Unternehmen mit mehreren festen Standorten – also Unternehmensketten oder Franchise-Unternehmen – gehören dazu.
