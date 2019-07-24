@@ -17,9 +17,8 @@ meta_title: "Website für Rechtsanwalt und Kanzlei"
 meta_description: >-
   Die Unternehmenswebseite hat sich längst als digitales Aushängeschild etabliert: Internetnutzer suchen sich online die wichtigen Informationen, die sie zur Bewältigung von Problemen oder zur Erfüllung von Bedürfnissen benötigen. Sind Sie als Anwaltskanzlei nicht oder nicht modern im Internet vertreten, verzichten Sie unterm Strich auf potenzielle Mandanten. Das Internet als effektives Informationsmedium Die Webseite Ihrer Kanzlei... Read more »
 
-related_links: false
+related_links: "related-links-law"
 
-article_title: "Webseiten für Anwälte und Kanzleien"
 ---
 
 Die Unternehmenswebseite hat sich längst als digitales Aushängeschild etabliert: Internetnutzer suchen sich online die wichtigen Informationen, die sie zur Bewältigung von Problemen oder zur Erfüllung von Bedürfnissen benötigen. Sind Sie als Anwaltskanzlei nicht oder nicht modern im Internet vertreten, verzichten Sie unterm Strich auf potenzielle Mandanten.

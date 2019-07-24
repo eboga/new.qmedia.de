@@ -17,7 +17,7 @@ meta_title: "Social Media und Facebook Werbung für Ärzte"
 meta_description: >-
   Das Potenzial der sozialen Netzwerke wird so richtig deutlich, wenn wir uns eine Zahl vor Augen halten: Facebook verkündete im August eine Milliarde Nutzer und feierte so einen neuen Rekord. Menschen vernetzen sich, um Informationen und Erfahrungen auszutauschen – auch und gerade in Bezug auf Ärzte und Kliniken. Social Media – Daten, Informationen und Meinungen... Read more »
 
-related_links: false
+related_links: "related-links-doc"
 
 article_title: "Social Media Marketing für Ärzte"
 ---

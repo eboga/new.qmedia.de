@@ -10,18 +10,17 @@ short_title: "Pressearbeit für Steuerberater"
 
 user_subject: "Lösungen"
 user_title: "Pressearbeit für Steuerberater"
-user_excerpt: false
+user_excerpt: >-
+  Unsere **Pressearbeit (PR) für Steuerberater** nutzt alle in Frage kommenden Kanäle, um eine effektive Presse- und Öffentlichkeitsarbeit im Internet zu platzieren. Aus unserer Erfahrung heraus ergibt sich aus dem Zusammenspiel interessanter Pressemeldungen auf der einen Seite und der Kommunikationskanäle sowie Ihrer Webseite auf der anderen Seite ein enormer Effekt für das Ranking Ihrer Homepage in den Suchmaschinen. Außerdem präsentieren wir Ihre Kanzlei mit ihrer speziellen Ausrichtung einem breiten Publikum – und generieren so unter dem Strich neue Mandanten.
 
 meta_title: "Pressearbeit PR für Steuerberater - qmedia.de"
 meta_description: >-
   Unsere Pressearbeit (PR) für Steuerberater nutzt alle in Frage kommenden Kanäle, um eine effektive Presse- und Öffentlichkeitsarbeit im Internet zu platzieren. Aus unserer Erfahrung heraus ergibt sich aus dem Zusammenspiel interessanter Pressemeldungen auf der einen Seite und der Kommunikationskanäle sowie Ihrer Webseite auf der anderen Seite ein enormer Effekt für das Ranking Ihrer Homepage in... Read more »
 
-related_links: false
+related_links: "related-links-tax"
 
-article_title: "Pressearbeit für Steuerberater"
 ---
 
-Unsere **Pressearbeit (PR) für Steuerberater** nutzt alle in Frage kommenden Kanäle, um eine effektive Presse- und Öffentlichkeitsarbeit im Internet zu platzieren. Aus unserer Erfahrung heraus ergibt sich aus dem Zusammenspiel interessanter Pressemeldungen auf der einen Seite und der Kommunikationskanäle sowie Ihrer Webseite auf der anderen Seite ein enormer Effekt für das Ranking Ihrer Homepage in den Suchmaschinen. Außerdem präsentieren wir Ihre Kanzlei mit ihrer speziellen Ausrichtung einem breiten Publikum – und generieren so unter dem Strich neue Mandanten.
 
 ## Die Digitalisierung in der Pressearbeit
 

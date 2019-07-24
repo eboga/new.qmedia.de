@@ -10,17 +10,17 @@ short_title: "Social Media Marketing für Anwälte"
 
 user_subject: "Lösungen"
 user_title: "Social Media Marketing für Anwälte"
-user_excerpt: false
+user_excerpt: >-
+  Mit einer Milliarde Nutzern vermeldete Facebook kürzlich einen neuen Rekord – und damit ein enormes Potenzial für Marketing Maßnahmen. Die User tauschen sich zu ihren Erlebnissen und Erfahrungen aus, interessante Informationen verbreiten sich in rasender Geschwindigkeit. Vor allem aber lassen sich Zielgruppen sehr genau selektieren – unser Social Media Marketing für Anwälte und Kanzleien fällt hier auf fruchtbaren Boden.
 
 meta_title: "Facebook Werbung für Rechtsanwalt und Kanzlei"
 meta_description: >-
   Mit einer Milliarde Nutzern vermeldete Facebook kürzlich einen neuen Rekord – und damit ein enormes Potenzial für Marketing Maßnahmen. Die User tauschen sich zu ihren Erlebnissen und Erfahrungen aus, interessante Informationen verbreiten sich in rasender Geschwindigkeit. Vor allem aber lassen sich Zielgruppen sehr genau selektieren – unser Social Media Marketing für Anwälte und Kanzleien fällt... Read more »
-related_links: false
 
-article_title: "Social Media Marketing für Anwälte"
+related_links: "related-links-law"
+
 ---
 
-Mit einer Milliarde Nutzern vermeldete Facebook kürzlich einen neuen Rekord – und damit ein enormes Potenzial für Marketing Maßnahmen. Die User tauschen sich zu ihren Erlebnissen und Erfahrungen aus, interessante Informationen verbreiten sich in rasender Geschwindigkeit. Vor allem aber lassen sich Zielgruppen sehr genau selektieren – unser Social Media Marketing für Anwälte und Kanzleien fällt hier auf fruchtbaren Boden.
 
 ## Soziale Netzwerke – Vernetzung ohne Grenzen
 

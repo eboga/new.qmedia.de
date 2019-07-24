@@ -6,7 +6,7 @@ slug: "suchmaschinenoptimierung-aerzte"
 
 
 
-short_title: "Suchmaschinenoptimierung für Ärzte und Kliniken"
+short_title: "SEO für Ärzte und Praxis"
 
 user_subject: "Lösungen"
 user_title: "Suchmaschinenoptimierung für Ärzte und Kliniken"
@@ -17,7 +17,7 @@ meta_title: "Suchmaschinenoptimierung (SEO) für Ärzte / Kliniken"
 meta_description: >-
   Immer mehr Menschen orientieren sich im Internet, wenn Sie spezielle Leistungen oder Produkte suchen – Ärzte und Kliniken bilden da keine Ausnahme. Auf Anhieb im Internet gefunden zu werden, das ist die große Kunst der Suchmaschinenoptimierung. Um Ihre Praxis oder Ihre Klinik optimal zu platzieren, nutzen wir die gesamte Bandbreite der Suchmaschinenoptimierung aus. Suchmaschinen –... Read more »
 
-related_links: false
+related_links: "related-links-doc"
 
 article_title: "Suchmaschinenoptimierung für Ärzte und Kliniken"
 ---

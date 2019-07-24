@@ -17,7 +17,7 @@ meta_title: "Pressearbeit PR für Ärzte und Kliniken"
 meta_description: >-
   Öffentlichkeitsarbeit wird allgemein als Public Relations oder PR bezeichnet. Online PR nutzt wiederum für diese öffentlichkeitswirksame Pressearbeit die besonderen Möglichkeiten des Internets und damit die deutlich höhere Geschwindigkeit der Verbreitung bei niedrigeren Kosten. Wir spielen für Sie auf der breiten Klaviatur der zur Auswahl stehenden Instrumente, um Ihre Praxis, Ihre besonderen Therapie- und Leistungsangebote gezielt... Read more »
 
-related_links: false
+related_links: "related-links-doc"
 
 article_title: "Pressearbeit für Ärzte"
 ---

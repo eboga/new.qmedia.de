@@ -4,9 +4,7 @@ layout: "service"
 permalink: "/google-adwords-werbung-arztpraxis/"
 slug: "google-adwords-werbung-arztpraxis"
 
-
-
-short_title: "Suchmaschinenmarketing (SEM) – Google AdWords"
+short_title: "Google Werbung für Ärzte und Praxis"
 
 user_subject: "Lösungen"
 user_title: "Suchmaschinenmarketing (SEM) – Google AdWords"
@@ -17,7 +15,7 @@ meta_title: "Suchmaschinenmarketing - Google Werbung für Ärzte in München"
 meta_description: >-
   Suchmaschinemarketing (SEM) für Ärzte umfasst als wichtiges Online-Marketinginstrument alle Werbemaßnahmen, die den Traffic auf Ihrer Praxis-Webseite erhöhen. Neben der Suchmaschinenoptimierung (SEO) zählt auch die gezielte Suchmaschinenwerbung (SEA) in diesen Bereich. Mit intelligent platzierten Suchwortanzeigen bei Google AdWords lässt sich das Ranking in der Suchmaschine optimieren, was in der Folge mehr Besucher auf die Webseite leitet.... Read more »
 
-related_links: false
+related_links: "related-links-doc"
 
 article_title: "Suchmaschinenmarketing (SEM) – Google AdWords"
 ---

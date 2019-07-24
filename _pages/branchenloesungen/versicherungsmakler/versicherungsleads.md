@@ -2,7 +2,7 @@
 amp_enable: true
 layout: "service"
 permalink: "/versicherungsleads/"
-slug: "versicherungsleads"
+slug: "versicherungsleads-branche"
 
 
 
@@ -17,9 +17,8 @@ meta_title: "Versicherungsleads - wir generieren für Sie qualifizierte Datensä
 meta_description: >-
   Unsere Kernkompetenz im Bereich Leads sind Versicherungsleads. Seit 2006 betreuen wir erfolgreich Lead-Kampagnen u. a. in folgenden Sparten: Private Krankenversicherung Berufsunfähigkeitsversicherung Riester-Rente Basisrente / Rürup-Rente Zahnzusatzversicherung Unsere Leistungen: Produktion von Versicherungsleads im Kundenbranding Produktion von Versicherungsleads in einem neutralen Branding Optimierung Ihrer Landing Page Konzeption und Erstellung neuer Landing Pages Marketing Planung für Ihre Lead... Read more »
 
-related_links: false
+related_links: "related-links-insurance"
 
-article_title: "Versicherungsleads: die Königsdisziplin im Performance Marketing"
 ---
 
 Unsere Kernkompetenz im Bereich Leads sind **Versicherungsleads**. Seit 2006 betreuen wir erfolgreich Lead-Kampagnen u. a. in folgenden Sparten:

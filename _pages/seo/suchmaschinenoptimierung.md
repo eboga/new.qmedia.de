@@ -11,7 +11,7 @@ short_title: "Suchmaschinen&shy;optimierung"
 user_subject: "SEO"
 user_title: "Suchmaschinen&shy;optimierung"
 user_excerpt: >-
-    "Wie wir Sie in den Suchergebnissen bei Google bestens platzieren? Wir verfolgen den gleichen Ansatz wie die Suchmaschine: Genau wie Google richten wir alle Eigenschaften einer Webseite auf den User aus. Unser Ziel ist es somit, dem Suchmaschinennutzer das beste Ergebnis auf seine Suchanfrage zu bieten. Eine positive User-Experience ist grundlegend, damit Google eine Webseite auf den ersten Seiten gut positioniert. Wir unterstützen unsere Kunden dabei, mit ihrer Webseite das beste Ergebnis auf relevante Suchanfragen zu garantieren. Somit ist es im Interesse von Google, die Website gut zu platzieren. Denn das langfristige Ziel von Suchmaschinen ist es, dass die Nutzer mit den Suchergebnissen zufrieden sind und die Suchmaschine daher weiterhin einsetzen." 
+    Wie wir Sie in den Suchergebnissen bei Google bestens platzieren? Wir verfolgen den gleichen Ansatz wie die Suchmaschine: Genau wie Google richten wir alle Eigenschaften einer Webseite auf den User aus. Unser Ziel ist es somit, dem Suchmaschinennutzer das beste Ergebnis auf seine Suchanfrage zu bieten. Eine positive User-Experience ist grundlegend, damit Google eine Webseite auf den ersten Seiten gut positioniert. Wir unterstützen unsere Kunden dabei, mit ihrer Webseite das beste Ergebnis auf relevante Suchanfragen zu garantieren. Somit ist es im Interesse von Google, die Website gut zu platzieren. Denn das langfristige Ziel von Suchmaschinen ist es, dass die Nutzer mit den Suchergebnissen zufrieden sind und die Suchmaschine daher weiterhin einsetzen. 
 
 meta_title: "Agentur für Suchmaschinenoptimierung aus München » Ihre SEO-Experten"
 meta_description: >-

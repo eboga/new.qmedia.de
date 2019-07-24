@@ -10,26 +10,18 @@ short_title: "Online Werbung für Ärzte"
 
 user_subject: "Lösungen"
 user_title: "Online Werbung für Ärzte"
-user_excerpt: false
+user_excerpt: >-
+  Eine **Anstieg an Medizinern aller Fachrichtungen um 50 Prozent allein in den Jahren von 1990 bis 2015**, eine **starke Konzentration in den Städten** und knapp 116.000 Ärzte von insgesamt 480.000 Medizinern ohne Tätigkeit: Das sind die wichtigsten Eckdaten, die jeder Arzt in Deutschland kennen sollte. **Die Zahl der Patienten ist dabei weitgehend konstant geblieben.** Immer häufiger müssen Ärzte um Neukunden kämpfen, um langfristig am Markt erfolgreich zu sein. **Online Werbung** hilft Ihnen dabei, Ihre Praxis positiv von der Konkurrenz zu unterscheiden.
 
 meta_title: "Online Werbung für Ärzte - Der Multikanalansatz macht den Unterschied"
 meta_description: >-
   Unsere Leistungen für Ärzte und Kliniken Google Werbung für Ärzte Facebook Werbung für Ärzte Suchmaschinenoptimierung SEO für Ärzte Pressearbeit (PR) für Ärzte Webseitenerstellung und Pflege für Ärzte und Kliniken Eine Anstieg an Medizinern aller Fachrichtungen um 50 Prozent allein in den Jahren von 1990 bis 2015, eine starke Konzentration in den Städten und knapp 116.000... Read more »
 
-related_links: false
+related_links: "related-links-doc"
 
 article_title: "Online Werbung für Ärzte"
 ---
 
-## Unsere Leistungen für Ärzte und Kliniken
-
-*   [Google Werbung für Ärzte](/google-adwords-werbung-arztpraxis/)
-*   [Facebook Werbung für Ärzte](/facebook-social-media-werbung-aerzte/)
-*   [Suchmaschinenoptimierung SEO für Ärzte](/suchmaschinenoptimierung-aerzte/)
-*   [Pressearbeit (PR) für Ärzte](/pressearbeit-pr-aerzte/)
-*   [Webseitenerstellung und Pflege für Ärzte und Kliniken](/webseite-arzt-kliniken/)
-
-Eine **Anstieg an Medizinern aller Fachrichtungen um 50 Prozent allein in den Jahren von 1990 bis 2015**, eine **starke Konzentration in den Städten** und knapp 116.000 Ärzte von insgesamt 480.000 Medizinern ohne Tätigkeit: Das sind die wichtigsten Eckdaten, die jeder Arzt in Deutschland kennen sollte. **Die Zahl der Patienten ist dabei weitgehend konstant geblieben.** Immer häufiger müssen Ärzte um Neukunden kämpfen, um langfristig am Markt erfolgreich zu sein. **Online Werbung** hilft Ihnen dabei, Ihre Praxis positiv von der Konkurrenz zu unterscheiden.
 
 ## Konkurrenzdruck wird größer – bei stabiler Nachfrage
 

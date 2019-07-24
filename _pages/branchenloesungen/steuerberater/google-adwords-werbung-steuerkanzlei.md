@@ -10,18 +10,17 @@ short_title: "Suchmaschinenmarketing (SEM) – Google AdWords"
 
 user_subject: "Lösungen"
 user_title: "Suchmaschinenmarketing (SEM) – Google AdWords"
-user_excerpt: false
+user_excerpt: >-
+  **Suchmaschinenmarketing (SEM)** mit Google AdWords Kampagnen gehören zu den intelligenten Instrumenten im Bereich der [Suchmaschinenoptimierung für Steuerberater](/suchmaschinenoptimierung-steuerberater/) – wir nutzen dieses interessante Potenzial effektiv für Sie aus, um Ihren Internetauftritt in den Ergebnislisten optimal zu platzieren. Schließlich kommt es darauf an, dass Ihre Seite bei einer entsprechenden Suchanfrage weit oben angezeigt wird, soll der Internetauftritt effektiv Erfolg bringen.
 
 meta_title: "Google Werbung für Steuerberater (StB), Mandanten bei der Suche finden"
 meta_description: >-
   Suchmaschinenmarketing (SEM) mit Google AdWords Kampagnen gehören zu den intelligenten Instrumenten im Bereich der Suchmaschinenoptimierung für Steuerberater – wir nutzen dieses interessante Potenzial effektiv für Sie aus, um Ihren Internetauftritt in den Ergebnislisten optimal zu platzieren. Schließlich kommt es darauf an, dass Ihre Seite bei einer entsprechenden Suchanfrage weit oben angezeigt wird, soll der Internetauftritt... Read more »
 
-related_links: false
+related_links: "related-links-tax"
 
-article_title: "Suchmaschinenmarketing (SEM) – Google AdWords"
 ---
 
-**Suchmaschinenmarketing (SEM)** mit Google AdWords Kampagnen gehören zu den intelligenten Instrumenten im Bereich der [Suchmaschinenoptimierung für Steuerberater](/suchmaschinenoptimierung-steuerberater/) – wir nutzen dieses interessante Potenzial effektiv für Sie aus, um Ihren Internetauftritt in den Ergebnislisten optimal zu platzieren. Schließlich kommt es darauf an, dass Ihre Seite bei einer entsprechenden Suchanfrage weit oben angezeigt wird, soll der Internetauftritt effektiv Erfolg bringen.
 
 ## Suchmaschinenmarketing mit Google AdWords
 

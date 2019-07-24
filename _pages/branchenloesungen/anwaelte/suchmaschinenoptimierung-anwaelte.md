@@ -17,9 +17,8 @@ meta_title: "SEO Suchmaschinenoptimierung für Rechtsanwalt und Kanzlei"
 meta_description: >-
   Google & Co. gehören heute zu den selbstverständlichen Instrumenten, die Internutzer zur Online-Recherche nutzen. Allerdings werden die Ergebnislisten in aller Regel maximal bis zur zweiten Seite durchgesehen, um sich mit den gewünschten Informationen zu versorgen. Das gibt der Platzierung einer Webseite für Anwälte eine entscheidende Bedeutung. Unsere Vorgehensweise Analyse & Strategie Konzeption & Entwicklung Erfolgsanalyse... Read more »
 
-related_links: false
+related_links: "related-links-law"
 
-article_title: "Suchmaschinenoptimierung für Anwälte und Kanzleien"
 ---
 
 Google & Co. gehören heute zu den selbstverständlichen Instrumenten, die Internutzer zur Online-Recherche nutzen. Allerdings werden die Ergebnislisten in aller Regel maximal bis zur zweiten Seite durchgesehen, um sich mit den gewünschten Informationen zu versorgen. Das gibt der Platzierung einer Webseite für Anwälte eine entscheidende Bedeutung.

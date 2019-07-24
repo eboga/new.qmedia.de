@@ -17,7 +17,7 @@ meta_title: "Website für Ärzte und Kliniken"
 meta_description: >-
   Das Internet spielt auch für den medizinischen Bereich immer eine größere Rolle: Viele Patienten orientieren sich zunächst in den einschlägigen Suchmaschinen zu bestimmten Behandlungen, Fachärzten oder Kliniken. Aber vor allem spielen die Erfahrungen und Bewertungen, die andere bereits gemacht und abgegeben haben, eine wichtige Rolle bei der Entscheidung. Wie Sie dieses Potenzial optimal für sich... Read more »
 
-related_links: false
+related_links: "related-links-doc"
 
 article_title: "Webseiten für Ärzte und Kliniken"
 ---

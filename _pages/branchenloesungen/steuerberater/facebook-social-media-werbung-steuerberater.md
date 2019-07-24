@@ -17,9 +17,8 @@ meta_title: "Facebook Werbung für Steuerberater, Gezielt neue Mandanten ansprec
 meta_description: >-
   Menschen vernetzen sich, tauschen sich aus und kommentieren die neuesten Entwicklungen oder auch ihre Erfahrungen – schon aus diesem Grund eröffnen die sozialen Netzwerke ein enormes Potenzial für gezielte Marketing-Strategien. Ein weiterer Grund für ein gezieltes Social Media Marketing liegt in den Möglichkeiten, die die Netzwerke selbst einräumen: Zielgruppen können sowohl nach Regionen als auch... Read more »
 
-related_links: false
+related_links: "related-links-tax"
 
-article_title: "Social Media und Facebook Werbung für Steuerberater"
 ---
 
 Menschen vernetzen sich, tauschen sich aus und kommentieren die neuesten Entwicklungen oder auch ihre Erfahrungen – schon aus diesem Grund eröffnen die sozialen Netzwerke ein enormes Potenzial für gezielte Marketing-Strategien. Ein weiterer Grund für ein gezieltes Social Media Marketing liegt in den Möglichkeiten, die die Netzwerke selbst einräumen: Zielgruppen können sowohl nach Regionen als auch nach Altersgruppen oder ähnlichen Kriterien selektiert werden – das nutzen wir natürlich für unsere Social Media Marketing-Maßnahmen für Steuerberater effektiv aus.

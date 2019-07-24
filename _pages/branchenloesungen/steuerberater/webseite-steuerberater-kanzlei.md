@@ -17,9 +17,8 @@ meta_title: "Website für Steuerberater und Steuerkanzlei"
 meta_description: >-
   Das Internet wird von einem überwiegenden Teil der Nutzer verwendet, um bestimmte Dienstleistungen oder Produkte zu suchen – sind Sie nicht mit einer professionellen Website präsent, entgehen Ihnen effektiv Mandanten. Auch wenn das Design sehr wichtig ist, berücksichtigen wir immer auch die Suchmaschinentauglichkeit Ihrer Webseite. Wir konzipieren moderne Webseiten für Steuerberater so, dass Sie den... Read more »
 
-related_links: false
+related_links: "related-links-tax"
 
-article_title: "Responsive Webseiten für Steuerberater und Kanzleien"
 ---
 
 Das Internet wird von einem überwiegenden Teil der Nutzer verwendet, um bestimmte Dienstleistungen oder Produkte zu suchen – sind Sie nicht mit einer professionellen Website präsent, entgehen Ihnen effektiv Mandanten. Auch wenn das Design sehr wichtig ist, berücksichtigen wir immer auch die Suchmaschinentauglichkeit Ihrer Webseite. Wir konzipieren moderne Webseiten für Steuerberater so, dass Sie den gewünschten Erfolg auch erzielen.

@@ -10,18 +10,16 @@ short_title: "Online Werbung für Anwälte und Kanzleien"
 
 user_subject: "Lösungen"
 user_title: "Online Werbung für Anwälte und Kanzleien"
-user_excerpt: false
+user_excerpt: >-
+  Ein prognostizierter Umsatz von über 20 Milliarden Euro im Jahr 2020, doch scharfe Kritik der Mandanten an überhöhten Kosten bei mangelnder Transparenz und Planbarkeit: Das sind die wichtigsten Rahmenbedingungen, denen sich Rechtsanwaltskanzleien in Deutschland zunehmend ausgesetzt sehen. Ein gut durchdachtes Onlinemarketing kann helfen, sich von der Konkurrenz abzuheben und für Neukunden noch interessanter zu werden. Eine Abstimmung des Marketings auf die Besonderheiten der Branche ist dabei essenziell.
 
 meta_title: "Online Werbung für Anwälte und Kanzleien"
 meta_description: >-
   Ein prognostizierter Umsatz von über 20 Milliarden Euro im Jahr 2020, doch scharfe Kritik der Mandanten an überhöhten Kosten bei mangelnder Transparenz und Planbarkeit: Das sind die wichtigsten Rahmenbedingungen, denen sich Rechtsanwaltskanzleien in Deutschland zunehmend ausgesetzt sehen. Ein gut durchdachtes Onlinemarketing kann helfen, sich von der Konkurrenz abzuheben und für Neukunden noch interessanter zu werden.... Read more »
 
-related_links: false
+related_links: "related-links-law"
 
-article_title: "Online Werbung für Anwälte und Kanzleien"
 ---
-
-Ein prognostizierter Umsatz von über 20 Milliarden Euro im Jahr 2020, doch scharfe Kritik der Mandanten an überhöhten Kosten bei mangelnder Transparenz und Planbarkeit: Das sind die wichtigsten Rahmenbedingungen, denen sich Rechtsanwaltskanzleien in Deutschland zunehmend ausgesetzt sehen. Ein gut durchdachtes Onlinemarketing kann helfen, sich von der Konkurrenz abzuheben und für Neukunden noch interessanter zu werden. Eine Abstimmung des Marketings auf die Besonderheiten der Branche ist dabei essenziell.
 
 ## Unzufriedene Mandaten zeigen Handlungsbedarf
 Rechtsanwälte aller Fachrichtungen müssen sind in den kommenden Jahre auf einer Verschärfung der Konkurrenz am Markt einrichten. Zwar wird der Umsatz der Branche nach Ansicht von Statista bis zum Jahr 2020 kontinuierlich auf über 20 Milliarden Euro jährlich steigen. Doch schon heute ist bekannt, wo die Klienten Verbesserungspotenzial in den Kanzleien sehen und wo man sich Optimierungen wünscht. So wird zum Beispiel unternehmerisches Denken vermisst. Damit einher geht ein wenig verständlicher Abrechnungsprozess. Die Kosten erscheinen unverhältnismäßig hoch, jegliche Planbarkeit wird dadurch im Keim erstickt. Auch das Rechtsanwaltsgebührengesetz mit seinen neuen Vorgaben konnte hier offenbar keine Klarheit schaffen. Sollte es in Zukunft nicht gelingen, werden zunehmend unzufriedene Kunden nach alternativen Lösungen suchen. Diese stehen bereits in den Startlöchern.

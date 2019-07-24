@@ -16,9 +16,8 @@ meta_title: "Google AdWords für Rechtsanwalt und Kanzlei"
 meta_description: >-
   Suchmaschinenmarketing – gezielt und gut durchdacht – gehören ebenso zum intelligenten Online Marketing wie die Suchmaschinenoptimierung für Anwälte. Suchmaschinenmarketing (SEM) fördert die Sichtbarkeit für Ihre Webseite, sodass Internetnutzer, die nach einer geeigneten Anwaltskanzlei recherchieren, auf Ihre Webseite gelenkt werden. Es geht also um ein intelligentes Zusammenspiel von Webseite auf der einen und den verschiedenen Möglichkeiten... Read more »
 
-related_links: false
+related_links: "related-links-law"
 
-article_title: "Suchmaschinenmarketing (SEM) – Google AdWords"
 ---
 
 Suchmaschinenmarketing – gezielt und gut durchdacht – gehören ebenso zum intelligenten Online Marketing wie die [Suchmaschinenoptimierung für Anwälte](/suchmaschinenoptimierung-anwaelte/). Suchmaschinenmarketing (SEM) fördert die Sichtbarkeit für Ihre Webseite, sodass Internetnutzer, die nach einer geeigneten Anwaltskanzlei recherchieren, auf Ihre Webseite gelenkt werden. Es geht also um ein intelligentes Zusammenspiel von Webseite auf der einen und den verschiedenen Möglichkeiten der Optimierung auf der anderen Seite, die wir speziell auf das Leistungsspektrum Ihrer Kanzlei zuschneiden.

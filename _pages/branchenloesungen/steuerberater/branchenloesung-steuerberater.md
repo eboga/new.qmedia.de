@@ -10,18 +10,17 @@ short_title: "Branchenlösung für Steuerberater"
 
 user_subject: "Lösungen"
 user_title: "Branchenlösung für Steuerberater"
-user_excerpt: false
+user_excerpt: >-
+  Ein guter Steuerberater ist Gold wert, wenn man als Privatperson weniger Steuern bezahlen möchte. Und für Unternehmen aller Branchen und Größen ist ein erfahrener Berater in steuerlichen Fragen ein essenzieller Bestandteil des Firmennetzwerks. Er kümmert sich um die Lohn- und Finanzbuchhaltung, er übernimmt die Buchführung, und er achtet darauf, dass alle Fristen im Zusammenspiel mit den Finanzbehörden eingehalten werden. Doch gerade in den Großstädten und in den Ballungsgebieten nimmt die Zahl der Kanzleien zu. Wer Vertrauen zu seinen Mandanten schaffen will und wer sich als moderne und zukunftsorientierte Kanzlei präsentieren will, muss online vertreten sein. Im besten Fall gewinnt man durch einen ausgereiften Onlineauftritt sogar Neukunden.
 
 meta_title: "Branchenlösung für Steuerberater"
 meta_description: >-
   Ein guter Steuerberater ist Gold wert, wenn man als Privatperson weniger Steuern bezahlen möchte. Und für Unternehmen aller Branchen und Größen ist ein erfahrener Berater in steuerlichen Fragen ein essenzieller Bestandteil des Firmennetzwerks. Er kümmert sich um die Lohn- und Finanzbuchhaltung, er übernimmt die Buchführung, und er achtet darauf, dass alle Fristen im Zusammenspiel mit... Read more »
 
-related_links: false
+related_links: "related-links-tax"
 
-article_title: "Branchenlösung für Steuerberater"
 ---
 
-Ein guter Steuerberater ist Gold wert, wenn man als Privatperson weniger Steuern bezahlen möchte. Und für Unternehmen aller Branchen und Größen ist ein erfahrener Berater in steuerlichen Fragen ein essenzieller Bestandteil des Firmennetzwerks. Er kümmert sich um die Lohn- und Finanzbuchhaltung, er übernimmt die Buchführung, und er achtet darauf, dass alle Fristen im Zusammenspiel mit den Finanzbehörden eingehalten werden. Doch gerade in den Großstädten und in den Ballungsgebieten nimmt die Zahl der Kanzleien zu. Wer Vertrauen zu seinen Mandanten schaffen will und wer sich als moderne und zukunftsorientierte Kanzlei präsentieren will, muss online vertreten sein. Im besten Fall gewinnt man durch einen ausgereiften Onlineauftritt sogar Neukunden.
 
 ## Das Steuerrecht erfordert kompetente Beratung
 

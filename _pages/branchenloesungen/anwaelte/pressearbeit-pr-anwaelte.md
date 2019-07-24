@@ -10,18 +10,16 @@ short_title: "Pressearbeit für Anwälte und Kanzleien"
 
 user_subject: "Lösungen"
 user_title: "Pressearbeit für Anwälte und Kanzleien"
-user_excerpt: false
-
+user_excerpt: >-
+   Wirksame **Öffentlichkeits- und Pressearbeit im Internet** – genau damit befasst sich unser Angebot an Online PR für Anwälte. Im Zusammenspiel von Pressemeldungen, verschiedenen Kommunikationskanälen und natürlich der Webseite Ihrer Kanzlei erreichen wir so nicht nur ein optimales Ranking in den einschlägigen Suchmaschinen. Darüber hinaus werden Ihre speziellen Leistungsangebote und -stärken einem größeren Publikum und damit auch potenziellen Mandanten zugänglich gemacht.
+   
 meta_title: "Google AdWords für Rechtsanwalt und Kanzlei"
 meta_description: >-
   Wirksame Öffentlichkeits- und Pressearbeit im Internet – genau damit befasst sich unser Angebot an Online PR für Anwälte. Im Zusammenspiel von Pressemeldungen, verschiedenen Kommunikationskanälen und natürlich der Webseite Ihrer Kanzlei erreichen wir so nicht nur ein optimales Ranking in den einschlägigen Suchmaschinen. Darüber hinaus werden Ihre speziellen Leistungsangebote und -stärken einem größeren Publikum und damit... Read more »
 
-related_links: false
+related_links: "related-links-law"
 
-article_title: "Pressearbeit für Anwälte und Kanzleien"
 ---
-
-Wirksame **Öffentlichkeits- und Pressearbeit im Internet** – genau damit befasst sich unser Angebot an Online PR für Anwälte. Im Zusammenspiel von Pressemeldungen, verschiedenen Kommunikationskanälen und natürlich der Webseite Ihrer Kanzlei erreichen wir so nicht nur ein optimales Ranking in den einschlägigen Suchmaschinen. Darüber hinaus werden Ihre speziellen Leistungsangebote und -stärken einem größeren Publikum und damit auch potenziellen Mandanten zugänglich gemacht.
 
 ## Moderne PR findet vor allem online statt
 
