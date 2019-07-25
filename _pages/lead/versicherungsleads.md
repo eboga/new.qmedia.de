@@ -5,8 +5,6 @@ permalink: "/leadgenerierung/versicherungsleads/"
 slug: "versicherungsleads"
 tags: ["cpx"]
 
-
-
 short_title: "Versicherungsleads"
 
 user_subject: "CPX"
@@ -37,7 +35,8 @@ Unsere Kernkompetenz im Bereich Leads sind Versicherungsleads. Seit 2006 betreue
  * Marketing Planung für Ihre Lead Produktion
 
 Dies ist einer der komplexesten Bereiche der Lead-Generierung, da die Conversion Rates traditionell sehr niedrig liegen und es nicht einfach ist, qualitativ hochwertige Leads zu erzielen. Um Ihre Kundenkontakte messbar zu verbessern bündeln wir unsere Kompetenzen und behalten stets das große Ganze im Blick:
-Unser Ziel ist es, den Wiedererkennungswert der User beim Kontakt zu erhöhen und so die Reklamationsquoten zu senken und zugleich die Qualität der erzielten Leads zu verbessern. Dazu gehören für uns selbstverständlich auf die Zielgruppe gerichtetes Content Marketing, Konzeptionierung und Optimierung von Landing Pages sowie SEO und SEA.
+
+Unser Ziel ist es, den Wiedererkennungswert der User beim Kontakt zu erhöhen und so die Reklamationsquoten zu senken und zugleich die Qualität der erzielten Leads zu verbessern. Dazu gehören für uns selbstverständlich auf die Zielgruppe gerichtetes Content Marketing, Konzeptionierung und Optimierung von Landing Pages sowie [SEO](/suchmaschinenoptimierung/) und [SEA](/suchmaschinenmarketing/).
 
 ## Vertrauen schaffen, Leads generieren
 Der Bedarf an Versicherungen insbesondere in den Bereichen Gesundheit und Vorsorge ist in Deutschland nach wie vor hoch. Aber vielen Verbrauchern fehlt die Orientierung im sprichwörtlichen Informationsdschungel. Hier setzen wir an, indem wir potentiellen Kunden mittels Content Marketing genau jene Informationen liefern, nach denen sie suchen – klar, übersichtlich und verständlich.

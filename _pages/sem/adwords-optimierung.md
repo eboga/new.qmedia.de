@@ -18,7 +18,6 @@ related_links: "related-links-sem"
 meta_title: "AdWords Optimierung » professionelles + zielführendes SEM"
 meta_description: "Ihre Google AdWords Anzeige weist Schwachstellen auf? Analyse, Zieldefinition und Optimierung ► wir verhelfen Ihrer Anzeige zum Erfolg! Alle Infos hier ✓ Keyword: Google AdWords"
 ---
-NEW CONTENT  
 
 ## Wir optimieren Ihre Google AdWords Kampagne
 Als wichtiger Bestandteil des Suchmaschinenmarketings kümmern wir uns um die professionelle Optimierung Ihrer Google AdWords Kampagnen. Bei Google AdWords handelt es sich um einen kostenpflichtigen Google Dienst, der als Präzisionswerkzeug zu einer optimalen Sichtbarkeit Ihrer Webseite für potenzielle Kunden verhilft. Um mehr Kunden zu gewinnen und deren Interesse an Ihrem Unternehmen zu wecken, bietet AdWords die Möglichkeit, Anzeigen für Produkte oder Dienstleistungen ganz gezielt zu schalten, die als Antwort auf relevante Suchanfragen direkt auf der ersten Seite bei Google erscheinen. Als ideales Marketing-Tool bietet sich AdWords für Unternehmen jeder Größe an. 
@@ -28,15 +27,14 @@ Google AdWords wird von zahlreichen Unternehmen genutzt. Da es jedoch oftmals an
 Zielführende AdWords Optimierung: In drei Schritten zum Erfolg 
 
 Um Sie bei Ihrer Google Ads Kampagne erfolgreich zu unterstützen, bieten wir Ihnen eine umfassende Betreuung, die in drei Phasen beschrieben werden kann:
-1.	SCHRITT: ANHAND DER ANALYSE DES IST-ZUSTANDES IHRER KAMPAGNE UND DER DEFINITION DES ZIELS, DASS SIE DAMIT ERREICHEN MÖCHTEN, LEGEN WIR FEST, AN WELCHEN STELLEN OPTIMIERUNGEN DURCHGEFÜHRT WERDEN MÜSSEN. 
-2.	SCHRITT: IHRE EXPERTISE UND UNSER KNOW-HOW ARBEITEN BEI DER OPTIMIERUNG IHRER KAMPAGNE ENG ZUSAMMEN. WIR OPTIMIEREN DIE STRUKTUR, EINSTELLUNGEN UND KEYWORDS, UM EINE ZIELGERICHTETE ANZEIGESCHALTUNG DURCHZUSETZEN UND DAS RICHTIGE PUBLIKUM ANZUSPRECHEN. 
-3.	SCHRITT: SIND DIE KAMPAGNEN AUFGESETZT, UNTERSUCHEN WIR DURCH PROFESSIONELLES MONITORING, WO POTENZIAL ZUR ERFOLGSSTEIGERUNG VORHANDEN IST. DIESES WISSEN HILFT UND DABEI, DIE ANZEIGEN NOCH GENAUER AUF IHRE ZIELE AUSZURICHTEN. DABEI LEGEN WIR GROßEN WERT AUF TRANSPARENZ. SIE BEHALTEN STETS DEN ÜBERBLICK UND DIE KONTROLLE ÜBER ALLE VORGÄNGE UND VERÄNDERUNGEN IHRES ADWORDS KONTOS. 
+1.	Schritt: Anhand der Analyse des IST-Zustandes Ihrer Kampagne und der Definition des Ziels, dass Sie damit erreichen möchten, legen wir fest, an welchen stellen Optimierungen durchgeführt werden müssen. 
+2.	Schritt: Ihre Expertise und unser Know-How arbeiten bei der Optimierung Ihrer Kampagne eng zusammen. Wir optimieren die Struktur, Einstellungen und Keywords, um eine zielgerichtete Anzeigenschaltung durchzusetzen und das richtige Publikum anzusprechen. 
+3.	Schritt: Sind die Kampagnen aufgesetzt, untersuchen wir durch professionelles Monitoring, wo Potenzial zur Erfolgssteigerung vorhanden ist. Dieses Wissen hilft uns dabei, die Anzeigen noch genauer auf Ihre Ziele auszurichten. Dabei legen wir großen Wert auf Transparenz. Sie behalten stets den Überblick und die Kontrolle über alle Vorgänge und Veränderungen Ihres Adwords Kontos. 
 
-Hier wäre eine Grafik meiner Meinung nach sehr sinnvoll. Um den Aufzähl-Charakter etwas aufzulockern und die Phasen übersichtlicher zu gestalten, schlage ich vor, die jeweiligen Schritte in Kästen zu packen und sie durch ein Symbol (im Hintergrund), dass die Phase beschreibt, zu visualisieren. Beim ersten Schritt könnte das eine Lupe sein, beim zweiten ein Häkchen, beim dritten einen Pfeil, der nach rechts oben geht… Das wäre meine Idee dazu.
 
 ## Das bietet Google AdWords
  * Erstellen und verwalten Sie zielgerichtete Anzeigen mit Google AdWords. 
- * Planen Sie selbst: Sie können Ihre AdWords Anzeige an ausgewählten Tagen schalten. 
+ * Planen Sie selbst: Sie können Ihre AdWords Anzeige an ausgewählten Tagen und Zeiten schalten. 
  * Preis-pro-Klick (englisch: Cost-per-Click – CPC) – Legen Sie selbst den Preis fest, den Sie pro erfolgten Klick bezahlen. 
  * Entscheiden Sie sich optional für das CPM (Cost-per-Mille) Verfahren, fallen Kosten je 1000 Impressions an.
  * Sie haben die volle Kontrolle über das Budget. Legen Sie selbst fest, wie viel täglich ausgegeben wird - Das Mindesttagesbudget beträgt 0,01 Euro.
@@ -44,8 +42,23 @@ Hier wäre eine Grafik meiner Meinung nach sehr sinnvoll. Um den Aufzähl-Charak
  * Anzeigepräsenz erhöhen: Profitieren Sie vom Werbenetz von Webseiten. 
 
 ## Ziele der Optimierungsmaßnahmen Ihrer Google Ads – deshalb qmedia
-Ziel der Optimierungsmaßnahmen, die wir für Ihre AdWords Kampagne ergreifen, ist es einerseits, Ihre Werbeerfolge zu steigern. Gleichzeitig sehen wir einen wichtigen Punkt darin, den Google Dienst so effizient zu nutzen, dass die Kosten für Sie so gering wie möglich sind und Sie kein Geld ausgeben, das nicht optimal eingesetzt wird. 
-Gerade kleine oder mittelständige Unternehmen können von der Werbemöglichkeit profitieren, die Google AdWords bietet. Jeder Inserent kann das AdWords Konto variabel einrichten und es so den eigenen Marketing Ansprüchen und Zielen anpassen. Dabei muss weder ein Mindestumsatz noch eine zeitliche Verpflichtung erfüllt werden – die Konditionen können beliebig an das Unternehmen angepasst werden. 
-Damit Sie diese Werbemöglichkeit erfolgreich, mit wenig Zeitaufwand und kostengünstig nutzen können, stehen wir Ihnen mit jahrelanger Erfahrung im Bereich des professionellen Suchmaschinenmarketing sowie der Suchmaschinenoptimierung zur Seite. Wir beraten Sie gerne und betreuen Ihr Google AdWords Konto dahingehend, dass auch das Budget optimal genutzt wird. Mit suchmaschinenoptimiertem Content sorgen wir außerdem für eine authentische und nutzerfreundliche Anzeige, mit der Sie – auch dank richtig verwendeter Keywords – genau die richtige Zielgruppe erreichen. Denn wenn Ihre Anzeige das beste Ergebnis für relevante Suchanfragen darstellt, wird sie von Google bestens auf den ersten Seiten der Suchergebnisse platziert! 
-Zögern Sie nicht, uns zu kontaktieren und um ein kostenloses Erstgespräch zu bitten – wir helfen Ihnen gerne weiter! 
+Ziel der Optimierungsmaßnahmen, die wir für Ihre AdWords Kampagne ergreifen, ist es einerseits, Ihre Werbeerfolge zu steigern. Gleichzeitig sehen wir einen wichtigen Punkt darin, den Google Dienst so effizient zu nutzen, dass die Kosten für Sie so gering wie möglich sind und Sie kein Geld ausgeben, das nicht optimal eingesetzt wird.  
 
+Gerade kleine oder mittelständige Unternehmen können von der Werbemöglichkeit profitieren, die Google AdWords bietet. Jeder Inserent kann das AdWords Konto variabel einrichten und es so den eigenen Marketing Ansprüchen und Zielen anpassen. Dabei muss weder ein Mindestumsatz noch eine zeitliche Verpflichtung erfüllt werden – die Konditionen können beliebig an das Unternehmen angepasst werden.  
+
+Damit Sie diese Werbemöglichkeit erfolgreich, mit wenig Zeitaufwand und kostengünstig nutzen können, stehen wir Ihnen mit jahrelanger Erfahrung im Bereich des professionellen Suchmaschinenmarketing sowie der Suchmaschinenoptimierung zur Seite. Wir beraten Sie gerne und betreuen Ihr Google AdWords Konto dahingehend, dass auch das Budget optimal genutzt wird. Mit suchmaschinenoptimiertem Content sorgen wir außerdem für eine authentische und nutzerfreundliche Anzeige, mit der Sie – auch dank richtig verwendeter Keywords – genau die richtige Zielgruppe erreichen. Denn wenn Ihre Anzeige das beste Ergebnis für relevante Suchanfragen darstellt, wird sie von Google bestens auf den ersten Seiten der Suchergebnisse platziert!  
+
+[Zögern Sie nicht, uns zu kontaktieren und um ein kostenloses Erstgespräch zu bitten – wir helfen Ihnen gerne weiter!](/kontakt/) 
+
+<div class="h-ArticleExclude h-ArticleExclude--indent h-ArticleExclude--sm" markdown="0">
+
+    {%- assign note = site.data.notes | where: 'slug', 'discount' | first -%}
+
+    {%- include 5-components/note/note.html
+      event=note.event
+      head=note.head
+      icon=note.icon
+      text=note.text
+    -%}
+
+</div>

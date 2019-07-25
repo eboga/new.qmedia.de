@@ -28,7 +28,7 @@ article_hero:
 NEW CONTENT 
 
 ## Suchmaschinenmarketing – zwei wesentliche Komponenten
-Intelligente Analyse-Tools eröffnen die Möglichkeit, das Nutzerverhalten detailliert auszuwerten: Werden Webseiten bei Suchanfragen nicht auf der ersten Seite der Ergebnisliste einer Suchmaschine platziert, sinken die Chancen eines Aufrufs rapide. Maximal zwei Seiten werden von Nutzern in der Regel zur Recherche genutzt, was ein optimales Ranking umso wichtiger macht. Ein erster Punkt im Suchmaschinenmarketing muss sich also damit befassen, dass der Webauftritt von Google erkannt, als relevant eingestuft und deshalb möglichst weit oben in der Ergebnisliste platziert wird. Eine Komponente im Bereich SEM muss sich zwangsläufig mit der Suchmaschinenoptimierung (SEO) befassen.
+Intelligente Analyse-Tools eröffnen die Möglichkeit, das Nutzerverhalten detailliert auszuwerten: Werden Webseiten bei Suchanfragen nicht auf der ersten Seite der Ergebnisliste einer Suchmaschine platziert, sinken die Chancen eines Aufrufs rapide. Maximal zwei Seiten werden von Nutzern in der Regel zur Recherche genutzt, was ein optimales Ranking umso wichtiger macht. Ein erster Punkt im Suchmaschinenmarketing muss sich also damit befassen, dass der Webauftritt von Google erkannt, als relevant eingestuft und deshalb möglichst weit oben in der Ergebnisliste platziert wird. Eine Komponente im Bereich SEM muss sich zwangsläufig mit der [Suchmaschinenoptimierung](/suchmaschinenoptimierung/) (SEO) befassen.
 
 ## Suchmaschinenoptimierung (SEO) – das Geheimnis um die Algorithmen
 Die genauen Algorithmen von Google & Co. gehören zu den bestgehüteten Geheimnissen der Unternehmen, werden regelmäßig geändert – und bilden doch die Grundlage für eine effektive Suchmaschinenoptimierung (SEO). Das mag zunächst widersprüchlich klingen, aber genau in diesem Punkt liegt der Erfolg für unsere Tätigkeit begründet: Wir können aus den Ergebnissen unserer SEO Analysen die wichtigen Rückschlüsse ziehen, die wir für die optimale Platzierung Ihrer Webseite benötigen. Einerseits spielen dabei Aufbau und Struktur der Webseite selbst eine wichtige Rolle, andererseits der Content, der für den Nutzer relevant sein und prägnant präsentiert werden sollte. Unter dem Strich kommt es also darauf an, dass die Suchmaschine bei einer Recherche zuverlässig die Antwort auf die Frage aufzeigt, die der Nutzer bei seiner Suche eingegeben hat.
@@ -36,7 +36,7 @@ Die genauen Algorithmen von Google & Co. gehören zu den bestgehüteten Geheimni
 +++ Hier ist die Frage, ob das an dieser Stelle so ausführlich beschrieben werden muss. Ansonsten könnte im oberen Abschnitt SEO verlinkt werden. +++ 
 
 ## Homepage als zentraler Punkt – modern, interessant und verständlich strukturiert
-Ein wesentlicher Bereich im Suchmaschinenmarketing umfasst die Gestaltung Ihrer Webseite. Hierbei wird der Fokus klar auf den User gelegt: Die Seite muss ihm einen Mehrwert biete, sowohl auf inhaltlicher wie auch auf struktureller Ebene: Verfügt die Webseite über eine tiefverzweigte und komplizierte Struktur, wird es nicht nur für den Besucher schwer, die relevanten Informationen zu finden – ebenso unwahrscheinlich ist es, dass die Suchmaschine die Relevanz einschätzen kann. Bietet eine Webseite für die relevante Zielgruppe das beste Ergebnis, wird sie von Suchmaschinen wie Google und Bing gut platziert. 
+Ein wesentlicher Bereich im Suchmaschinenmarketing umfasst die Gestaltung Ihrer Webseite. Hierbei wird der Fokus klar auf den User gelegt: Die Seite muss ihm einen Mehrwert bieten, sowohl auf inhaltlicher wie auch auf struktureller Ebene: Verfügt die Webseite über eine tiefverzweigte und komplizierte Struktur, wird es nicht nur für den Besucher schwer, die relevanten Informationen zu finden – ebenso unwahrscheinlich ist es, dass die Suchmaschine die Relevanz einschätzen kann. Bietet eine Webseite für die relevante Zielgruppe das beste Ergebnis, wird sie von Suchmaschinen wie Google und Bing gut platziert. 
 Somit arbeiten wir mit einem nutzerorientierten Schwerpunkt und steigern dadurch gleichzeitig die Relevanz, die der Seite von den Suchmaschinen zugeschrieben wird. Wir präferieren schlanke Strukturen, die sich intuitiv erschließen. Darüber hinaus spielt natürlich der Content inklusive der entscheidenden Keywords eine wichtige Rolle: Werden die Fragen, die den Nutzer umtreiben, hier so beantwortet, dass er auf der Homepage verbleibt und in Ihnen den kompetenten Ansprechpartner sieht? Viel hilft nicht immer viel: Es geht also nicht nur darum, eine Fülle an Informationen zu liefern, sondern diese vor allem so aufzubereiten, dass sie den Besucher fesseln und auf der Seite halten.
 
 ## Suchmaschinenwerbung (SEA) – Besucherstrom geschickt lenken
@@ -50,3 +50,15 @@ Für uns als Spezialisten eröffnet Google AdWords aber auch die Möglichkeit, d
 ## Suchmaschinenmarketing als fortlaufender Prozess
 Mit der steigenden Besucherzahl haben Sie nicht nur die Chance, Ihren Umsatz unter dem Strich deutlich zu steigern. Ebenso beeinflussen wir das Ranking in der Suchmaschine positiv: Je stärker Ihre Homepage nachgefragt wird, desto relevanter ist sie für die Suchmaschine. Es entsteht also ein Kreislauf, der stetig in Bewegung bleiben muss. Dazu ist eine enge Zusammenarbeit notwendig, um die Ergebnisse analysieren und mit Ihren Zielen abstimmen zu können. Wir gleichen das Suchmaschinenmarketing mit den für Ihr Unternehmen aktuellen Themen ab, justieren nach und steuern auf diese Weise ganz bewusst die Aktivitäten auf Ihrer Webseite. 
 
+<div class="h-ArticleExclude h-ArticleExclude--indent h-ArticleExclude--sm" markdown="0">
+
+    {%- assign note = site.data.notes | where: 'slug', 'discount' | first -%}
+
+    {%- include 5-components/note/note.html
+      event=note.event
+      head=note.head
+      icon=note.icon
+      text=note.text
+    -%}
+
+</div>

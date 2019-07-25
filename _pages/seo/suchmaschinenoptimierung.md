@@ -157,7 +157,7 @@ Wir freuen uns darauf, von Ihnen zu hören!
 
 <div class="h-ArticleExclude h-ArticleExclude--indent h-ArticleExclude--sm" markdown="0">
 
-    {%- assign note = site.data.notes | where: 'slug', 'verbindungsqualitat' | first -%}
+    {%- assign note = site.data.notes | where: 'slug', 'discount' | first -%}
 
     {%- include 5-components/note/note.html
       event=note.event

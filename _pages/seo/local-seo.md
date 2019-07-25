@@ -41,3 +41,17 @@ Durch den Eintrag Ihres Unternehmens beziehungsweise dessen Optimierung bei Goog
 Wir erstellen Content für Ihre Webseite, der auf die User abgestimmt wird und für einen positiven Online-Auftritt sorgt. 
 
 On- und OffPage Optimierung: Wir ergreifen Maßnahmen in beiden Bereichen, um die Sichtbarkeit Ihrer Webseite nachhaltig zu verbessern. 
+
+
+<div class="h-ArticleExclude h-ArticleExclude--indent h-ArticleExclude--sm" markdown="0">
+
+    {%- assign note = site.data.notes | where: 'slug', 'discount' | first -%}
+
+    {%- include 5-components/note/note.html
+      event=note.event
+      head=note.head
+      icon=note.icon
+      text=note.text
+    -%}
+
+</div>
