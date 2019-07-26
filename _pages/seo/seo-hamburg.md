@@ -1,7 +1,7 @@
 ---
 amp_enable: true
 layout: "service"
-permalink: "/suchmaschinenoptimierung/seo-hamburg/"
+permalink: "/suchmaschinenoptimierung/seo-agentur-hamburg/"
 slug: "seo-hamburg"
 tags: ["seo"]
 

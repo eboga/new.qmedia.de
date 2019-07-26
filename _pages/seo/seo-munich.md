@@ -1,7 +1,7 @@
 ---
 amp_enable: true
 layout: "service"
-permalink: "/suchmaschinenoptimierung/seo-muenchen/"
+permalink: "/suchmaschinenoptimierung/seo-agentur-muenchen/"
 slug: "seo-munchen"
 tags: ["seo"]
 

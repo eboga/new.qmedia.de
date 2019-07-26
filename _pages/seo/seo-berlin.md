@@ -1,7 +1,7 @@
 ---
 amp_enable: true
 layout: "service"
-permalink: "/suchmaschinenoptimierung/seo-berlin/"
+permalink: "/suchmaschinenoptimierung/seo-agentur-berlin/"
 slug: "seo-berlin"
 tags: ["seo"]
 
