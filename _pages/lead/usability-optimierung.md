@@ -11,14 +11,16 @@ short_title: "Usability Optimierung"
 
 user_subject: "CPX"
 user_title: "Usability Optimierung"
-user_excerpt: false
+user_excerpt: >-
+  Damit eine Webseite gut rankt und von Suchmaschinen für entsprechende Suchanfragen weit oben auf den ersten Seiten platziert wird, ist eine **positive User-Experience** (kurz: UX) von großer Bedeutung. Um den Nutzer mit der Webseite zu überzeugen und ihm den Besuch so angenehm wie möglich zu gestalten, muss die Usability, also die Nutzerfreundlichkeit, optimal sein. Für den Erfolg einer Webseite im Internet spielen einige Usability Faktoren eine wichtige Rolle. Darunter die Struktur der Seite, die Nachvollziehbarkeit der Navigation, die visuelle Gestaltung und die Inhalte, die die Webseite den Usern präsentiert.    
+
 related_links: "related-links-cpx"
 
 meta_title: "Usability-Optimierung » Conversion-Rate zielführend verbessern"
 meta_description: "Professionelle Usability-Optimierung: Wir verbinden Ihre Marketing-Ziele mit den Nutzererwartungen ► höhere Conversion-Rate ✓ Hier klicken für alle Infos."
 ---
 
-Damit eine Webseite gut rankt und von Suchmaschinen für entsprechende Suchanfragen weit oben auf den ersten Seiten platziert wird, ist eine **positive User-Experience** (kurz: UX) von großer Bedeutung. Um den Nutzer mit der Webseite zu überzeugen und ihm den Besuch so angenehm wie möglich zu gestalten, muss die Usability, also die Nutzerfreundlichkeit, optimal sein. Für den Erfolg einer Webseite im Internet spielen einige Usability Faktoren eine wichtige Rolle. Darunter die Struktur der Seite, die Nachvollziehbarkeit der Navigation, die visuelle Gestaltung und die Inhalte, die die Webseite den Usern präsentiert.    
+
 Bereits die Landingpage, also die Seite, auf der Nutzer zu allererst „landen“, ist entscheidend für die UX. Sie sorgt also mit dafür, ob ein Nutzer auf der Seite bleibt und letztendlich die gewünschte Aktion durchführt oder nicht. Eine benutzerfreundliche Webseite ist somit die Basis einer langfristig [hohen Conversion-Rate](/leadgenerierung/conversion-optimierung/) und ist deshalb auch für die [Suchmaschinenoptimierung](/suchmaschinenoptimierung/) von großer Relevanz. 
 
 # Weshalb die Optimierung der Usability so wichtig ist 

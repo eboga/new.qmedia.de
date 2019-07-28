@@ -9,20 +9,19 @@ short_title: "Conversion Optimierung"
 
 user_subject: "CPX"
 user_title: "Conversion Optimierung"
-user_excerpt: false
+user_excerpt: >-
+  Um mit einer Webseite erfolgreich Kunden zu gewinnen, müssen diese gezielt angesprochen und zum Handeln aktiviert werden. Die Conversion-Rate bezeichnet die Anzahl der Webseitenbesucher, die bestimmte Handlungen durchführen, also aktiv sind. Einfache User sind solche, die eine Webseite zwar besuchen, dort jedoch keinen Einkauf tätigen oder Newsletter abonnieren. Je mehr User aktiv handeln, umso positiver fällt die Conversion-Rate aus. 
+   
 related_links: "related-links-cpx"
 
 
 meta_title: "Conversion-Rate Optimierung » Umsatz Steigerung durch Optimierung"
 meta_description: "Mit der Optimierung der Conversion-Rate legen Sie den Grundstein für erfolgreiches Suchmaschinenmarketing! ► Maximieren Sie Ihren Umsatz ✓ Alle Infos hier."
 ---
-NEW CONTENT 
 
-
-Um mit einer Webseite erfolgreich Kunden zu gewinnen, müssen diese gezielt angesprochen und zum Handeln aktiviert werden. Die Conversion-Rate bezeichnet die Anzahl der Webseitenbesucher, die bestimmte Handlungen durchführen, also aktiv sind. Einfache User sind solche, die eine Webseite zwar besuchen, dort jedoch keinen Einkauf tätigen oder Newsletter abonnieren. Je mehr User aktiv handeln, umso positiver fällt die Conversion-Rate aus. 
 Mit der Optimierung der Conversion-Rate wird der Erfolg Ihrer Webseite durch gezielte Maßnahmen der Umgestaltung bestimmter Elemente messbar gesteigert. Denn bleibt der Schritt der Umwandlung vom Seitenbesucher zum Käufer oftmals aus, wird über die Webseite wenig Umsatz generiert. Wir optimieren die Conversion-Rate in Hinblick auf Ihre Unternehmensziele, damit Sie das volle Potenzial Ihrer Webseite als modernes und effizientes Marketinginstrument ausnutzen können. 
 
-# Individuelle Conversion-Rate Optimierung: Ihre Ziele – unsere Maßnahmen
+## Individuelle Conversion-Rate Optimierung: Ihre Ziele – unsere Maßnahmen
 Die Optimierung der Conversion-Rate ist ein wichtiger Bestandteil des Online-Marketings. Eine ‚Conversion‘ kann dabei verschiedenes sein: Ein Kauf, ein Versicherungsabschluss oder ein Abonnementantrag. Daher gibt es nicht den einen, grundlegenden Optimierungsschritt für jede Webseite, um die Conversion-Rate nach oben zu treiben. Auch wenn das Ziel das gleiche bleibt – nämlich die Maximierung des Umsatzes – variieren die Optimierungsschritte von Webseite zu Webseite. Abhängig davon, was für ein Unternehmen Sie führen und welche Zielgruppe Sie mit Ihrer Webseite ansprechen möchten, können die Maßnahmen zur Optimierung der Conversion-Rate ganz unterschiedlich aussehen. 
 
 ## Wie wir vorgehen: 
