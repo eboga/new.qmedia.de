@@ -1,3 +1,12 @@
+- slug: "stephan-scharf-1"
+  image:
+    src: "msn.svg"
+    width: 167
+    height: 72
+    modificator: "logos"
+  quote: >-
+    Für unser Dienstleistungsunternehmen sind die von Ihnen angebotenen Optimierungsprozesse unverzichtbar geworden und tragen zum Erfolg unseres Unternehmens bei.
+  author: "Stephan Scharf, Microsoft Deutschland GmbH"
 - slug: "max-mustermann-marketing-chef"
   image:
     src: "wirtschaftswoche.svg"
@@ -7,3 +16,30 @@
   quote: >-
     Für unser Dienstleistungsunternehmen sind die von Ihnen angebotenen Optimierungsprozesse unverzichtbar geworden und tragen zum Erfolg unseres Unternehmens bei.
   author: "Max Mustermann, Marketing-Chef"
+- slug: "qmedia-seo-1"
+  image:
+    src: "qmedia.svg"
+    width: 245
+    height: 60
+    modificator: "logos"
+  quote: >-
+    Erfolgreiches SEO hat wenig damit zu tun, Keyword Spamming oder Keyword Density tweaking zu betreiben. Vielmehr geht es darum, Mehrwerte zu erarbeiten, die für den User und somit für die Suchmaschine relevant sind.
+  author: "qmedia GmbH"
+- slug: "qmedia-seo-2"
+  image:
+    src: "qmedia.svg"
+    width: 245
+    height: 60
+    modificator: "logos"
+  quote: >-
+    Da wir uns auf den User konzentrieren, gäbe es – unserer Meinung nach – einen geeigneteren Begriff für SEO: UEM – User Expectation Management.
+  author: "qmedia GmbH"
+- slug: "qmedia-seo-3"
+  image:
+    src: "qmedia.svg"
+    width: 245
+    height: 60
+    modificator: "logos"
+  quote: >-
+    Suchmaschinenoptimierung, die sich nur auf die Optimierung mit Berücksichtigung der Suchmaschine beschränkt, kann in umkämpften Märkten langfristig keinen Erfolg haben.
+  author: "qmedia GmbH"

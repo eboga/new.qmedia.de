@@ -56,7 +56,11 @@ teasers:
 
 
 
-Dadurch erzielen wir ein nachhaltiges Ergebnis – mit unserem Ansatz ist es im Interesse der Suchmaschine, dass unsere Webseite stetig gut rankt. Demzufolge muss sich die Webseite den Änderungen der Algorithmen nicht anpassen, sondern es ist im Interesse der Suchmaschine, die diese als das beste Ergebnis weiterhin weit oben zu platzieren. 
+Dadurch erzielen wir ein nachhaltiges Ergebnis – mit unserem Ansatz ist es im Interesse der Suchmaschine, dass unsere Webseite stetig gut rankt. 
+
+{% comment %}
+    Demzufolge muss sich die Webseite den Änderungen der Algorithmen nicht anpassen, sondern es ist im Interesse der Suchmaschine, die diese als das beste Ergebnis weiterhin weit oben zu platzieren. 
+{% endcomment %}
 
 Dabei steht im Fokus, worauf Google und Co. achten, um eine Website erfolgreich ins Ranking aufzunehmen und konstant oben zu halten. Zentrale SEO Grundlagen, die zur Optimierung beitragen, werden dabei durch zahlreiche Tipps ergänzt und führen zu einer positiven Bewertung Ihrer Website durch die Suchmaschinen. 
 
@@ -72,9 +76,19 @@ Dabei steht im Fokus, worauf Google und Co. achten, um eine Website erfolgreich 
 
 </div>
 
-„Erfolgreiches SEO hat wenig damit zu tun, Keyword Spamming oder Keyword Density tweaking zu betreiben. Vielmehr geht es darum, Mehrwerte zu erarbeiten, die für den User und somit für die Suchmaschine relevant sind.“
-„Da wir uns auf den User konzentrieren, gäbe es – unserer Meinung nach – einen geeigneteren Begriff für SEO: UEM – User Expectation Management.“
-„Suchmaschinenoptimierung, die sich nur auf die Optimierung mit Berücksichtigung der Suchmaschine beschränkt, kann in umkämpften Märkten langfristig keinen Erfolg haben.“ 
+
+
+<div class="h-ArticleExclude h-ArticleExclude--indent" markdown="0">
+
+    {%- assign testimonial = site.data.testimonials | where: 'slug', 'qmedia-seo-1' | first -%}
+
+    {%- include 5-components/testimonial/testimonial.html
+      author=testimonial.author
+      image=testimonial.image
+      quote=testimonial.quote
+    -%}
+
+</div>
 
 {: .c-Article-list .c-Article-list--tick}
 
@@ -96,21 +110,37 @@ Dabei steht im Fokus, worauf Google und Co. achten, um eine Website erfolgreich 
 
 
 ## Suchmaschinenoptimierung: Was ist das?
+{% comment %}
+dieser Absatz muss komplett umgeschrieben werden
+{% endcomment %}
+
 Eine Webseite kann noch so gut sein – wenn sie nicht gefunden wird, bleibt ihr der Weg zum Erfolg versperrt. Genau an dieser Stelle setzt die Suchmaschinenoptimierung an: Suchmaschinen wie beispielsweise Google und Bing haben bestimmte Anforderungen an Webseiten. Um ein hohes Ranking zu erzielen, muss eine Webseite an diese Anforderungen angepasst werden. Neben der Optimierung des Contents ist eine gute technische Struktur die Voraussetzung dafür, dass die Suchmaschine eine Webseite positiv bewertet. Das technische SEO sorgt für eine verbesserte User Experience und Sichtbarkeit der Website durch technische Optimierung. 
-Als Agentur für Suchmaschinenoptimierung aus dem Raum München unterstützen wir unsere Kunden mit ganzheitlichem und professionellem SEO. Dabei betreuen wir nicht nur Kunden aus München, sondern aus ganz Deutschland bei der Entwicklung und Umsetzung einer erfolgreichen SEO-Strategie.
-Lassen Sie sich von unseren nachweisbaren Erfolgen überzeugen. Durch viele Jahre im Bereich Suchmaschinenoptimierung blicken wir auf erfolgreiche Projekte und verschiedenste Websites auf den ersten oder zweiten Seiten bei Google zurück. Zu unseren Projekten zählen beispielsweise bbx.de – Das Portal für Verbraucher, rechner.pro und Kreditkarte24.de.
+
+Als [Agentur für Suchmaschinenoptimierung aus dem Raum München](/suchmaschinenoptimierung/seo-agentur-muenchen/) unterstützen wir unsere Kunden mit ganzheitlichem und professionellem SEO. Dabei betreuen wir nicht nur Kunden aus München, sondern aus ganz Deutschland bei der Entwicklung und Umsetzung einer erfolgreichen SEO-Strategie.
+
+Lassen Sie sich von unseren nachweisbaren Erfolgen überzeugen. Durch viele Jahre im Bereich Suchmaschinenoptimierung blicken wir auf erfolgreiche Projekte und verschiedenste Websites auf den ersten oder zweiten Seiten bei Google zurück. Zu unseren Projekten zählen beispielsweise [bbx.de – Das Portal für Verbraucher](https://www.bbx.de), [rechner.pro](https://www.rechner.pro) und [kreditkarte24.de](https://www.kreditkarte24.de).
 
 ## Warum ist Suchmaschinenoptimierung (SEO) wichtig?
-Die meisten Menschen greifen heutzutage zu aller erst auf Suchmaschinen wie Google, Bing oder Yahoo zurück, um sich über verschiedenste Produkte, Dienstleistungen oder Themen zu informieren.
-Das bedeutet, dass vor allem Unternehmen und Dienstleister, die bei Google auf Seite eins, zwei oder drei ranken, die meisten Seitenbesucher und somit auch potenziellen Kunden über diese Suchmaschinen erhalten und die Bekanntheit ihrer Marke steigern.
-Eine Platzierung der Website auf den vorderen Seiten ist somit ein ausschlaggebendes Kriterium, um mit der Unternehmenswebsite für Interessenten sichtbar zu werden.
+Die meisten Menschen greifen heutzutage zu aller erst auf Suchmaschinen wie Google zurück, um sich über verschiedenste Produkte, Dienstleistungen oder Themen zu informieren.
+
+Das bedeutet, dass vor allem Unternehmen und Dienstleister, die bei Google auf Seite eins ranken, die meisten Seitenbesucher und somit auch potenziellen Kunden über diese Suchmaschine erhalten und die Bekanntheit ihrer Marke steigern.
+
+Eine Platzierung der Website auf den vorderen Plätzen ist somit ein ausschlaggebendes Kriterium, um mit der Unternehmenswebsite für Interessenten sichtbar zu werden.
+
+{% comment %}
+dieser Absatz muss komplett umgeschrieben werden
+{% endcomment %}
 Suchmaschinenoptimierung – oder auch SEO, aus dem Englischen abgeleitet von Search Engine Optimization – bedeutet deshalb, eine Website so aufzubauen, dass sie für Google & Co. als wertvoll für den Suchenden erachtet wird und entsprechend auf den ersten Plätzen rankt. Somit zählt SEO inzwischen auch zu den grundlegendsten Maßnahmen des Online Marketings. Und hier kommen wir als Full-Service-Agentur für Suchmaschinenoptimierung aus München ins Spiel.
 
 ## Suchmaschinenoptimierung - mehr als ein paar Keywords
 Während Suchmaschinenoptimierung vor einigen Jahren noch lediglich daraus bestand, eine Website mit möglichst vielen relevanten Keywords zu beladen (auch Keyword Stuffing oder Spamming genannt), geht SEO heute deutlich über einige Page Titles, Descriptions und Keywords hinaus. 
+
+{% comment %}
+dieser Absatz muss komplett umgeschrieben werden
+{% endcomment %}
 Suchmaschinenoptimierung ist inzwischen zu einem komplexen Handwerk geworden, das unterschiedlichste Ranking-Faktoren beinhaltet. Denn die Algorithmen der großen Suchmaschinen werden regelmäßig angepasst und optimiert, so dass SEO nicht mehr als einmalige Maßnahme beim Website-Aufbau, sondern als fortwährender Prozess betrachtet werden sollte. Denn die Algorithmen von Google und Co. sind so programmiert, dass sie die Webseite ähnlich einem menschlichen User bewerten, der das Suchergebnis als positiv oder irrelevant einschätzt.
 
-Zu einer Webseite, die rundum optimiert ist, gehört also einiges mehr als die Verwendung der richtigen Keywords. Neben einwandfreiem Content, der dem Nutzer einen Mehrwert bietet und das beantwortet, wonach er bei seiner Google-Suche gesucht hat, beinhaltet das OnPage SEO weitere Stellschrauben, die gezielt optimiert werden müssen. Außerdem bewertet Google neben der inhaltlichen Qualität auch Aspekte wie
+Zu einer Webseite, die rundum optimiert ist, gehört also einiges mehr als die Verwendung der richtigen Keywords. Neben einwandfreiem Content, der dem Nutzer einen Mehrwert bietet und das beantwortet, wonach er bei seiner Google-Suche gesucht hat, beinhaltet das **OnPage SEO** weitere Stellschrauben, die gezielt optimiert werden müssen. Außerdem bewertet Google neben der inhaltlichen Qualität auch Aspekte wie
  * eine sauber strukturierte und programmierte Website,
  * die Website-Geschwindigkeit,
  * Browser-Kompatibilität,
@@ -119,8 +149,10 @@ Zu einer Webseite, die rundum optimiert ist, gehört also einiges mehr als die V
 
 ## Diese und weitere Kriterien werden auch als OffPage SEO zusammengefasst.
 Indem Sie sich also bei der Suchmaschinenoptimierung Ihrer Website für eine Full-Service SEO-Agentur entscheiden, sparen Sie selbst wertvolle Zeit und stellen sicher, dass Ihre Website zuverlässig und langfristig betreut wird. Das messbare Ergebnis ist schließlich die Listung auf den ersten Seiten bei Google sowie darüber generierte neue Kunden.
-Professionelle Suchmaschinenoptimierung aus München
-Als Experten für Suchmaschinenoptimierung aus München mit langjähriger Erfahrung liefern wir Ihnen umfassenden und erfolgreichen Service im Bereich SEO. Profitieren Sie von kontinuierlicher und zuverlässiger Betreuung und genießen Sie ein nachhaltiges Ranking bei den großen Suchmaschinen.
+
+## Professionelle Suchmaschinenoptimierung
+Als Experten für Suchmaschinenoptimierung mit langjähriger Erfahrung liefern wir Ihnen umfassenden und erfolgreichen Service im Bereich SEO. Profitieren Sie von kontinuierlicher und zuverlässiger Betreuung und genießen Sie ein nachhaltiges Ranking bei den großen Suchmaschinen.
+
 Unsere Leistungen für Sie:
  * SEO Beratung zu Suchmaschinen
  * SEO Analyse von Webseiten
@@ -149,9 +181,12 @@ Unsere Leistungen für Sie:
  
 
 Sie erhalten bei uns ein maßgeschneidertes Paket, zugeschnitten auf Ihre Wünsche und Anforderungen im Bereich Suchmaschinenoptimierung. Gerne stehen wir Ihnen beratend zur Seite und analysieren den aktuellen Stand der Suchmaschinenoptimierung Ihrer Website. Dabei begleiten wir sie durch das SEO Auditing auch langfristig bei der Analyse Ihrer Rankings.
+
 Doch als Full-Service Agentur für Suchmaschinenoptimierung aus München bieten wir selbstverständlich auch operative Leistungen. Wir optimieren das OnPage und OffPage SEO Ihrer Seite, unterstützen Sie beim Linkbuilding oder bei der Keyword Recherche und der Erstellung von suchmaschinenoptimierten Texten. Dabei ist es egal, ob Sie durch SEO direkt in München größere Präsenz anstreben oder deutschlandweit Ihre Sichtbarkeit auf Google verbessern möchten.
+
 Sprechen Sie uns an und wir entwickeln für Sie eine individuelle SEO-Strategie und bringen Ihre Webseite bei Google nach vorn. Genießen Sie hochwertige und zuverlässige SEO-Beratung aus München. Das direkte Ergebnis ist schließlich eine gut platzierte und vernetzte Website mit hohen Besucherzahlen, langen Verweildauern und hohem Ranking.
-Wir freuen uns darauf, von Ihnen zu hören!
+
+[Wir freuen uns darauf, von Ihnen zu hören!](/kontakt/)
 
 
 
