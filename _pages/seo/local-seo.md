@@ -12,7 +12,7 @@ short_title: "Local SEO"
 user_subject: "SEO"
 user_title: "Local SEO"
 user_excerpt: 
-    In einer Zeit, in der vier von fünf Personen sich über ein lokales Geschäft oder einen Dienstleister im Internet informieren, bevor sie es tatsächlich aufsuchen, ist die regionale Online-Präsenz eines Unternehmens besonders wichtig. Lokale Suchmaschinenoptimierung zielt darauf ab, dass eine Webseite in einem bestimmten geografischen Bereich eine hohe Platzierung für relevante Suchanfragen oder Keywords generiert. 
+    In einer Zeit, in der vier von fünf Personen sich über ein lokales Geschäft oder einen Dienstleister im Internet informieren, bevor sie es tatsächlich aufsuchen, ist die regionale Online-Präsenz eines Unternehmens besonders wichtig. **Lokale Suchmaschinenoptimierung** zielt darauf ab, dass eine Webseite in einem bestimmten geografischen Bereich eine hohe Platzierung für relevante Suchanfragen oder Keywords generiert. 
 
 related_links: "related-links-seo"
 
@@ -48,7 +48,7 @@ teasers:
 ---
 
 ## Local SEO – für wen? 
-Das bedeutet, dass Unternehmen und Dienstleister, die einen festen Standort haben, von Local SEO profitieren. Das können beispielsweise Anwälte, Ärzte, Restaurants oder Ladengeschäfte sein. Sogenannte Service Area Businesses, die ihre Dienstleistungen in einem bestimmten Gebiet anbieten, gehören ebenso zu den Unternehmen, die ihren Erfolg durch Local SEO vergrößern können. Aber auch weiterverbreitete Unternehmen mit mehreren festen Standorten – also Unternehmensketten oder Franchise-Unternehmen – gehören dazu.
+Das bedeutet, dass Unternehmen und Dienstleister, die einen festen Standort haben, von Local SEO profitieren. Das können beispielsweise [Anwälte](/suchmaschinenoptimierung-anwaelte/), [Ärzte](/suchmaschinenoptimierung-aerzte/), Restaurants oder Ladengeschäfte sein. Sogenannte Service Area Businesses, die ihre Dienstleistungen in einem bestimmten Gebiet anbieten, gehören ebenso zu den Unternehmen, die ihren Erfolg durch Local SEO vergrößern können. Aber auch weiterverbreitete Unternehmen mit mehreren festen Standorten – also Unternehmensketten oder Franchise-Unternehmen – gehören dazu.
 
 Für kleinere oder mittelständische Unternehmen zählt Local SEO zu den wirksamsten digitale Marketingmaßnahmen. Darum unterstützen wir Sie dabei, Ihre Webseite technisch und inhaltlich so zu gestalten, dass sie bei lokalen Suchanfragen über Google weit vorn zu finden ist. 
 
@@ -91,10 +91,6 @@ Nutzen Sie daher unsere Erfahrung und unser Wissen, um die optimale Strategie f�
 ## Unsere Maßnahmen für die lokale Suchmaschinenoptimierung Ihrer Webseite
 Gerade kleine und mittelständige Unternehmen sollten die Marketingmacht der lokalen Suchmaschinenoptimierung nicht unterschätzen oder gar vernachlässigen. Da es gerade den kleineren Geschäften nicht selten an Zeit und Wissen im Bereich SEO mangelt, sind wir für Sie da und bieten Ihnen sowohl eine ausführliche Analyse sowie eine persönliche Beratung und Betreuung bei der Optimierung Ihrer Webseite an. Mit jahrelanger Erfahrung arbeiten wir zielführend und sorgen für eine hohe Transparenz. 
 
-## So unterstützen wir Sie und Ihr Unternehmen: 
-Wir identifizieren wichtige lokale Keywords und binden diese bei der Optimierung Ihrer Webseite mit ein.
-
-
 <div class="h-ArticleExclude h-ArticleExclude--indent" markdown="0">
 
     {%- assign testimonial = site.data.testimonials | where: 'slug', 'stephan-scharf-1' | first -%}
@@ -107,6 +103,8 @@ Wir identifizieren wichtige lokale Keywords und binden diese bei der Optimierung
 
 </div>
 
+## So unterstützen wir Sie und Ihr Unternehmen: 
+Wir identifizieren wichtige lokale Keywords und binden diese bei der Optimierung Ihrer Webseite mit ein.
 
 Wir erstellen ein SEO Marketingkonzept mit Berücksichtigung wichtiger Standpunkte für Ihr Unternehmen.
 
