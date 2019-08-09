@@ -1,14 +1,14 @@
 ---
 amp_enable: true
 layout: "service"
-permalink: "/wordpress/wordpress-agentur-muenchen/"
+permalink: "/wordpress/wordpress-muenchen/"
 slug: "wordpress-agentur-muenchen"
 tags: ["wp"]
 
 
 
 short_title: "Wir lieben WordPress!"
-user_subject: "WordPress"
+user_subject: "DEV"
 user_title: "Wir lieben WordPress!"
 user_excerpt: >-
   Wir können helfen! Seit vielen Jahren setzen wir auf WordPress. Egal ob Neuentwicklung, Konzeption, Wartung, Update oder professionelles Hosting. Wir entwickeln WordPress Seiten immer mit starkem Fokus auf die Suchmaschinenoptimierung.

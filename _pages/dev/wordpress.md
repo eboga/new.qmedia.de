@@ -8,7 +8,7 @@ tags: ["wp"]
 
 
 short_title: "WordPress"
-user_subject: "WordPress"
+user_subject: "wp dev"
 user_title: "WordPress"
 
 user_excerpt: >-
@@ -19,6 +19,21 @@ meta_description: >-
 related_links: false
 
 article_title: "Wir lieben WordPress!"
+
+
+services:
+  - image:
+      src: "/assets/images/icons/seo.svg"
+      width: 121
+      height: 121
+    subject: "SEO"
+    link:
+      slug: "suchmaschinenoptimierung"
+    text: >-
+      Gesucht und gefunden – dank umfangreicher Suchmaschinenoptimierung verbessern wir Ihre Sichtbarkeit im Internet nachhaltig und sorgen dafür, dass Sie für relevante Suchanfragen gefunden werden: Auf den ersten Plätzen bei Google und Co.
+    related_links: "related-links-seo"
+
+
 ---
 
 
@@ -33,4 +48,5 @@ Als erfahrene Programmierer bieten wir Ihnen auch an, neue, individuelle Funktio
 
 ## Konzeptionelle Leistungen und Content-Erstellung
 Unser Team ist so vielseitig wie Ihre Webseite! Die technische Entwicklung und Programmierung sind nicht die einzigen Bereiche, in denen wir Ihnen mit professioneller Unterstützung zur Seite stehen. Unsere Designer sorgen für Ihren visuell gelungenen Auftritt mit WordPress, informative und gut strukturierte Texte werden von unserer Redaktion individuell für Sie verfasst. Dabei sind strukturelle und inhaltliche Anpassungen an aktuelle [SEO](/suchmaschinenoptimierung/) Kriterien ein grundlegender Maßstab. Da wir mit den technischen Strukturen vertraut sind, unser Team Hand in Hand arbeitet und wir gern auf individuelle Wünsche eingehen, werden auch anspruchsvolle Projekte professionell und zielführend von uns umgesetzt – damit Sie das volle Potential ausschöpfen, das WordPress Ihrem Unternehmen bietet. 
+
 
